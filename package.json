@@ -120,7 +120,8 @@
       "org.codehaus.groovy.runtime.NullObject",
       "org.codehaus.groovy.tools.shell.Groovysh",
       "org.codehaus.groovy.util.ManagedReference",
-      "org.codehaus.groovy.util.ReferenceBundle"
+      "org.codehaus.groovy.util.ReferenceBundle",
+      "com.tinkerpop.blueprints.impls.orient.OrientGraph"
     ],
     "packages": [
       "co.redseal.**",
@@ -147,7 +148,8 @@
       "org.apache.tinkerpop.gremlin.tinkergraph.process.computer.*",
       "org.apache.tinkerpop.gremlin.tinkergraph.structure.*",
       "org.apache.tinkerpop.gremlin.util.*",
-      "org.apache.tinkerpop.gremlin.util.function.*"
+      "org.apache.tinkerpop.gremlin.util.function.*",
+      "com.tinkerpop.blueprints.*"
     ],
     "asyncOptions": {
       "syncSuffix": "",
