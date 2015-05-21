@@ -13,6 +13,21 @@ interface Dictionary {
 function autoImport(shortName: 'GlobFunction'): Java.co.redseal.gremlinnode.function_.GlobFunction.Static;
 function autoImport(shortName: 'GroovyLambda'): Java.co.redseal.gremlinnode.function_.GroovyLambda.Static;
 function autoImport(shortName: 'TestClass'): Java.co.redseal.gremlinnode.testing.TestClass.Static;
+function autoImport(shortName: 'CloseableIterable'): Java.com.tinkerpop.blueprints.CloseableIterable.Static;
+function autoImport(shortName: 'Features'): Java.com.tinkerpop.blueprints.Features.Static;
+function autoImport(shortName: 'GraphQuery'): Java.com.tinkerpop.blueprints.GraphQuery.Static;
+function autoImport(shortName: 'OrientGraph'): Java.com.tinkerpop.blueprints.impls.orient.OrientGraph.Static;
+function autoImport(shortName: 'Index'): Java.com.tinkerpop.blueprints.Index.Static;
+function autoImport(shortName: 'IndexableGraph'): Java.com.tinkerpop.blueprints.IndexableGraph.Static;
+function autoImport(shortName: 'KeyIndexableGraph'): Java.com.tinkerpop.blueprints.KeyIndexableGraph.Static;
+function autoImport(shortName: 'MetaGraph'): Java.com.tinkerpop.blueprints.MetaGraph.Static;
+function autoImport(shortName: 'Parameter'): Java.com.tinkerpop.blueprints.Parameter.Static;
+function autoImport(shortName: 'Query'): Java.com.tinkerpop.blueprints.Query.Static;
+function autoImport(shortName: 'Query$Compare'): Java.com.tinkerpop.blueprints.Query$Compare.Static;
+function autoImport(shortName: 'ThreadedTransactionalGraph'): Java.com.tinkerpop.blueprints.ThreadedTransactionalGraph.Static;
+function autoImport(shortName: 'TransactionalGraph'): Java.com.tinkerpop.blueprints.TransactionalGraph.Static;
+function autoImport(shortName: 'TransactionalGraph$Conclusion'): Java.com.tinkerpop.blueprints.TransactionalGraph$Conclusion.Static;
+function autoImport(shortName: 'VertexQuery'): Java.com.tinkerpop.blueprints.VertexQuery.Static;
 function autoImport(shortName: 'Binding'): Java.groovy.lang.Binding.Static;
 function autoImport(shortName: 'Closure'): Java.groovy.lang.Closure.Static;
 function autoImport(shortName: 'DelegatingMetaClass'): Java.groovy.lang.DelegatingMetaClass.Static;
@@ -58,7 +73,6 @@ function autoImport(shortName: 'BinaryOperator'): Java.java.util.function_.Binar
 function autoImport(shortName: 'BiPredicate'): Java.java.util.function_.BiPredicate.Static;
 function autoImport(shortName: 'Consumer'): Java.java.util.function_.Consumer.Static;
 function autoImport(shortName: 'Function'): Java.java.util.function_.Function.Static;
-function autoImport(shortName: 'Predicate'): Java.java.util.function_.Predicate.Static;
 function autoImport(shortName: 'Supplier'): Java.java.util.function_.Supplier.Static;
 function autoImport(shortName: 'UnaryOperator'): Java.java.util.function_.UnaryOperator.Static;
 function autoImport(shortName: 'HashMap'): Java.java.util.HashMap.Static;
@@ -218,14 +232,8 @@ function autoImport(shortName: 'TraversalMatrix'): Java.org.apache.tinkerpop.gre
 function autoImport(shortName: 'TraversalMetrics'): Java.org.apache.tinkerpop.gremlin.process.traversal.util.TraversalMetrics.Static;
 function autoImport(shortName: 'TraversalRing'): Java.org.apache.tinkerpop.gremlin.process.traversal.util.TraversalRing.Static;
 function autoImport(shortName: 'TraversalUtil'): Java.org.apache.tinkerpop.gremlin.process.traversal.util.TraversalUtil.Static;
-function autoImport(shortName: 'Compare'): Java.org.apache.tinkerpop.gremlin.structure.Compare.Static;
-function autoImport(shortName: 'Contains'): Java.org.apache.tinkerpop.gremlin.structure.Contains.Static;
-function autoImport(shortName: 'Direction'): Java.org.apache.tinkerpop.gremlin.structure.Direction.Static;
-function autoImport(shortName: 'Edge'): Java.org.apache.tinkerpop.gremlin.structure.Edge.Static;
 function autoImport(shortName: 'Edge$Exceptions'): Java.org.apache.tinkerpop.gremlin.structure.Edge$Exceptions.Static;
-function autoImport(shortName: 'Element'): Java.org.apache.tinkerpop.gremlin.structure.Element.Static;
 function autoImport(shortName: 'Element$Exceptions'): Java.org.apache.tinkerpop.gremlin.structure.Element$Exceptions.Static;
-function autoImport(shortName: 'Graph'): Java.org.apache.tinkerpop.gremlin.structure.Graph.Static;
 function autoImport(shortName: 'Graph$Exceptions'): Java.org.apache.tinkerpop.gremlin.structure.Graph$Exceptions.Static;
 function autoImport(shortName: 'Graph$Features'): Java.org.apache.tinkerpop.gremlin.structure.Graph$Features.Static;
 function autoImport(shortName: 'Graph$Features$DataTypeFeatures'): Java.org.apache.tinkerpop.gremlin.structure.Graph$Features$DataTypeFeatures.Static;
@@ -311,10 +319,8 @@ function autoImport(shortName: 'DetachedVertex'): Java.org.apache.tinkerpop.grem
 function autoImport(shortName: 'DetachedVertexProperty'): Java.org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.Static;
 function autoImport(shortName: 'ElementHelper'): Java.org.apache.tinkerpop.gremlin.structure.util.ElementHelper.Static;
 function autoImport(shortName: 'FeatureDescriptor'): Java.org.apache.tinkerpop.gremlin.structure.util.FeatureDescriptor.Static;
-function autoImport(shortName: 'GraphFactory'): Java.org.apache.tinkerpop.gremlin.structure.util.GraphFactory.Static;
 function autoImport(shortName: 'GraphVariableHelper'): Java.org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper.Static;
 function autoImport(shortName: 'StringFactory'): Java.org.apache.tinkerpop.gremlin.structure.util.StringFactory.Static;
-function autoImport(shortName: 'Vertex'): Java.org.apache.tinkerpop.gremlin.structure.Vertex.Static;
 function autoImport(shortName: 'Vertex$Exceptions'): Java.org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions.Static;
 function autoImport(shortName: 'VertexProperty'): Java.org.apache.tinkerpop.gremlin.structure.VertexProperty.Static;
 function autoImport(shortName: 'VertexProperty$Cardinality'): Java.org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality.Static;
@@ -379,6 +385,21 @@ function autoImport(shortName: string): any {
     'GlobFunction': 'co.redseal.gremlinnode.function.GlobFunction',
     'GroovyLambda': 'co.redseal.gremlinnode.function.GroovyLambda',
     'TestClass': 'co.redseal.gremlinnode.testing.TestClass',
+    'CloseableIterable': 'com.tinkerpop.blueprints.CloseableIterable',
+    'Features': 'com.tinkerpop.blueprints.Features',
+    'GraphQuery': 'com.tinkerpop.blueprints.GraphQuery',
+    'OrientGraph': 'com.tinkerpop.blueprints.impls.orient.OrientGraph',
+    'Index': 'com.tinkerpop.blueprints.Index',
+    'IndexableGraph': 'com.tinkerpop.blueprints.IndexableGraph',
+    'KeyIndexableGraph': 'com.tinkerpop.blueprints.KeyIndexableGraph',
+    'MetaGraph': 'com.tinkerpop.blueprints.MetaGraph',
+    'Parameter': 'com.tinkerpop.blueprints.Parameter',
+    'Query': 'com.tinkerpop.blueprints.Query',
+    'Query$Compare': 'com.tinkerpop.blueprints.Query$Compare',
+    'ThreadedTransactionalGraph': 'com.tinkerpop.blueprints.ThreadedTransactionalGraph',
+    'TransactionalGraph': 'com.tinkerpop.blueprints.TransactionalGraph',
+    'TransactionalGraph$Conclusion': 'com.tinkerpop.blueprints.TransactionalGraph$Conclusion',
+    'VertexQuery': 'com.tinkerpop.blueprints.VertexQuery',
     'Binding': 'groovy.lang.Binding',
     'Closure': 'groovy.lang.Closure',
     'DelegatingMetaClass': 'groovy.lang.DelegatingMetaClass',
@@ -424,7 +445,6 @@ function autoImport(shortName: string): any {
     'BiPredicate': 'java.util.function.BiPredicate',
     'Consumer': 'java.util.function.Consumer',
     'Function': 'java.util.function.Function',
-    'Predicate': 'java.util.function.Predicate',
     'Supplier': 'java.util.function.Supplier',
     'UnaryOperator': 'java.util.function.UnaryOperator',
     'HashMap': 'java.util.HashMap',
@@ -584,14 +604,8 @@ function autoImport(shortName: string): any {
     'TraversalMetrics': 'org.apache.tinkerpop.gremlin.process.traversal.util.TraversalMetrics',
     'TraversalRing': 'org.apache.tinkerpop.gremlin.process.traversal.util.TraversalRing',
     'TraversalUtil': 'org.apache.tinkerpop.gremlin.process.traversal.util.TraversalUtil',
-    'Compare': 'org.apache.tinkerpop.gremlin.structure.Compare',
-    'Contains': 'org.apache.tinkerpop.gremlin.structure.Contains',
-    'Direction': 'org.apache.tinkerpop.gremlin.structure.Direction',
-    'Edge': 'org.apache.tinkerpop.gremlin.structure.Edge',
     'Edge$Exceptions': 'org.apache.tinkerpop.gremlin.structure.Edge$Exceptions',
-    'Element': 'org.apache.tinkerpop.gremlin.structure.Element',
     'Element$Exceptions': 'org.apache.tinkerpop.gremlin.structure.Element$Exceptions',
-    'Graph': 'org.apache.tinkerpop.gremlin.structure.Graph',
     'Graph$Exceptions': 'org.apache.tinkerpop.gremlin.structure.Graph$Exceptions',
     'Graph$Features': 'org.apache.tinkerpop.gremlin.structure.Graph$Features',
     'Graph$Features$DataTypeFeatures': 'org.apache.tinkerpop.gremlin.structure.Graph$Features$DataTypeFeatures',
@@ -677,10 +691,8 @@ function autoImport(shortName: string): any {
     'DetachedVertexProperty': 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty',
     'ElementHelper': 'org.apache.tinkerpop.gremlin.structure.util.ElementHelper',
     'FeatureDescriptor': 'org.apache.tinkerpop.gremlin.structure.util.FeatureDescriptor',
-    'GraphFactory': 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory',
     'GraphVariableHelper': 'org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper',
     'StringFactory': 'org.apache.tinkerpop.gremlin.structure.util.StringFactory',
-    'Vertex': 'org.apache.tinkerpop.gremlin.structure.Vertex',
     'Vertex$Exceptions': 'org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions',
     'VertexProperty': 'org.apache.tinkerpop.gremlin.structure.VertexProperty',
     'VertexProperty$Cardinality': 'org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality',

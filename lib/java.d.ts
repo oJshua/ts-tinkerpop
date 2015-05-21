@@ -94,6 +94,30 @@ declare module Java {
     newArray(className: 'co.redseal.gremlinnode.function.GlobFunction', arg: GlobFunction[]): array_t<co.redseal.gremlinnode.function_.GlobFunction>;
     newArray(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg: GroovyLambda[]): array_t<co.redseal.gremlinnode.function_.GroovyLambda>;
     newArray(className: 'co.redseal.gremlinnode.testing.TestClass', arg: TestClass[]): array_t<co.redseal.gremlinnode.testing.TestClass>;
+    newArray(className: 'com.tinkerpop.blueprints.CloseableIterable', arg: CloseableIterable[]): array_t<com.tinkerpop.blueprints.CloseableIterable>;
+    newArray(className: 'com.tinkerpop.blueprints.Compare', arg: com.tinkerpop.blueprints.Compare[]): array_t<com.tinkerpop.blueprints.Compare>;
+    newArray(className: 'com.tinkerpop.blueprints.Contains', arg: com.tinkerpop.blueprints.Contains[]): array_t<com.tinkerpop.blueprints.Contains>;
+    newArray(className: 'com.tinkerpop.blueprints.Direction', arg: com.tinkerpop.blueprints.Direction[]): array_t<com.tinkerpop.blueprints.Direction>;
+    newArray(className: 'com.tinkerpop.blueprints.Edge', arg: com.tinkerpop.blueprints.Edge[]): array_t<com.tinkerpop.blueprints.Edge>;
+    newArray(className: 'com.tinkerpop.blueprints.Element', arg: com.tinkerpop.blueprints.Element[]): array_t<com.tinkerpop.blueprints.Element>;
+    newArray(className: 'com.tinkerpop.blueprints.Features', arg: Features[]): array_t<com.tinkerpop.blueprints.Features>;
+    newArray(className: 'com.tinkerpop.blueprints.Graph', arg: com.tinkerpop.blueprints.Graph[]): array_t<com.tinkerpop.blueprints.Graph>;
+    newArray(className: 'com.tinkerpop.blueprints.GraphFactory', arg: com.tinkerpop.blueprints.GraphFactory[]): array_t<com.tinkerpop.blueprints.GraphFactory>;
+    newArray(className: 'com.tinkerpop.blueprints.GraphQuery', arg: GraphQuery[]): array_t<com.tinkerpop.blueprints.GraphQuery>;
+    newArray(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg: OrientGraph[]): array_t<com.tinkerpop.blueprints.impls.orient.OrientGraph>;
+    newArray(className: 'com.tinkerpop.blueprints.Index', arg: Index[]): array_t<com.tinkerpop.blueprints.Index>;
+    newArray(className: 'com.tinkerpop.blueprints.IndexableGraph', arg: IndexableGraph[]): array_t<com.tinkerpop.blueprints.IndexableGraph>;
+    newArray(className: 'com.tinkerpop.blueprints.KeyIndexableGraph', arg: KeyIndexableGraph[]): array_t<com.tinkerpop.blueprints.KeyIndexableGraph>;
+    newArray(className: 'com.tinkerpop.blueprints.MetaGraph', arg: MetaGraph[]): array_t<com.tinkerpop.blueprints.MetaGraph>;
+    newArray(className: 'com.tinkerpop.blueprints.Parameter', arg: Parameter[]): array_t<com.tinkerpop.blueprints.Parameter>;
+    newArray(className: 'com.tinkerpop.blueprints.Predicate', arg: com.tinkerpop.blueprints.Predicate[]): array_t<com.tinkerpop.blueprints.Predicate>;
+    newArray(className: 'com.tinkerpop.blueprints.Query', arg: Query[]): array_t<com.tinkerpop.blueprints.Query>;
+    newArray(className: 'com.tinkerpop.blueprints.Query$Compare', arg: Query$Compare[]): array_t<com.tinkerpop.blueprints.Query$Compare>;
+    newArray(className: 'com.tinkerpop.blueprints.ThreadedTransactionalGraph', arg: ThreadedTransactionalGraph[]): array_t<com.tinkerpop.blueprints.ThreadedTransactionalGraph>;
+    newArray(className: 'com.tinkerpop.blueprints.TransactionalGraph', arg: TransactionalGraph[]): array_t<com.tinkerpop.blueprints.TransactionalGraph>;
+    newArray(className: 'com.tinkerpop.blueprints.TransactionalGraph$Conclusion', arg: TransactionalGraph$Conclusion[]): array_t<com.tinkerpop.blueprints.TransactionalGraph$Conclusion>;
+    newArray(className: 'com.tinkerpop.blueprints.Vertex', arg: com.tinkerpop.blueprints.Vertex[]): array_t<com.tinkerpop.blueprints.Vertex>;
+    newArray(className: 'com.tinkerpop.blueprints.VertexQuery', arg: VertexQuery[]): array_t<com.tinkerpop.blueprints.VertexQuery>;
     newArray(className: 'groovy.lang.Binding', arg: Binding[]): array_t<groovy.lang.Binding>;
     newArray(className: 'groovy.lang.Closure', arg: Closure[]): array_t<groovy.lang.Closure>;
     newArray(className: 'groovy.lang.DelegatingMetaClass', arg: DelegatingMetaClass[]): array_t<groovy.lang.DelegatingMetaClass>;
@@ -140,7 +164,7 @@ declare module Java {
     newArray(className: 'java.util.function.BiPredicate', arg: BiPredicate[]): array_t<java.util.function_.BiPredicate>;
     newArray(className: 'java.util.function.Consumer', arg: Consumer[]): array_t<java.util.function_.Consumer>;
     newArray(className: 'java.util.function.Function', arg: Function[]): array_t<java.util.function_.Function>;
-    newArray(className: 'java.util.function.Predicate', arg: Predicate[]): array_t<java.util.function_.Predicate>;
+    newArray(className: 'java.util.function.Predicate', arg: java.util.function.Predicate[]): array_t<java.util.function_.Predicate>;
     newArray(className: 'java.util.function.Supplier', arg: Supplier[]): array_t<java.util.function_.Supplier>;
     newArray(className: 'java.util.function.UnaryOperator', arg: UnaryOperator[]): array_t<java.util.function_.UnaryOperator>;
     newArray(className: 'java.util.HashMap', arg: HashMap[]): array_t<java.util.HashMap>;
@@ -300,14 +324,14 @@ declare module Java {
     newArray(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.TraversalMetrics', arg: TraversalMetrics[]): array_t<org.apache.tinkerpop.gremlin.process.traversal.util.TraversalMetrics>;
     newArray(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.TraversalRing', arg: TraversalRing[]): array_t<org.apache.tinkerpop.gremlin.process.traversal.util.TraversalRing>;
     newArray(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.TraversalUtil', arg: TraversalUtil[]): array_t<org.apache.tinkerpop.gremlin.process.traversal.util.TraversalUtil>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Compare', arg: Compare[]): array_t<org.apache.tinkerpop.gremlin.structure.Compare>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Contains', arg: Contains[]): array_t<org.apache.tinkerpop.gremlin.structure.Contains>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Direction', arg: Direction[]): array_t<org.apache.tinkerpop.gremlin.structure.Direction>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Edge', arg: Edge[]): array_t<org.apache.tinkerpop.gremlin.structure.Edge>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Compare', arg: org.apache.tinkerpop.gremlin.structure.Compare[]): array_t<org.apache.tinkerpop.gremlin.structure.Compare>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Contains', arg: org.apache.tinkerpop.gremlin.structure.Contains[]): array_t<org.apache.tinkerpop.gremlin.structure.Contains>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Direction', arg: org.apache.tinkerpop.gremlin.structure.Direction[]): array_t<org.apache.tinkerpop.gremlin.structure.Direction>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Edge', arg: org.apache.tinkerpop.gremlin.structure.Edge[]): array_t<org.apache.tinkerpop.gremlin.structure.Edge>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.Edge$Exceptions', arg: Edge$Exceptions[]): array_t<org.apache.tinkerpop.gremlin.structure.Edge$Exceptions>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Element', arg: Element[]): array_t<org.apache.tinkerpop.gremlin.structure.Element>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Element', arg: org.apache.tinkerpop.gremlin.structure.Element[]): array_t<org.apache.tinkerpop.gremlin.structure.Element>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.Element$Exceptions', arg: Element$Exceptions[]): array_t<org.apache.tinkerpop.gremlin.structure.Element$Exceptions>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Graph', arg: Graph[]): array_t<org.apache.tinkerpop.gremlin.structure.Graph>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Graph', arg: org.apache.tinkerpop.gremlin.structure.Graph[]): array_t<org.apache.tinkerpop.gremlin.structure.Graph>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Exceptions', arg: Graph$Exceptions[]): array_t<org.apache.tinkerpop.gremlin.structure.Graph$Exceptions>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Features', arg: Graph$Features[]): array_t<org.apache.tinkerpop.gremlin.structure.Graph$Features>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Features$DataTypeFeatures', arg: Graph$Features$DataTypeFeatures[]): array_t<org.apache.tinkerpop.gremlin.structure.Graph$Features$DataTypeFeatures>;
@@ -393,10 +417,10 @@ declare module Java {
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg: DetachedVertexProperty[]): array_t<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.ElementHelper', arg: ElementHelper[]): array_t<org.apache.tinkerpop.gremlin.structure.util.ElementHelper>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.FeatureDescriptor', arg: FeatureDescriptor[]): array_t<org.apache.tinkerpop.gremlin.structure.util.FeatureDescriptor>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory', arg: GraphFactory[]): array_t<org.apache.tinkerpop.gremlin.structure.util.GraphFactory>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory', arg: org.apache.tinkerpop.gremlin.structure.util.GraphFactory[]): array_t<org.apache.tinkerpop.gremlin.structure.util.GraphFactory>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper', arg: GraphVariableHelper[]): array_t<org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.util.StringFactory', arg: StringFactory[]): array_t<org.apache.tinkerpop.gremlin.structure.util.StringFactory>;
-    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Vertex', arg: Vertex[]): array_t<org.apache.tinkerpop.gremlin.structure.Vertex>;
+    newArray(className: 'org.apache.tinkerpop.gremlin.structure.Vertex', arg: org.apache.tinkerpop.gremlin.structure.Vertex[]): array_t<org.apache.tinkerpop.gremlin.structure.Vertex>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions', arg: Vertex$Exceptions[]): array_t<org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.VertexProperty', arg: VertexProperty[]): array_t<org.apache.tinkerpop.gremlin.structure.VertexProperty>;
     newArray(className: 'org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality', arg: VertexProperty$Cardinality[]): array_t<org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality>;
@@ -458,6 +482,30 @@ declare module Java {
     import(className: 'co.redseal.gremlinnode.function.GlobFunction'): co.redseal.gremlinnode.function_.GlobFunction.Static;
     import(className: 'co.redseal.gremlinnode.function.GroovyLambda'): co.redseal.gremlinnode.function_.GroovyLambda.Static;
     import(className: 'co.redseal.gremlinnode.testing.TestClass'): co.redseal.gremlinnode.testing.TestClass.Static;
+    import(className: 'com.tinkerpop.blueprints.CloseableIterable'): com.tinkerpop.blueprints.CloseableIterable.Static;
+    import(className: 'com.tinkerpop.blueprints.Compare'): com.tinkerpop.blueprints.Compare.Static;
+    import(className: 'com.tinkerpop.blueprints.Contains'): com.tinkerpop.blueprints.Contains.Static;
+    import(className: 'com.tinkerpop.blueprints.Direction'): com.tinkerpop.blueprints.Direction.Static;
+    import(className: 'com.tinkerpop.blueprints.Edge'): com.tinkerpop.blueprints.Edge.Static;
+    import(className: 'com.tinkerpop.blueprints.Element'): com.tinkerpop.blueprints.Element.Static;
+    import(className: 'com.tinkerpop.blueprints.Features'): com.tinkerpop.blueprints.Features.Static;
+    import(className: 'com.tinkerpop.blueprints.Graph'): com.tinkerpop.blueprints.Graph.Static;
+    import(className: 'com.tinkerpop.blueprints.GraphFactory'): com.tinkerpop.blueprints.GraphFactory.Static;
+    import(className: 'com.tinkerpop.blueprints.GraphQuery'): com.tinkerpop.blueprints.GraphQuery.Static;
+    import(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph'): com.tinkerpop.blueprints.impls.orient.OrientGraph.Static;
+    import(className: 'com.tinkerpop.blueprints.Index'): com.tinkerpop.blueprints.Index.Static;
+    import(className: 'com.tinkerpop.blueprints.IndexableGraph'): com.tinkerpop.blueprints.IndexableGraph.Static;
+    import(className: 'com.tinkerpop.blueprints.KeyIndexableGraph'): com.tinkerpop.blueprints.KeyIndexableGraph.Static;
+    import(className: 'com.tinkerpop.blueprints.MetaGraph'): com.tinkerpop.blueprints.MetaGraph.Static;
+    import(className: 'com.tinkerpop.blueprints.Parameter'): com.tinkerpop.blueprints.Parameter.Static;
+    import(className: 'com.tinkerpop.blueprints.Predicate'): com.tinkerpop.blueprints.Predicate.Static;
+    import(className: 'com.tinkerpop.blueprints.Query'): com.tinkerpop.blueprints.Query.Static;
+    import(className: 'com.tinkerpop.blueprints.Query$Compare'): com.tinkerpop.blueprints.Query$Compare.Static;
+    import(className: 'com.tinkerpop.blueprints.ThreadedTransactionalGraph'): com.tinkerpop.blueprints.ThreadedTransactionalGraph.Static;
+    import(className: 'com.tinkerpop.blueprints.TransactionalGraph'): com.tinkerpop.blueprints.TransactionalGraph.Static;
+    import(className: 'com.tinkerpop.blueprints.TransactionalGraph$Conclusion'): com.tinkerpop.blueprints.TransactionalGraph$Conclusion.Static;
+    import(className: 'com.tinkerpop.blueprints.Vertex'): com.tinkerpop.blueprints.Vertex.Static;
+    import(className: 'com.tinkerpop.blueprints.VertexQuery'): com.tinkerpop.blueprints.VertexQuery.Static;
     import(className: 'groovy.lang.Binding'): groovy.lang.Binding.Static;
     import(className: 'groovy.lang.Closure'): groovy.lang.Closure.Static;
     import(className: 'groovy.lang.DelegatingMetaClass'): groovy.lang.DelegatingMetaClass.Static;
@@ -822,6 +870,20 @@ declare module Java {
     newInstance(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg0: string_t, arg1: ScriptEngine, cb: Callback<GroovyLambda>): void;
     newInstance(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg0: string_t, cb: Callback<GroovyLambda>): void;
     newInstance(className: 'co.redseal.gremlinnode.testing.TestClass', cb: Callback<TestClass>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.Features', cb: Callback<Features>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.GraphFactory', cb: Callback<com.tinkerpop.blueprints.GraphFactory>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: string_t, arg2: string_t, arg3: object_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: string_t, arg2: string_t, arg3: boolean_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: string_t, arg2: string_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: string_t, arg2: string_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: object_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: boolean_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: boolean_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, cb: Callback<OrientGraph>): void;
+    newInstance(className: 'com.tinkerpop.blueprints.Parameter', arg0: object_t, arg1: object_t, cb: Callback<Parameter>): void;
     newInstance(className: 'groovy.lang.Binding', arg0: array_t<string_t>, cb: Callback<Binding>): void;
     newInstance(className: 'groovy.lang.Binding', arg0: Map, cb: Callback<Binding>): void;
     newInstance(className: 'groovy.lang.Binding', cb: Callback<Binding>): void;
@@ -931,7 +993,7 @@ declare module Java {
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.computer.traversal.TraversalVertexProgram$Builder', cb: Callback<TraversalVertexProgram$Builder>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.computer.traversal.TraverserExecutor', cb: Callback<TraverserExecutor>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.computer.util.ScriptEngineLambda', arg0: string_t, arg1: string_t, cb: Callback<ScriptEngineLambda>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal', arg0: Graph, cb: Callback<DefaultGraphTraversal>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph, cb: Callback<DefaultGraphTraversal>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.engine.ComputerTraversalEngine$Builder', cb: Callback<ComputerTraversalEngine$Builder>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.engine.StandardTraversalEngine$Builder', cb: Callback<StandardTraversalEngine$Builder>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.Path$Exceptions', cb: Callback<Path$Exceptions>): void;
@@ -945,8 +1007,8 @@ declare module Java {
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.ExpandableStepIterator', arg0: Step, cb: Callback<ExpandableStepIterator>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: BiPredicate, arg2: object_t, cb: Callback<HasContainer>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: BiPredicate, arg2: object_t, cb: Callback<HasContainer>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: Contains, cb: Callback<HasContainer>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: Contains, cb: Callback<HasContainer>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: org.apache.tinkerpop.gremlin.structure.Contains, cb: Callback<HasContainer>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Contains, cb: Callback<HasContainer>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.MarkerIdentityStep', arg0: Traversal$Admin, cb: Callback<MarkerIdentityStep>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.NoOpBarrierStep', arg0: Traversal$Admin, cb: Callback<NoOpBarrierStep>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.PathIdentityStep', arg0: Traversal$Admin, cb: Callback<PathIdentityStep>): void;
@@ -961,7 +1023,7 @@ declare module Java {
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.Traversal$Exceptions', cb: Callback<Traversal$Exceptions>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.TraversalSideEffects$Exceptions', cb: Callback<TraversalSideEffects$Exceptions>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.TraversalStrategies$GlobalCache', cb: Callback<TraversalStrategies$GlobalCache>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal', arg0: Graph, cb: Callback<DefaultTraversal>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph, cb: Callback<DefaultTraversal>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalSideEffects', cb: Callback<DefaultTraversalSideEffects>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalStrategies', cb: Callback<DefaultTraversalStrategies>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DependantMutableMetrics', arg0: string_t, arg1: string_t, arg2: DependantMutableMetrics, cb: Callback<DependantMutableMetrics>): void;
@@ -975,7 +1037,7 @@ declare module Java {
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Exceptions', cb: Callback<Graph$Exceptions>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Hidden', cb: Callback<Graph$Hidden>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Variables$Exceptions', cb: Callback<Graph$Variables$Exceptions>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.DefaultIo', arg0: Graph, cb: Callback<DefaultIo>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.DefaultIo', arg0: org.apache.tinkerpop.gremlin.structure.Graph, cb: Callback<DefaultIo>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.GraphMigrator', cb: Callback<GraphMigrator>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriterHelper$IndentingXMLStreamWriter', arg0: object_t, cb: Callback<GraphMLWriterHelper$IndentingXMLStreamWriter>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONModule', arg0: boolean_t, cb: Callback<GraphSONModule>): void;
@@ -984,40 +1046,40 @@ declare module Java {
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONVertexProperty', arg0: VertexProperty, cb: Callback<GraphSONVertexProperty>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader', arg0: object_t, arg1: long_t, cb: Callback<LegacyGraphSONReader>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONTokens', cb: Callback<LegacyGraphSONReader$GraphSONTokens>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility', arg0: Graph, cb: Callback<LegacyGraphSONReader$GraphSONUtility>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility', arg0: org.apache.tinkerpop.gremlin.structure.Graph, cb: Callback<LegacyGraphSONReader$GraphSONUtility>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoMapper$BuilderV1d0', cb: Callback<GryoMapper$BuilderV1d0>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoPool', arg0: integer_t, arg1: GryoPool$Type, cb: Callback<GryoPool>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoPool', arg0: integer_t, cb: Callback<GryoPool>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.VertexByteArrayInputStream', arg0: object_t, cb: Callback<VertexByteArrayInputStream>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Property$Exceptions', cb: Callback<Property$Exceptions>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Exceptions', cb: Callback<Transaction$Exceptions>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Workload', arg0: Graph, arg1: Function, cb: Callback<Transaction$Workload>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction', arg0: Graph, cb: Callback<AbstractTransaction>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Workload', arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Function, cb: Callback<Transaction$Workload>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction', arg0: org.apache.tinkerpop.gremlin.structure.Graph, cb: Callback<AbstractTransaction>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: string_t, arg1: object_t, cb: Callback<AbstractTransaction$TransactionException>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: object_t, cb: Callback<AbstractTransaction$TransactionException>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: string_t, cb: Callback<AbstractTransaction$TransactionException>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.Comparators', cb: Callback<Comparators>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge', arg0: object_t, arg1: string_t, arg2: Map, arg3: object_t, arg4: object_t, cb: Callback<DetachedEdge>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory', cb: Callback<DetachedFactory>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty', arg0: string_t, arg1: object_t, arg2: Element, cb: Callback<DetachedProperty>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty', arg0: string_t, arg1: object_t, arg2: org.apache.tinkerpop.gremlin.structure.Element, cb: Callback<DetachedProperty>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex', arg0: object_t, arg1: string_t, arg2: Map, cb: Callback<DetachedVertex>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: Vertex, cb: Callback<DetachedVertexProperty>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory', cb: Callback<GraphFactory>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: org.apache.tinkerpop.gremlin.structure.Vertex, cb: Callback<DetachedVertexProperty>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory', cb: Callback<org.apache.tinkerpop.gremlin.structure.util.GraphFactory>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper', cb: Callback<GraphVariableHelper>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions', cb: Callback<Vertex$Exceptions>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.structure.VertexProperty$Exceptions', cb: Callback<VertexProperty$Exceptions>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult', arg0: Graph, arg1: Memory, cb: Callback<TinkerComputerResult>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult', arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Memory, cb: Callback<TinkerComputerResult>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerGraphComputer', arg0: TinkerGraph, cb: Callback<TinkerGraphComputer>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerGraphView', arg0: GraphComputer$Isolation, arg1: Set, cb: Callback<TinkerGraphView>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMapEmitter', arg0: boolean_t, cb: Callback<TinkerMapEmitter>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMemory', arg0: VertexProgram, arg1: Set, cb: Callback<TinkerMemory>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger', arg0: Vertex, arg1: object_t, arg2: object_t, cb: Callback<TinkerMessenger>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger', arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: object_t, arg2: object_t, cb: Callback<TinkerMessenger>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerReduceEmitter', cb: Callback<TinkerReduceEmitter>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerWorkerPool', arg0: integer_t, cb: Callback<TinkerWorkerPool>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory', cb: Callback<TinkerFactory>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal', arg0: Graph, cb: Callback<TinkerFactory$SocialTraversal$DefaultSocialTraversal>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph, cb: Callback<TinkerFactory$SocialTraversal$DefaultSocialTraversal>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraphVariables', cb: Callback<TinkerGraphVariables>): void;
-    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty', arg0: Element, arg1: string_t, arg2: object_t, cb: Callback<TinkerProperty>): void;
+    newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty', arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: string_t, arg2: object_t, cb: Callback<TinkerProperty>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty', arg0: object_t, arg1: TinkerVertex, arg2: string_t, arg3: object_t, arg4: object_array_t, cb: Callback<TinkerVertexProperty>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty', arg0: TinkerVertex, arg1: string_t, arg2: object_t, arg3: object_array_t, cb: Callback<TinkerVertexProperty>): void;
     newInstance(className: 'org.apache.tinkerpop.gremlin.util.function.ChainedComparator', arg0: List, cb: Callback<ChainedComparator>): void;
@@ -1050,6 +1112,20 @@ declare module Java {
     newInstanceSync(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg0: string_t, arg1: ScriptEngine): GroovyLambda;
     newInstanceSync(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg0: string_t): GroovyLambda;
     newInstanceSync(className: 'co.redseal.gremlinnode.testing.TestClass'): TestClass;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.Features'): Features;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.GraphFactory'): com.tinkerpop.blueprints.GraphFactory;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: string_t, arg2: string_t, arg3: object_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: string_t, arg2: string_t, arg3: boolean_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: string_t, arg2: string_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: string_t, arg2: string_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: object_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: boolean_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: boolean_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t): OrientGraph;
+    newInstanceSync(className: 'com.tinkerpop.blueprints.Parameter', arg0: object_t, arg1: object_t): Parameter;
     newInstanceSync(className: 'groovy.lang.Binding', arg0: array_t<string_t>): Binding;
     newInstanceSync(className: 'groovy.lang.Binding', arg0: Map): Binding;
     newInstanceSync(className: 'groovy.lang.Binding'): Binding;
@@ -1159,7 +1235,7 @@ declare module Java {
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.computer.traversal.TraversalVertexProgram$Builder'): TraversalVertexProgram$Builder;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.computer.traversal.TraverserExecutor'): TraverserExecutor;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.computer.util.ScriptEngineLambda', arg0: string_t, arg1: string_t): ScriptEngineLambda;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal', arg0: Graph): DefaultGraphTraversal;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph): DefaultGraphTraversal;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.engine.ComputerTraversalEngine$Builder'): ComputerTraversalEngine$Builder;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.engine.StandardTraversalEngine$Builder'): StandardTraversalEngine$Builder;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.Path$Exceptions'): Path$Exceptions;
@@ -1173,8 +1249,8 @@ declare module Java {
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.ExpandableStepIterator', arg0: Step): ExpandableStepIterator;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: BiPredicate, arg2: object_t): HasContainer;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: BiPredicate, arg2: object_t): HasContainer;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: Contains): HasContainer;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: Contains): HasContainer;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: org.apache.tinkerpop.gremlin.structure.Contains): HasContainer;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Contains): HasContainer;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.MarkerIdentityStep', arg0: Traversal$Admin): MarkerIdentityStep;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.NoOpBarrierStep', arg0: Traversal$Admin): NoOpBarrierStep;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.PathIdentityStep', arg0: Traversal$Admin): PathIdentityStep;
@@ -1189,7 +1265,7 @@ declare module Java {
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.Traversal$Exceptions'): Traversal$Exceptions;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.TraversalSideEffects$Exceptions'): TraversalSideEffects$Exceptions;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.TraversalStrategies$GlobalCache'): TraversalStrategies$GlobalCache;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal', arg0: Graph): DefaultTraversal;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph): DefaultTraversal;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalSideEffects'): DefaultTraversalSideEffects;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalStrategies'): DefaultTraversalStrategies;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DependantMutableMetrics', arg0: string_t, arg1: string_t, arg2: DependantMutableMetrics): DependantMutableMetrics;
@@ -1203,7 +1279,7 @@ declare module Java {
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Exceptions'): Graph$Exceptions;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Hidden'): Graph$Hidden;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Variables$Exceptions'): Graph$Variables$Exceptions;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.DefaultIo', arg0: Graph): DefaultIo;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.DefaultIo', arg0: org.apache.tinkerpop.gremlin.structure.Graph): DefaultIo;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.GraphMigrator'): GraphMigrator;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriterHelper$IndentingXMLStreamWriter', arg0: object_t): GraphMLWriterHelper$IndentingXMLStreamWriter;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONModule', arg0: boolean_t): GraphSONModule;
@@ -1212,40 +1288,40 @@ declare module Java {
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONVertexProperty', arg0: VertexProperty): GraphSONVertexProperty;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader', arg0: object_t, arg1: long_t): LegacyGraphSONReader;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONTokens'): LegacyGraphSONReader$GraphSONTokens;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility', arg0: Graph): LegacyGraphSONReader$GraphSONUtility;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility', arg0: org.apache.tinkerpop.gremlin.structure.Graph): LegacyGraphSONReader$GraphSONUtility;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoMapper$BuilderV1d0'): GryoMapper$BuilderV1d0;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoPool', arg0: integer_t, arg1: GryoPool$Type): GryoPool;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoPool', arg0: integer_t): GryoPool;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.VertexByteArrayInputStream', arg0: object_t): VertexByteArrayInputStream;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Property$Exceptions'): Property$Exceptions;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Exceptions'): Transaction$Exceptions;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Workload', arg0: Graph, arg1: Function): Transaction$Workload;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction', arg0: Graph): AbstractTransaction;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Workload', arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Function): Transaction$Workload;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction', arg0: org.apache.tinkerpop.gremlin.structure.Graph): AbstractTransaction;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: string_t, arg1: object_t): AbstractTransaction$TransactionException;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: object_t): AbstractTransaction$TransactionException;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: string_t): AbstractTransaction$TransactionException;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.Comparators'): Comparators;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge', arg0: object_t, arg1: string_t, arg2: Map, arg3: object_t, arg4: object_t): DetachedEdge;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory'): DetachedFactory;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty', arg0: string_t, arg1: object_t, arg2: Element): DetachedProperty;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty', arg0: string_t, arg1: object_t, arg2: org.apache.tinkerpop.gremlin.structure.Element): DetachedProperty;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex', arg0: object_t, arg1: string_t, arg2: Map): DetachedVertex;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: Vertex): DetachedVertexProperty;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory'): GraphFactory;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: org.apache.tinkerpop.gremlin.structure.Vertex): DetachedVertexProperty;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory'): org.apache.tinkerpop.gremlin.structure.util.GraphFactory;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper'): GraphVariableHelper;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions'): Vertex$Exceptions;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.structure.VertexProperty$Exceptions'): VertexProperty$Exceptions;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult', arg0: Graph, arg1: Memory): TinkerComputerResult;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult', arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Memory): TinkerComputerResult;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerGraphComputer', arg0: TinkerGraph): TinkerGraphComputer;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerGraphView', arg0: GraphComputer$Isolation, arg1: Set): TinkerGraphView;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMapEmitter', arg0: boolean_t): TinkerMapEmitter;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMemory', arg0: VertexProgram, arg1: Set): TinkerMemory;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger', arg0: Vertex, arg1: object_t, arg2: object_t): TinkerMessenger;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger', arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: object_t, arg2: object_t): TinkerMessenger;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerReduceEmitter'): TinkerReduceEmitter;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerWorkerPool', arg0: integer_t): TinkerWorkerPool;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory'): TinkerFactory;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal', arg0: Graph): TinkerFactory$SocialTraversal$DefaultSocialTraversal;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph): TinkerFactory$SocialTraversal$DefaultSocialTraversal;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraphVariables'): TinkerGraphVariables;
-    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty', arg0: Element, arg1: string_t, arg2: object_t): TinkerProperty;
+    newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty', arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: string_t, arg2: object_t): TinkerProperty;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty', arg0: object_t, arg1: TinkerVertex, arg2: string_t, arg3: object_t, ...arg4: object_t[]): TinkerVertexProperty;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty', arg0: TinkerVertex, arg1: string_t, arg2: object_t, ...arg3: object_t[]): TinkerVertexProperty;
     newInstanceSync(className: 'org.apache.tinkerpop.gremlin.util.function.ChainedComparator', arg0: List): ChainedComparator;
@@ -1278,6 +1354,20 @@ declare module Java {
     newInstancePromise(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg0: string_t, arg1: ScriptEngine): Promise<GroovyLambda>;
     newInstancePromise(className: 'co.redseal.gremlinnode.function.GroovyLambda', arg0: string_t): Promise<GroovyLambda>;
     newInstancePromise(className: 'co.redseal.gremlinnode.testing.TestClass'): Promise<TestClass>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.Features'): Promise<Features>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.GraphFactory'): Promise<com.tinkerpop.blueprints.GraphFactory>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: string_t, arg2: string_t, arg3: object_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: string_t, arg2: string_t, arg3: boolean_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: string_t, arg2: string_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: string_t, arg2: string_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: object_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t, arg1: boolean_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t, arg1: boolean_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: object_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.impls.orient.OrientGraph', arg0: string_t): Promise<OrientGraph>;
+    newInstancePromise(className: 'com.tinkerpop.blueprints.Parameter', arg0: object_t, arg1: object_t): Promise<Parameter>;
     newInstancePromise(className: 'groovy.lang.Binding', arg0: array_t<string_t>): Promise<Binding>;
     newInstancePromise(className: 'groovy.lang.Binding', arg0: Map): Promise<Binding>;
     newInstancePromise(className: 'groovy.lang.Binding'): Promise<Binding>;
@@ -1387,7 +1477,7 @@ declare module Java {
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.computer.traversal.TraversalVertexProgram$Builder'): Promise<TraversalVertexProgram$Builder>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.computer.traversal.TraverserExecutor'): Promise<TraverserExecutor>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.computer.util.ScriptEngineLambda', arg0: string_t, arg1: string_t): Promise<ScriptEngineLambda>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal', arg0: Graph): Promise<DefaultGraphTraversal>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<DefaultGraphTraversal>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.engine.ComputerTraversalEngine$Builder'): Promise<ComputerTraversalEngine$Builder>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.engine.StandardTraversalEngine$Builder'): Promise<StandardTraversalEngine$Builder>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.Path$Exceptions'): Promise<Path$Exceptions>;
@@ -1401,8 +1491,8 @@ declare module Java {
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.ExpandableStepIterator', arg0: Step): Promise<ExpandableStepIterator>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: BiPredicate, arg2: object_t): Promise<HasContainer>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: BiPredicate, arg2: object_t): Promise<HasContainer>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: Contains): Promise<HasContainer>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: Contains): Promise<HasContainer>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: T, arg1: org.apache.tinkerpop.gremlin.structure.Contains): Promise<HasContainer>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer', arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Contains): Promise<HasContainer>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.MarkerIdentityStep', arg0: Traversal$Admin): Promise<MarkerIdentityStep>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.NoOpBarrierStep', arg0: Traversal$Admin): Promise<NoOpBarrierStep>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.step.util.PathIdentityStep', arg0: Traversal$Admin): Promise<PathIdentityStep>;
@@ -1417,7 +1507,7 @@ declare module Java {
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.Traversal$Exceptions'): Promise<Traversal$Exceptions>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.TraversalSideEffects$Exceptions'): Promise<TraversalSideEffects$Exceptions>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.TraversalStrategies$GlobalCache'): Promise<TraversalStrategies$GlobalCache>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal', arg0: Graph): Promise<DefaultTraversal>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<DefaultTraversal>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalSideEffects'): Promise<DefaultTraversalSideEffects>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalStrategies'): Promise<DefaultTraversalStrategies>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.process.traversal.util.DependantMutableMetrics', arg0: string_t, arg1: string_t, arg2: DependantMutableMetrics): Promise<DependantMutableMetrics>;
@@ -1431,7 +1521,7 @@ declare module Java {
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Exceptions'): Promise<Graph$Exceptions>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Hidden'): Promise<Graph$Hidden>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Graph$Variables$Exceptions'): Promise<Graph$Variables$Exceptions>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.DefaultIo', arg0: Graph): Promise<DefaultIo>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.DefaultIo', arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<DefaultIo>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.GraphMigrator'): Promise<GraphMigrator>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriterHelper$IndentingXMLStreamWriter', arg0: object_t): Promise<GraphMLWriterHelper$IndentingXMLStreamWriter>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONModule', arg0: boolean_t): Promise<GraphSONModule>;
@@ -1440,40 +1530,40 @@ declare module Java {
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONVertexProperty', arg0: VertexProperty): Promise<GraphSONVertexProperty>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader', arg0: object_t, arg1: long_t): Promise<LegacyGraphSONReader>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONTokens'): Promise<LegacyGraphSONReader$GraphSONTokens>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility', arg0: Graph): Promise<LegacyGraphSONReader$GraphSONUtility>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility', arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<LegacyGraphSONReader$GraphSONUtility>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoMapper$BuilderV1d0'): Promise<GryoMapper$BuilderV1d0>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoPool', arg0: integer_t, arg1: GryoPool$Type): Promise<GryoPool>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.GryoPool', arg0: integer_t): Promise<GryoPool>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.io.gryo.VertexByteArrayInputStream', arg0: object_t): Promise<VertexByteArrayInputStream>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Property$Exceptions'): Promise<Property$Exceptions>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Exceptions'): Promise<Transaction$Exceptions>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Workload', arg0: Graph, arg1: Function): Promise<Transaction$Workload>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction', arg0: Graph): Promise<AbstractTransaction>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Transaction$Workload', arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Function): Promise<Transaction$Workload>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction', arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<AbstractTransaction>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: string_t, arg1: object_t): Promise<AbstractTransaction$TransactionException>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: object_t): Promise<AbstractTransaction$TransactionException>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction$TransactionException', arg0: string_t): Promise<AbstractTransaction$TransactionException>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.Comparators'): Promise<Comparators>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge', arg0: object_t, arg1: string_t, arg2: Map, arg3: object_t, arg4: object_t): Promise<DetachedEdge>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory'): Promise<DetachedFactory>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty', arg0: string_t, arg1: object_t, arg2: Element): Promise<DetachedProperty>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty', arg0: string_t, arg1: object_t, arg2: org.apache.tinkerpop.gremlin.structure.Element): Promise<DetachedProperty>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex', arg0: object_t, arg1: string_t, arg2: Map): Promise<DetachedVertex>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: Vertex): Promise<DetachedVertexProperty>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory'): Promise<GraphFactory>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty', arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<DetachedVertexProperty>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphFactory'): Promise<org.apache.tinkerpop.gremlin.structure.util.GraphFactory>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper'): Promise<GraphVariableHelper>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions'): Promise<Vertex$Exceptions>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.structure.VertexProperty$Exceptions'): Promise<VertexProperty$Exceptions>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult', arg0: Graph, arg1: Memory): Promise<TinkerComputerResult>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult', arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Memory): Promise<TinkerComputerResult>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerGraphComputer', arg0: TinkerGraph): Promise<TinkerGraphComputer>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerGraphView', arg0: GraphComputer$Isolation, arg1: Set): Promise<TinkerGraphView>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMapEmitter', arg0: boolean_t): Promise<TinkerMapEmitter>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMemory', arg0: VertexProgram, arg1: Set): Promise<TinkerMemory>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger', arg0: Vertex, arg1: object_t, arg2: object_t): Promise<TinkerMessenger>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger', arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: object_t, arg2: object_t): Promise<TinkerMessenger>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerReduceEmitter'): Promise<TinkerReduceEmitter>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerWorkerPool', arg0: integer_t): Promise<TinkerWorkerPool>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory'): Promise<TinkerFactory>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal', arg0: Graph): Promise<TinkerFactory$SocialTraversal$DefaultSocialTraversal>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal', arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TinkerFactory$SocialTraversal$DefaultSocialTraversal>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraphVariables'): Promise<TinkerGraphVariables>;
-    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty', arg0: Element, arg1: string_t, arg2: object_t): Promise<TinkerProperty>;
+    newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty', arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: string_t, arg2: object_t): Promise<TinkerProperty>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty', arg0: object_t, arg1: TinkerVertex, arg2: string_t, arg3: object_t, ...arg4: object_t[]): Promise<TinkerVertexProperty>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty', arg0: TinkerVertex, arg1: string_t, arg2: object_t, ...arg3: object_t[]): Promise<TinkerVertexProperty>;
     newInstancePromise(className: 'org.apache.tinkerpop.gremlin.util.function.ChainedComparator', arg0: List): Promise<ChainedComparator>;
@@ -1507,6 +1597,21 @@ declare module Java {
   export import GlobFunction = co.redseal.gremlinnode.function_.GlobFunction;
   export import GroovyLambda = co.redseal.gremlinnode.function_.GroovyLambda;
   export import TestClass = co.redseal.gremlinnode.testing.TestClass;
+  export import CloseableIterable = com.tinkerpop.blueprints.CloseableIterable;
+  export import Features = com.tinkerpop.blueprints.Features;
+  export import GraphQuery = com.tinkerpop.blueprints.GraphQuery;
+  export import OrientGraph = com.tinkerpop.blueprints.impls.orient.OrientGraph;
+  export import Index = com.tinkerpop.blueprints.Index;
+  export import IndexableGraph = com.tinkerpop.blueprints.IndexableGraph;
+  export import KeyIndexableGraph = com.tinkerpop.blueprints.KeyIndexableGraph;
+  export import MetaGraph = com.tinkerpop.blueprints.MetaGraph;
+  export import Parameter = com.tinkerpop.blueprints.Parameter;
+  export import Query = com.tinkerpop.blueprints.Query;
+  export import Query$Compare = com.tinkerpop.blueprints.Query$Compare;
+  export import ThreadedTransactionalGraph = com.tinkerpop.blueprints.ThreadedTransactionalGraph;
+  export import TransactionalGraph = com.tinkerpop.blueprints.TransactionalGraph;
+  export import TransactionalGraph$Conclusion = com.tinkerpop.blueprints.TransactionalGraph$Conclusion;
+  export import VertexQuery = com.tinkerpop.blueprints.VertexQuery;
   export import Binding = groovy.lang.Binding;
   export import Closure = groovy.lang.Closure;
   export import DelegatingMetaClass = groovy.lang.DelegatingMetaClass;
@@ -1552,7 +1657,6 @@ declare module Java {
   export import BiPredicate = java.util.function_.BiPredicate;
   export import Consumer = java.util.function_.Consumer;
   export import Function = java.util.function_.Function;
-  export import Predicate = java.util.function_.Predicate;
   export import Supplier = java.util.function_.Supplier;
   export import UnaryOperator = java.util.function_.UnaryOperator;
   export import HashMap = java.util.HashMap;
@@ -1712,14 +1816,8 @@ declare module Java {
   export import TraversalMetrics = org.apache.tinkerpop.gremlin.process.traversal.util.TraversalMetrics;
   export import TraversalRing = org.apache.tinkerpop.gremlin.process.traversal.util.TraversalRing;
   export import TraversalUtil = org.apache.tinkerpop.gremlin.process.traversal.util.TraversalUtil;
-  export import Compare = org.apache.tinkerpop.gremlin.structure.Compare;
-  export import Contains = org.apache.tinkerpop.gremlin.structure.Contains;
-  export import Direction = org.apache.tinkerpop.gremlin.structure.Direction;
-  export import Edge = org.apache.tinkerpop.gremlin.structure.Edge;
   export import Edge$Exceptions = org.apache.tinkerpop.gremlin.structure.Edge$Exceptions;
-  export import Element = org.apache.tinkerpop.gremlin.structure.Element;
   export import Element$Exceptions = org.apache.tinkerpop.gremlin.structure.Element$Exceptions;
-  export import Graph = org.apache.tinkerpop.gremlin.structure.Graph;
   export import Graph$Exceptions = org.apache.tinkerpop.gremlin.structure.Graph$Exceptions;
   export import Graph$Features = org.apache.tinkerpop.gremlin.structure.Graph$Features;
   export import Graph$Features$DataTypeFeatures = org.apache.tinkerpop.gremlin.structure.Graph$Features$DataTypeFeatures;
@@ -1805,10 +1903,8 @@ declare module Java {
   export import DetachedVertexProperty = org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty;
   export import ElementHelper = org.apache.tinkerpop.gremlin.structure.util.ElementHelper;
   export import FeatureDescriptor = org.apache.tinkerpop.gremlin.structure.util.FeatureDescriptor;
-  export import GraphFactory = org.apache.tinkerpop.gremlin.structure.util.GraphFactory;
   export import GraphVariableHelper = org.apache.tinkerpop.gremlin.structure.util.GraphVariableHelper;
   export import StringFactory = org.apache.tinkerpop.gremlin.structure.util.StringFactory;
-  export import Vertex = org.apache.tinkerpop.gremlin.structure.Vertex;
   export import Vertex$Exceptions = org.apache.tinkerpop.gremlin.structure.Vertex$Exceptions;
   export import VertexProperty = org.apache.tinkerpop.gremlin.structure.VertexProperty;
   export import VertexProperty$Cardinality = org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality;
@@ -1881,8 +1977,8 @@ declare module Java {
       and(arg0: BiPredicate): BiPredicate;
       andP(arg0: BiPredicate): Promise<BiPredicate>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.and(java.util.function.Predicate<? super T>)
-      and(arg0: Predicate): Predicate;
-      andP(arg0: Predicate): Promise<Predicate>;
+      and(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      andP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public default org.apache.tinkerpop.gremlin.util.function.TriConsumer<A, B, C> org.apache.tinkerpop.gremlin.util.function.TriConsumer.andThen(org.apache.tinkerpop.gremlin.util.function.TriConsumer<? super A, ? super B, ? super C>)
       andThen(arg0: TriConsumer): TriConsumer;
       andThenP(arg0: TriConsumer): Promise<TriConsumer>;
@@ -1929,14 +2025,14 @@ declare module Java {
       negate(): BiPredicate;
       negateP(): Promise<BiPredicate>;
       // public default java.util.function.Predicate co.redseal.gremlinnode.function.GlobFunction.negate()
-      negate(): Predicate;
-      negateP(): Promise<Predicate>;
+      negate(): java.util.function.Predicate;
+      negateP(): Promise<java.util.function.Predicate>;
       // public default java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.or(java.util.function.BiPredicate<? super T, ? super U>)
       or(arg0: BiPredicate): BiPredicate;
       orP(arg0: BiPredicate): Promise<BiPredicate>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.or(java.util.function.Predicate<? super T>)
-      or(arg0: Predicate): Predicate;
-      orP(arg0: Predicate): Promise<Predicate>;
+      or(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      orP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public abstract boolean java.util.function.BiPredicate.test(T,U)
       test(arg0: object_t, arg1: object_t): boolean;
       testP(arg0: object_t, arg1: object_t): Promise<boolean>;
@@ -1965,8 +2061,8 @@ declare module Java {
       and(arg0: BiPredicate): BiPredicate;
       andP(arg0: BiPredicate): Promise<BiPredicate>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.and(java.util.function.Predicate<? super T>)
-      and(arg0: Predicate): Predicate;
-      andP(arg0: Predicate): Promise<Predicate>;
+      and(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      andP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public default org.apache.tinkerpop.gremlin.util.function.TriConsumer<A, B, C> org.apache.tinkerpop.gremlin.util.function.TriConsumer.andThen(org.apache.tinkerpop.gremlin.util.function.TriConsumer<? super A, ? super B, ? super C>)
       andThen(arg0: TriConsumer): TriConsumer;
       andThenP(arg0: TriConsumer): Promise<TriConsumer>;
@@ -2022,8 +2118,8 @@ declare module Java {
       negate(): BiPredicate;
       negateP(): Promise<BiPredicate>;
       // public java.util.function.Predicate co.redseal.gremlinnode.function.AbstractGlobFunction.negate()
-      negate(): Predicate;
-      negateP(): Promise<Predicate>;
+      negate(): java.util.function.Predicate;
+      negateP(): Promise<java.util.function.Predicate>;
       // public final native void java.lang.Object.notify()
       notify(): void;
       notifyP(): Promise<void>;
@@ -2034,8 +2130,8 @@ declare module Java {
       or(arg0: BiPredicate): BiPredicate;
       orP(arg0: BiPredicate): Promise<BiPredicate>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.or(java.util.function.Predicate<? super T>)
-      or(arg0: Predicate): Predicate;
-      orP(arg0: Predicate): Promise<Predicate>;
+      or(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      orP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public boolean co.redseal.gremlinnode.function.GroovyLambda.test(java.lang.Object,java.lang.Object)
       test(arg0: object_t, arg1: object_t): boolean;
       testP(arg0: object_t, arg1: object_t): Promise<boolean>;
@@ -2099,6 +2195,1610 @@ declare module Java {
     export module TestClass {
       export interface Static {
         new (): co.redseal.gremlinnode.testing.TestClass;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface CloseableIterable extends Java.java.lang.Iterable {
+      // public abstract void com.tinkerpop.blueprints.CloseableIterable.close()
+      close(): void;
+      closeP(): Promise<void>;
+      // public default void java.lang.Iterable.forEach(java.util.function.Consumer<? super T>)
+      forEach(arg0: Consumer): void;
+      forEachP(arg0: Consumer): Promise<void>;
+      // public abstract java.util.Iterator<T> java.lang.Iterable.iterator()
+      iterator(): Iterator;
+      iteratorP(): Promise<Iterator>;
+      // public default java.util.Spliterator<T> java.lang.Iterable.spliterator()
+      spliterator(): object_t;
+      spliteratorP(): Promise<object_t>;
+    }
+    export module CloseableIterable {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Compare extends Java.java.lang.Enum,Java.com.tinkerpop.blueprints.Predicate {
+      // public java.lang.String com.tinkerpop.blueprints.Compare.asString()
+      asString(): string;
+      asStringP(): Promise<string>;
+      // public int java.lang.Enum.compareTo(java.lang.Object)
+      compareTo(arg0: object_t): number;
+      compareToP(arg0: object_t): Promise<number>;
+      // public final int java.lang.Enum.compareTo(E)
+      compareTo(arg0: Enum): number;
+      compareToP(arg0: Enum): Promise<number>;
+      // public final boolean java.lang.Enum.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.Compare.evaluate(java.lang.Object,java.lang.Object)
+      evaluate(arg0: object_t, arg1: object_t): boolean;
+      evaluateP(arg0: object_t, arg1: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public final java.lang.Class<E> java.lang.Enum.getDeclaringClass()
+      getDeclaringClass(): Class;
+      getDeclaringClassP(): Promise<Class>;
+      // public final int java.lang.Enum.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final java.lang.String java.lang.Enum.name()
+      name(): string;
+      nameP(): Promise<string>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public com.tinkerpop.blueprints.Compare com.tinkerpop.blueprints.Compare.opposite()
+      opposite(): com.tinkerpop.blueprints.Compare;
+      oppositeP(): Promise<com.tinkerpop.blueprints.Compare>;
+      // public final int java.lang.Enum.ordinal()
+      ordinal(): number;
+      ordinalP(): Promise<number>;
+      // public java.lang.String java.lang.Enum.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module Compare {
+      export interface Static {
+        // public static com.tinkerpop.blueprints.Compare com.tinkerpop.blueprints.Compare.fromString(java.lang.String)
+        fromString(arg0: string_t): com.tinkerpop.blueprints.Compare;
+        fromStringP(arg0: string_t): Promise<com.tinkerpop.blueprints.Compare>;
+        // public static <T> T java.lang.Enum.valueOf(java.lang.Class<T>,java.lang.String)
+        valueOf(arg0: Class, arg1: string_t): Enum;
+        valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
+        // public static com.tinkerpop.blueprints.Compare com.tinkerpop.blueprints.Compare.valueOf(java.lang.String)
+        valueOf(arg0: string_t): com.tinkerpop.blueprints.Compare;
+        valueOfP(arg0: string_t): Promise<com.tinkerpop.blueprints.Compare>;
+        // public static com.tinkerpop.blueprints.Compare[] com.tinkerpop.blueprints.Compare.values()
+        values(): com.tinkerpop.blueprints.Compare[];
+        valuesP(): Promise<com.tinkerpop.blueprints.Compare[]>;
+        EQUAL: com.tinkerpop.blueprints.Compare;
+        NOT_EQUAL: com.tinkerpop.blueprints.Compare;
+        GREATER_THAN: com.tinkerpop.blueprints.Compare;
+        GREATER_THAN_EQUAL: com.tinkerpop.blueprints.Compare;
+        LESS_THAN: com.tinkerpop.blueprints.Compare;
+        LESS_THAN_EQUAL: com.tinkerpop.blueprints.Compare;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Contains extends Java.java.lang.Enum,Java.com.tinkerpop.blueprints.Predicate {
+      // public int java.lang.Enum.compareTo(java.lang.Object)
+      compareTo(arg0: object_t): number;
+      compareToP(arg0: object_t): Promise<number>;
+      // public final int java.lang.Enum.compareTo(E)
+      compareTo(arg0: Enum): number;
+      compareToP(arg0: Enum): Promise<number>;
+      // public final boolean java.lang.Enum.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.Contains.evaluate(java.lang.Object,java.lang.Object)
+      evaluate(arg0: object_t, arg1: object_t): boolean;
+      evaluateP(arg0: object_t, arg1: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public final java.lang.Class<E> java.lang.Enum.getDeclaringClass()
+      getDeclaringClass(): Class;
+      getDeclaringClassP(): Promise<Class>;
+      // public final int java.lang.Enum.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final java.lang.String java.lang.Enum.name()
+      name(): string;
+      nameP(): Promise<string>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public com.tinkerpop.blueprints.Contains com.tinkerpop.blueprints.Contains.opposite()
+      opposite(): com.tinkerpop.blueprints.Contains;
+      oppositeP(): Promise<com.tinkerpop.blueprints.Contains>;
+      // public final int java.lang.Enum.ordinal()
+      ordinal(): number;
+      ordinalP(): Promise<number>;
+      // public java.lang.String java.lang.Enum.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module Contains {
+      export interface Static {
+        // public static <T> T java.lang.Enum.valueOf(java.lang.Class<T>,java.lang.String)
+        valueOf(arg0: Class, arg1: string_t): Enum;
+        valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
+        // public static com.tinkerpop.blueprints.Contains com.tinkerpop.blueprints.Contains.valueOf(java.lang.String)
+        valueOf(arg0: string_t): com.tinkerpop.blueprints.Contains;
+        valueOfP(arg0: string_t): Promise<com.tinkerpop.blueprints.Contains>;
+        // public static com.tinkerpop.blueprints.Contains[] com.tinkerpop.blueprints.Contains.values()
+        values(): com.tinkerpop.blueprints.Contains[];
+        valuesP(): Promise<com.tinkerpop.blueprints.Contains[]>;
+        IN: com.tinkerpop.blueprints.Contains;
+        NOT_IN: com.tinkerpop.blueprints.Contains;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Direction extends Java.java.lang.Enum {
+      // public int java.lang.Enum.compareTo(java.lang.Object)
+      compareTo(arg0: object_t): number;
+      compareToP(arg0: object_t): Promise<number>;
+      // public final int java.lang.Enum.compareTo(E)
+      compareTo(arg0: Enum): number;
+      compareToP(arg0: Enum): Promise<number>;
+      // public final boolean java.lang.Enum.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public final java.lang.Class<E> java.lang.Enum.getDeclaringClass()
+      getDeclaringClass(): Class;
+      getDeclaringClassP(): Promise<Class>;
+      // public final int java.lang.Enum.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final java.lang.String java.lang.Enum.name()
+      name(): string;
+      nameP(): Promise<string>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public com.tinkerpop.blueprints.Direction com.tinkerpop.blueprints.Direction.opposite()
+      opposite(): com.tinkerpop.blueprints.Direction;
+      oppositeP(): Promise<com.tinkerpop.blueprints.Direction>;
+      // public final int java.lang.Enum.ordinal()
+      ordinal(): number;
+      ordinalP(): Promise<number>;
+      // public java.lang.String java.lang.Enum.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module Direction {
+      export interface Static {
+        // public static <T> T java.lang.Enum.valueOf(java.lang.Class<T>,java.lang.String)
+        valueOf(arg0: Class, arg1: string_t): Enum;
+        valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
+        // public static com.tinkerpop.blueprints.Direction com.tinkerpop.blueprints.Direction.valueOf(java.lang.String)
+        valueOf(arg0: string_t): com.tinkerpop.blueprints.Direction;
+        valueOfP(arg0: string_t): Promise<com.tinkerpop.blueprints.Direction>;
+        // public static com.tinkerpop.blueprints.Direction[] com.tinkerpop.blueprints.Direction.values()
+        values(): com.tinkerpop.blueprints.Direction[];
+        valuesP(): Promise<com.tinkerpop.blueprints.Direction[]>;
+        OUT: com.tinkerpop.blueprints.Direction;
+        IN: com.tinkerpop.blueprints.Direction;
+        BOTH: com.tinkerpop.blueprints.Direction;
+        proper: com.tinkerpop.blueprints.Direction[];
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Edge extends Java.com.tinkerpop.blueprints.Element {
+      // public abstract java.lang.Object com.tinkerpop.blueprints.Element.getId()
+      getId(): object_t;
+      getIdP(): Promise<object_t>;
+      // public abstract java.lang.String com.tinkerpop.blueprints.Edge.getLabel()
+      getLabel(): string;
+      getLabelP(): Promise<string>;
+      // public abstract <T> T com.tinkerpop.blueprints.Element.getProperty(java.lang.String)
+      getProperty(arg0: string_t): object_t;
+      getPropertyP(arg0: string_t): Promise<object_t>;
+      // public abstract java.util.Set<java.lang.String> com.tinkerpop.blueprints.Element.getPropertyKeys()
+      getPropertyKeys(): Set;
+      getPropertyKeysP(): Promise<Set>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Edge.getVertex(com.tinkerpop.blueprints.Direction) throws java.lang.IllegalArgumentException
+      getVertex(arg0: com.tinkerpop.blueprints.Direction): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: com.tinkerpop.blueprints.Direction): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract void com.tinkerpop.blueprints.Element.remove()
+      remove(): void;
+      removeP(): Promise<void>;
+      // public abstract <T> T com.tinkerpop.blueprints.Element.removeProperty(java.lang.String)
+      removeProperty(arg0: string_t): object_t;
+      removePropertyP(arg0: string_t): Promise<object_t>;
+      // public abstract void com.tinkerpop.blueprints.Element.setProperty(java.lang.String,java.lang.Object)
+      setProperty(arg0: string_t, arg1: object_t): void;
+      setPropertyP(arg0: string_t, arg1: object_t): Promise<void>;
+    }
+    export module Edge {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Element extends Java.java.lang.Object {
+      // public abstract java.lang.Object com.tinkerpop.blueprints.Element.getId()
+      getId(): object_t;
+      getIdP(): Promise<object_t>;
+      // public abstract <T> T com.tinkerpop.blueprints.Element.getProperty(java.lang.String)
+      getProperty(arg0: string_t): object_t;
+      getPropertyP(arg0: string_t): Promise<object_t>;
+      // public abstract java.util.Set<java.lang.String> com.tinkerpop.blueprints.Element.getPropertyKeys()
+      getPropertyKeys(): Set;
+      getPropertyKeysP(): Promise<Set>;
+      // public abstract void com.tinkerpop.blueprints.Element.remove()
+      remove(): void;
+      removeP(): Promise<void>;
+      // public abstract <T> T com.tinkerpop.blueprints.Element.removeProperty(java.lang.String)
+      removeProperty(arg0: string_t): object_t;
+      removePropertyP(arg0: string_t): Promise<object_t>;
+      // public abstract void com.tinkerpop.blueprints.Element.setProperty(java.lang.String,java.lang.Object)
+      setProperty(arg0: string_t, arg1: object_t): void;
+      setPropertyP(arg0: string_t, arg1: object_t): Promise<void>;
+    }
+    export module Element {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Features extends Java.java.lang.Object {
+      // public void com.tinkerpop.blueprints.Features.checkCompliance() throws java.lang.IllegalStateException
+      checkCompliance(): void;
+      checkComplianceP(): Promise<void>;
+      // public com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Features.copyFeatures()
+      copyFeatures(): Features;
+      copyFeaturesP(): Promise<Features>;
+      // public boolean java.lang.Object.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public native int java.lang.Object.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public boolean com.tinkerpop.blueprints.Features.supportsElementProperties()
+      supportsElementProperties(): boolean;
+      supportsElementPropertiesP(): Promise<boolean>;
+      // public java.util.Map com.tinkerpop.blueprints.Features.toMap()
+      toMap(): Map;
+      toMapP(): Promise<Map>;
+      // public java.lang.String com.tinkerpop.blueprints.Features.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+      supportsDuplicateEdges: boolean;
+      supportsSelfLoops: boolean;
+      supportsSerializableObjectProperty: boolean;
+      supportsBooleanProperty: boolean;
+      supportsDoubleProperty: boolean;
+      supportsFloatProperty: boolean;
+      supportsIntegerProperty: boolean;
+      supportsPrimitiveArrayProperty: boolean;
+      supportsUniformListProperty: boolean;
+      supportsMixedListProperty: boolean;
+      supportsLongProperty: boolean;
+      supportsMapProperty: boolean;
+      supportsStringProperty: boolean;
+      hasImplicitElements: boolean;
+      ignoresSuppliedIds: boolean;
+      isPersistent: boolean;
+      isWrapper: boolean;
+      supportsIndices: boolean;
+      supportsVertexIndex: boolean;
+      supportsEdgeIndex: boolean;
+      supportsKeyIndices: boolean;
+      supportsVertexKeyIndex: boolean;
+      supportsEdgeKeyIndex: boolean;
+      supportsEdgeIteration: boolean;
+      supportsVertexIteration: boolean;
+      supportsEdgeRetrieval: boolean;
+      supportsVertexProperties: boolean;
+      supportsEdgeProperties: boolean;
+      supportsTransactions: boolean;
+      supportsThreadedTransactions: boolean;
+      supportsThreadIsolatedTransactions: boolean;
+    }
+    export module Features {
+      export interface Static {
+        new (): com.tinkerpop.blueprints.Features;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Graph extends Java.java.lang.Object {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Graph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.Graph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+    }
+    export module Graph {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface GraphFactory extends Java.java.lang.Object {
+      // public boolean java.lang.Object.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public native int java.lang.Object.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public java.lang.String java.lang.Object.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module GraphFactory {
+      export interface Static {
+        new (): com.tinkerpop.blueprints.GraphFactory;
+        // public static com.tinkerpop.blueprints.Graph com.tinkerpop.blueprints.GraphFactory.open(org.apache.commons.configuration.Configuration)
+        open(arg0: object_t): com.tinkerpop.blueprints.Graph;
+        openP(arg0: object_t): Promise<com.tinkerpop.blueprints.Graph>;
+        // public static com.tinkerpop.blueprints.Graph com.tinkerpop.blueprints.GraphFactory.open(java.lang.String)
+        open(arg0: string_t): com.tinkerpop.blueprints.Graph;
+        openP(arg0: string_t): Promise<com.tinkerpop.blueprints.Graph>;
+        // public static com.tinkerpop.blueprints.Graph com.tinkerpop.blueprints.GraphFactory.open(java.util.Map)
+        open(arg0: Map): com.tinkerpop.blueprints.Graph;
+        openP(arg0: Map): Promise<com.tinkerpop.blueprints.Graph>;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface GraphQuery extends Java.com.tinkerpop.blueprints.Query {
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Query.edges()
+      edges(): Iterable;
+      edgesP(): Promise<Iterable>;
+      // public abstract <T> com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.has(java.lang.String,T,com.tinkerpop.blueprints.Query$Compare)
+      has(arg0: string_t, arg1: object_t, arg2: Query$Compare): GraphQuery;
+      hasP(arg0: string_t, arg1: object_t, arg2: Query$Compare): Promise<GraphQuery>;
+      // public abstract <T> com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,T,com.tinkerpop.blueprints.Query$Compare)
+      has(arg0: string_t, arg1: object_t, arg2: Query$Compare): Query;
+      hasP(arg0: string_t, arg1: object_t, arg2: Query$Compare): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.has(java.lang.String,com.tinkerpop.blueprints.Predicate,java.lang.Object)
+      has(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): GraphQuery;
+      hasP(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Promise<GraphQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,com.tinkerpop.blueprints.Predicate,java.lang.Object)
+      has(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Query;
+      hasP(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.has(java.lang.String,java.lang.Object)
+      has(arg0: string_t, arg1: object_t): GraphQuery;
+      hasP(arg0: string_t, arg1: object_t): Promise<GraphQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,java.lang.Object)
+      has(arg0: string_t, arg1: object_t): Query;
+      hasP(arg0: string_t, arg1: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.has(java.lang.String)
+      has(arg0: string_t): GraphQuery;
+      hasP(arg0: string_t): Promise<GraphQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String)
+      has(arg0: string_t): Query;
+      hasP(arg0: string_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.hasNot(java.lang.String,java.lang.Object)
+      hasNot(arg0: string_t, arg1: object_t): GraphQuery;
+      hasNotP(arg0: string_t, arg1: object_t): Promise<GraphQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.hasNot(java.lang.String,java.lang.Object)
+      hasNot(arg0: string_t, arg1: object_t): Query;
+      hasNotP(arg0: string_t, arg1: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.hasNot(java.lang.String)
+      hasNot(arg0: string_t): GraphQuery;
+      hasNotP(arg0: string_t): Promise<GraphQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.hasNot(java.lang.String)
+      hasNot(arg0: string_t): Query;
+      hasNotP(arg0: string_t): Promise<Query>;
+      // public abstract <T> com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.interval(java.lang.String,T,T)
+      interval(arg0: string_t, arg1: object_t, arg2: object_t): GraphQuery;
+      intervalP(arg0: string_t, arg1: object_t, arg2: object_t): Promise<GraphQuery>;
+      // public abstract <T> com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.interval(java.lang.String,T,T)
+      interval(arg0: string_t, arg1: object_t, arg2: object_t): Query;
+      intervalP(arg0: string_t, arg1: object_t, arg2: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.GraphQuery.limit(int)
+      limit(arg0: integer_t): GraphQuery;
+      limitP(arg0: integer_t): Promise<GraphQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.limit(int)
+      limit(arg0: integer_t): Query;
+      limitP(arg0: integer_t): Promise<Query>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Query.vertices()
+      vertices(): Iterable;
+      verticesP(): Promise<Iterable>;
+    }
+    export module GraphQuery {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints.impls.orient {
+    export interface OrientGraph extends Java.java.lang.Object {
+      // public com.tinkerpop.blueprints.impls.orient.OrientEdge com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): object_t;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addTemporaryVertex(java.lang.String,java.lang.Object...)
+      addTemporaryVertex(arg0: string_t, ...arg1: object_t[]): object_t;
+      addTemporaryVertex(arg0: string_t, arg1: object_array_t): object_t;
+      addTemporaryVertexP(arg0: string_t, ...arg1: object_t[]): Promise<object_t>;
+      addTemporaryVertexP(arg0: string_t, arg1: object_array_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addVertex(java.lang.Object,java.lang.Object...)
+      addVertex(arg0: object_t, ...arg1: object_t[]): object_t;
+      addVertex(arg0: object_t, arg1: object_array_t): object_t;
+      addVertexP(arg0: object_t, ...arg1: object_t[]): Promise<object_t>;
+      addVertexP(arg0: object_t, arg1: object_array_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addVertex(java.lang.String,java.lang.String)
+      addVertex(arg0: string_t, arg1: string_t): object_t;
+      addVertexP(arg0: string_t, arg1: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addVertex(java.lang.Object,java.lang.Object[])
+      addVertex(arg0: object_t, arg1: object_array_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t, arg1: object_array_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): object_t;
+      addVertexP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientElement com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.attach(com.tinkerpop.blueprints.impls.orient.OrientElement)
+      attach(arg0: object_t): object_t;
+      attachP(arg0: object_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph.begin()
+      begin(): void;
+      beginP(): Promise<void>;
+      // public com.orientechnologies.orient.core.command.OCommandRequest com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.command(com.orientechnologies.orient.core.command.OCommandRequest)
+      command(arg0: object_t): object_t;
+      commandP(arg0: object_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph.commit()
+      commit(): void;
+      commitP(): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientBaseGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.configure(com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph$Settings)
+      configure(arg0: object_t): object_t;
+      configureP(arg0: object_t): Promise<object_t>;
+      // public long com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.countEdges(java.lang.String)
+      countEdges(arg0: string_t): longValue_t;
+      countEdgesP(arg0: string_t): Promise<longValue_t>;
+      // public long com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.countEdges()
+      countEdges(): longValue_t;
+      countEdgesP(): Promise<longValue_t>;
+      // public long com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.countVertices(java.lang.String)
+      countVertices(arg0: string_t): longValue_t;
+      countVerticesP(arg0: string_t): Promise<longValue_t>;
+      // public long com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.countVertices()
+      countVertices(): longValue_t;
+      countVerticesP(): Promise<longValue_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientEdgeType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createEdgeType(java.lang.String,com.orientechnologies.orient.core.metadata.schema.OClass)
+      createEdgeType(arg0: string_t, arg1: object_t): object_t;
+      createEdgeTypeP(arg0: string_t, arg1: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientEdgeType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createEdgeType(java.lang.String,java.lang.String)
+      createEdgeType(arg0: string_t, arg1: string_t): object_t;
+      createEdgeTypeP(arg0: string_t, arg1: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientEdgeType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createEdgeType(java.lang.String)
+      createEdgeType(arg0: string_t): object_t;
+      createEdgeTypeP(arg0: string_t): Promise<object_t>;
+      // public <T> com.tinkerpop.blueprints.Index<T> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createIndex(java.lang.String,java.lang.Class<T>,com.tinkerpop.blueprints.Parameter...)
+      createIndex(arg0: string_t, arg1: Class, ...arg2: Parameter[]): Index;
+      createIndex(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): Index;
+      createIndexP(arg0: string_t, arg1: Class, ...arg2: Parameter[]): Promise<Index>;
+      createIndexP(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): Promise<Index>;
+      // public <T> void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createKeyIndex(java.lang.String,java.lang.Class<T>,com.tinkerpop.blueprints.Parameter...)
+      createKeyIndex(arg0: string_t, arg1: Class, ...arg2: Parameter[]): void;
+      createKeyIndex(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): void;
+      createKeyIndexP(arg0: string_t, arg1: Class, ...arg2: Parameter[]): Promise<void>;
+      createKeyIndexP(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertexType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createVertexType(java.lang.String,com.orientechnologies.orient.core.metadata.schema.OClass)
+      createVertexType(arg0: string_t, arg1: object_t): object_t;
+      createVertexTypeP(arg0: string_t, arg1: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertexType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createVertexType(java.lang.String,java.lang.String)
+      createVertexType(arg0: string_t, arg1: string_t): object_t;
+      createVertexTypeP(arg0: string_t, arg1: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertexType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.createVertexType(java.lang.String)
+      createVertexType(arg0: string_t): object_t;
+      createVertexTypeP(arg0: string_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.declareIntent(com.orientechnologies.orient.core.intent.OIntent)
+      declareIntent(arg0: object_t): void;
+      declareIntentP(arg0: object_t): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientElement com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.detach(com.tinkerpop.blueprints.impls.orient.OrientElement)
+      detach(arg0: object_t): object_t;
+      detachP(arg0: object_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.drop()
+      drop(): void;
+      dropP(): Promise<void>;
+      // public final void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.dropEdgeType(java.lang.String)
+      dropEdgeType(arg0: string_t): void;
+      dropEdgeTypeP(arg0: string_t): Promise<void>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.dropIndex(java.lang.String)
+      dropIndex(arg0: string_t): void;
+      dropIndexP(arg0: string_t): Promise<void>;
+      // public <T> void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.dropKeyIndex(java.lang.String,java.lang.Class<T>)
+      dropKeyIndex(arg0: string_t, arg1: Class): void;
+      dropKeyIndexP(arg0: string_t, arg1: Class): Promise<void>;
+      // public final void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.dropVertexType(java.lang.String)
+      dropVertexType(arg0: string_t): void;
+      dropVertexTypeP(arg0: string_t): Promise<void>;
+      // public boolean java.lang.Object.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public <RET> RET com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.executeOutsideTx(com.orientechnologies.common.util.OCallable<RET, com.tinkerpop.blueprints.impls.orient.OrientBaseGraph>,java.lang.String...) throws java.lang.RuntimeException
+      executeOutsideTx(arg0: object_t, ...arg1: string_t[]): object_t;
+      executeOutsideTx(arg0: object_t, arg1: array_t<string_t>): object_t;
+      executeOutsideTxP(arg0: object_t, ...arg1: string_t[]): Promise<object_t>;
+      executeOutsideTxP(arg0: object_t, arg1: array_t<string_t>): Promise<object_t>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public com.orientechnologies.orient.core.conflict.ORecordConflictStrategy com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getConflictStrategy()
+      getConflictStrategy(): object_t;
+      getConflictStrategyP(): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientEdge com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): object_t;
+      getEdgeP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientEdgeType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdgeBaseType()
+      getEdgeBaseType(): object_t;
+      getEdgeBaseTypeP(): Promise<object_t>;
+      // public int com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.getEdgeContainerEmbedded2TreeThreshold()
+      getEdgeContainerEmbedded2TreeThreshold(): number;
+      getEdgeContainerEmbedded2TreeThresholdP(): Promise<number>;
+      // public int com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.getEdgeContainerTree2EmbeddedThreshold()
+      getEdgeContainerTree2EmbeddedThreshold(): number;
+      getEdgeContainerTree2EmbeddedThresholdP(): Promise<number>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdges(boolean)
+      getEdges(arg0: boolean_t): Iterable;
+      getEdgesP(arg0: boolean_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdgesOfClass(java.lang.String,boolean)
+      getEdgesOfClass(arg0: string_t, arg1: boolean_t): Iterable;
+      getEdgesOfClassP(arg0: string_t, arg1: boolean_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdgesOfClass(java.lang.String)
+      getEdgesOfClass(arg0: string_t): Iterable;
+      getEdgesOfClassP(arg0: string_t): Promise<Iterable>;
+      // public final com.tinkerpop.blueprints.impls.orient.OrientEdgeType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getEdgeType(java.lang.String)
+      getEdgeType(arg0: string_t): object_t;
+      getEdgeTypeP(arg0: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientElement com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getElement(java.lang.Object)
+      getElement(arg0: object_t): object_t;
+      getElementP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.impls.orient.OrientGraph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public <T> com.tinkerpop.blueprints.Index<T> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getIndex(java.lang.String,java.lang.Class<T>)
+      getIndex(arg0: string_t, arg1: Class): Index;
+      getIndexP(arg0: string_t, arg1: Class): Promise<Index>;
+      // public <T> java.util.Set<java.lang.String> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getIndexedKeys(java.lang.Class<T>,boolean)
+      getIndexedKeys(arg0: Class, arg1: boolean_t): Set;
+      getIndexedKeysP(arg0: Class, arg1: boolean_t): Promise<Set>;
+      // public <T> java.util.Set<java.lang.String> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getIndexedKeys(java.lang.Class<T>)
+      getIndexedKeys(arg0: Class): Set;
+      getIndexedKeysP(arg0: Class): Promise<Set>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Index<? extends com.tinkerpop.blueprints.Element>> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getIndices()
+      getIndices(): Iterable;
+      getIndicesP(): Promise<Iterable>;
+      // public com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getRawGraph()
+      getRawGraph(): object_t;
+      getRawGraphP(): Promise<object_t>;
+      // public java.lang.Object com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getRawGraph()
+      getRawGraph(): object_t;
+      getRawGraphP(): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph$THREAD_MODE com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.getThreadMode()
+      getThreadMode(): object_t;
+      getThreadModeP(): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): object_t;
+      getVertexP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientVertexType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertexBaseType()
+      getVertexBaseType(): object_t;
+      getVertexBaseTypeP(): Promise<object_t>;
+      // public com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertexByKey(java.lang.String,java.lang.Object)
+      getVertexByKey(arg0: string_t, arg1: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexByKeyP(arg0: string_t, arg1: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public final com.tinkerpop.blueprints.impls.orient.OrientVertexType com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertexType(java.lang.String)
+      getVertexType(arg0: string_t): object_t;
+      getVertexTypeP(arg0: string_t): Promise<object_t>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertices(java.lang.String,java.lang.String[],java.lang.Object[])
+      getVertices(arg0: string_t, arg1: array_t<string_t>, arg2: object_array_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: array_t<string_t>, arg2: object_array_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertices(boolean)
+      getVertices(arg0: boolean_t): Iterable;
+      getVerticesP(arg0: boolean_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVerticesOfClass(java.lang.String,boolean)
+      getVerticesOfClass(arg0: string_t, arg1: boolean_t): Iterable;
+      getVerticesOfClassP(arg0: string_t, arg1: boolean_t): Promise<Iterable>;
+      // public java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getVerticesOfClass(java.lang.String)
+      getVerticesOfClass(arg0: string_t): Iterable;
+      getVerticesOfClassP(arg0: string_t): Promise<Iterable>;
+      // public native int java.lang.Object.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isAutoScaleEdgeType()
+      isAutoScaleEdgeType(): boolean;
+      isAutoScaleEdgeTypeP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isAutoStartTx()
+      isAutoStartTx(): boolean;
+      isAutoStartTxP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.isClosed()
+      isClosed(): boolean;
+      isClosedP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isKeepInMemoryReferences()
+      isKeepInMemoryReferences(): boolean;
+      isKeepInMemoryReferencesP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isRequireTransaction()
+      isRequireTransaction(): boolean;
+      isRequireTransactionP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isSaveOriginalIds()
+      isSaveOriginalIds(): boolean;
+      isSaveOriginalIdsP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isStandardElementConstraints()
+      isStandardElementConstraints(): boolean;
+      isStandardElementConstraintsP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isUseClassForEdgeLabel()
+      isUseClassForEdgeLabel(): boolean;
+      isUseClassForEdgeLabelP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isUseClassForVertexLabel()
+      isUseClassForVertexLabel(): boolean;
+      isUseClassForVertexLabelP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isUseLightweightEdges()
+      isUseLightweightEdges(): boolean;
+      isUseLightweightEdgesP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph.isUseLog()
+      isUseLog(): boolean;
+      isUseLogP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isUseVertexFieldsForEdgeLabels()
+      isUseVertexFieldsForEdgeLabels(): boolean;
+      isUseVertexFieldsForEdgeLabelsP(): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.isWarnOnForceClosingTx()
+      isWarnOnForceClosingTx(): boolean;
+      isWarnOnForceClosingTxP(): Promise<boolean>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.makeActive()
+      makeActive(): void;
+      makeActiveP(): Promise<void>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientBaseGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.reuse(com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx)
+      reuse(arg0: object_t): object_t;
+      reuseP(arg0: object_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph.rollback()
+      rollback(): void;
+      rollbackP(): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setAutoScaleEdgeType(boolean)
+      setAutoScaleEdgeType(arg0: boolean_t): object_t;
+      setAutoScaleEdgeTypeP(arg0: boolean_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setAutoStartTx(boolean)
+      setAutoStartTx(arg0: boolean_t): void;
+      setAutoStartTxP(arg0: boolean_t): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientExtendedGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.setConflictStrategy(com.orientechnologies.orient.core.conflict.ORecordConflictStrategy)
+      setConflictStrategy(arg0: object_t): object_t;
+      setConflictStrategyP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientBaseGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.setConflictStrategy(com.orientechnologies.orient.core.conflict.ORecordConflictStrategy)
+      setConflictStrategy(arg0: object_t): object_t;
+      setConflictStrategyP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientExtendedGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.setConflictStrategy(java.lang.String)
+      setConflictStrategy(arg0: string_t): object_t;
+      setConflictStrategyP(arg0: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientBaseGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.setConflictStrategy(java.lang.String)
+      setConflictStrategy(arg0: string_t): object_t;
+      setConflictStrategyP(arg0: string_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setEdgeContainerEmbedded2TreeThreshold(int)
+      setEdgeContainerEmbedded2TreeThreshold(arg0: integer_t): object_t;
+      setEdgeContainerEmbedded2TreeThresholdP(arg0: integer_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setEdgeContainerTree2EmbeddedThreshold(int)
+      setEdgeContainerTree2EmbeddedThreshold(arg0: integer_t): object_t;
+      setEdgeContainerTree2EmbeddedThresholdP(arg0: integer_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setKeepInMemoryReferences(boolean)
+      setKeepInMemoryReferences(arg0: boolean_t): object_t;
+      setKeepInMemoryReferencesP(arg0: boolean_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setRequireTransaction(boolean)
+      setRequireTransaction(arg0: boolean_t): void;
+      setRequireTransactionP(arg0: boolean_t): Promise<void>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setSaveOriginalIds(boolean)
+      setSaveOriginalIds(arg0: boolean_t): object_t;
+      setSaveOriginalIdsP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setStandardElementConstraints(boolean)
+      setStandardElementConstraints(arg0: boolean_t): object_t;
+      setStandardElementConstraintsP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setThreadMode(com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph$THREAD_MODE)
+      setThreadMode(arg0: object_t): object_t;
+      setThreadModeP(arg0: object_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setUseClassForEdgeLabel(boolean)
+      setUseClassForEdgeLabel(arg0: boolean_t): object_t;
+      setUseClassForEdgeLabelP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setUseClassForVertexLabel(boolean)
+      setUseClassForVertexLabel(arg0: boolean_t): object_t;
+      setUseClassForVertexLabelP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setUseLightweightEdges(boolean)
+      setUseLightweightEdges(arg0: boolean_t): object_t;
+      setUseLightweightEdgesP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph.setUseLog(boolean)
+      setUseLog(arg0: boolean_t): object_t;
+      setUseLogP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setUseVertexFieldsForEdgeLabels(boolean)
+      setUseVertexFieldsForEdgeLabels(arg0: boolean_t): object_t;
+      setUseVertexFieldsForEdgeLabelsP(arg0: boolean_t): Promise<object_t>;
+      // public com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph com.tinkerpop.blueprints.impls.orient.OrientConfigurableGraph.setWarnOnForceClosingTx(boolean)
+      setWarnOnForceClosingTx(arg0: boolean_t): object_t;
+      setWarnOnForceClosingTxP(arg0: boolean_t): Promise<object_t>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.shutdown(boolean,boolean)
+      shutdown(arg0: boolean_t, arg1: boolean_t): void;
+      shutdownP(arg0: boolean_t, arg1: boolean_t): Promise<void>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.shutdown(boolean)
+      shutdown(arg0: boolean_t): void;
+      shutdownP(arg0: boolean_t): Promise<void>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+      // public void com.tinkerpop.blueprints.impls.orient.OrientTransactionalGraph.stopTransaction(com.tinkerpop.blueprints.TransactionalGraph$Conclusion)
+      stopTransaction(arg0: TransactionalGraph$Conclusion): void;
+      stopTransactionP(arg0: TransactionalGraph$Conclusion): Promise<void>;
+      // public java.lang.String com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public com.orientechnologies.orient.core.command.traverse.OTraverse com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.traverse()
+      traverse(): object_t;
+      traverseP(): Promise<object_t>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module OrientGraph {
+      export interface Static {
+        new (arg0: object_t, arg1: string_t, arg2: string_t, arg3: object_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: string_t, arg1: string_t, arg2: string_t, arg3: boolean_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: object_t, arg1: string_t, arg2: string_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: string_t, arg1: string_t, arg2: string_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: object_t, arg1: object_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: object_t, arg1: boolean_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: string_t, arg1: boolean_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: object_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: object_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: object_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        new (arg0: string_t): com.tinkerpop.blueprints.impls.orient.OrientGraph;
+        // public static void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.clearInitStack()
+        clearInitStack(): void;
+        clearInitStackP(): Promise<void>;
+        // public static java.lang.String com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.decodeClassName(java.lang.String)
+        decodeClassName(arg0: string_t): string;
+        decodeClassNameP(arg0: string_t): Promise<string>;
+        // public static java.lang.String com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.encodeClassName(java.lang.String)
+        encodeClassName(arg0: string_t): string;
+        encodeClassNameP(arg0: string_t): Promise<string>;
+        // public static void com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.encodeClassNames(java.lang.String...)
+        encodeClassNames(...arg0: string_t[]): void;
+        encodeClassNames(arg0: array_t<string_t>): void;
+        encodeClassNamesP(...arg0: string_t[]): Promise<void>;
+        encodeClassNamesP(arg0: array_t<string_t>): Promise<void>;
+        // public static com.tinkerpop.blueprints.impls.orient.OrientBaseGraph com.tinkerpop.blueprints.impls.orient.OrientBaseGraph.getActiveGraph()
+        getActiveGraph(): object_t;
+        getActiveGraphP(): Promise<object_t>;
+        CONNECTION_OUT: string;
+        CONNECTION_IN: string;
+        CLASS_PREFIX: string;
+        CLUSTER_PREFIX: string;
+        ADMIN: string;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Index extends Java.java.lang.Object {
+      // public abstract long com.tinkerpop.blueprints.Index.count(java.lang.String,java.lang.Object)
+      count(arg0: string_t, arg1: object_t): longValue_t;
+      countP(arg0: string_t, arg1: object_t): Promise<longValue_t>;
+      // public abstract com.tinkerpop.blueprints.CloseableIterable<T> com.tinkerpop.blueprints.Index.get(java.lang.String,java.lang.Object)
+      get(arg0: string_t, arg1: object_t): CloseableIterable;
+      getP(arg0: string_t, arg1: object_t): Promise<CloseableIterable>;
+      // public abstract java.lang.Class<T> com.tinkerpop.blueprints.Index.getIndexClass()
+      getIndexClass(): Class;
+      getIndexClassP(): Promise<Class>;
+      // public abstract java.lang.String com.tinkerpop.blueprints.Index.getIndexName()
+      getIndexName(): string;
+      getIndexNameP(): Promise<string>;
+      // public abstract void com.tinkerpop.blueprints.Index.put(java.lang.String,java.lang.Object,T)
+      put(arg0: string_t, arg1: object_t, arg2: com.tinkerpop.blueprints.Element): void;
+      putP(arg0: string_t, arg1: object_t, arg2: com.tinkerpop.blueprints.Element): Promise<void>;
+      // public abstract com.tinkerpop.blueprints.CloseableIterable<T> com.tinkerpop.blueprints.Index.query(java.lang.String,java.lang.Object)
+      query(arg0: string_t, arg1: object_t): CloseableIterable;
+      queryP(arg0: string_t, arg1: object_t): Promise<CloseableIterable>;
+      // public abstract void com.tinkerpop.blueprints.Index.remove(java.lang.String,java.lang.Object,T)
+      remove(arg0: string_t, arg1: object_t, arg2: com.tinkerpop.blueprints.Element): void;
+      removeP(arg0: string_t, arg1: object_t, arg2: com.tinkerpop.blueprints.Element): Promise<void>;
+    }
+    export module Index {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface IndexableGraph extends Java.com.tinkerpop.blueprints.Graph {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract <T> com.tinkerpop.blueprints.Index<T> com.tinkerpop.blueprints.IndexableGraph.createIndex(java.lang.String,java.lang.Class<T>,com.tinkerpop.blueprints.Parameter...)
+      createIndex(arg0: string_t, arg1: Class, ...arg2: Parameter[]): Index;
+      createIndex(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): Index;
+      createIndexP(arg0: string_t, arg1: Class, ...arg2: Parameter[]): Promise<Index>;
+      createIndexP(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): Promise<Index>;
+      // public abstract void com.tinkerpop.blueprints.IndexableGraph.dropIndex(java.lang.String)
+      dropIndex(arg0: string_t): void;
+      dropIndexP(arg0: string_t): Promise<void>;
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Graph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public abstract <T> com.tinkerpop.blueprints.Index<T> com.tinkerpop.blueprints.IndexableGraph.getIndex(java.lang.String,java.lang.Class<T>)
+      getIndex(arg0: string_t, arg1: Class): Index;
+      getIndexP(arg0: string_t, arg1: Class): Promise<Index>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Index<? extends com.tinkerpop.blueprints.Element>> com.tinkerpop.blueprints.IndexableGraph.getIndices()
+      getIndices(): Iterable;
+      getIndicesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.Graph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+    }
+    export module IndexableGraph {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface KeyIndexableGraph extends Java.com.tinkerpop.blueprints.Graph {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract <T> void com.tinkerpop.blueprints.KeyIndexableGraph.createKeyIndex(java.lang.String,java.lang.Class<T>,com.tinkerpop.blueprints.Parameter...)
+      createKeyIndex(arg0: string_t, arg1: Class, ...arg2: Parameter[]): void;
+      createKeyIndex(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): void;
+      createKeyIndexP(arg0: string_t, arg1: Class, ...arg2: Parameter[]): Promise<void>;
+      createKeyIndexP(arg0: string_t, arg1: Class, arg2: array_t<Parameter>): Promise<void>;
+      // public abstract <T> void com.tinkerpop.blueprints.KeyIndexableGraph.dropKeyIndex(java.lang.String,java.lang.Class<T>)
+      dropKeyIndex(arg0: string_t, arg1: Class): void;
+      dropKeyIndexP(arg0: string_t, arg1: Class): Promise<void>;
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Graph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public abstract <T> java.util.Set<java.lang.String> com.tinkerpop.blueprints.KeyIndexableGraph.getIndexedKeys(java.lang.Class<T>)
+      getIndexedKeys(arg0: Class): Set;
+      getIndexedKeysP(arg0: Class): Promise<Set>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.Graph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+    }
+    export module KeyIndexableGraph {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface MetaGraph extends Java.com.tinkerpop.blueprints.Graph {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Graph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public abstract T com.tinkerpop.blueprints.MetaGraph.getRawGraph()
+      getRawGraph(): object_t;
+      getRawGraphP(): Promise<object_t>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.Graph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+    }
+    export module MetaGraph {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Parameter extends Java.java.lang.Object,Java.java.util.Map$Entry {
+      // public boolean com.tinkerpop.blueprints.Parameter.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public K com.tinkerpop.blueprints.Parameter.getKey()
+      getKey(): object_t;
+      getKeyP(): Promise<object_t>;
+      // public V com.tinkerpop.blueprints.Parameter.getValue()
+      getValue(): object_t;
+      getValueP(): Promise<object_t>;
+      // public int com.tinkerpop.blueprints.Parameter.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public V com.tinkerpop.blueprints.Parameter.setValue(V)
+      setValue(arg0: object_t): object_t;
+      setValueP(arg0: object_t): Promise<object_t>;
+      // public java.lang.String com.tinkerpop.blueprints.Parameter.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module Parameter {
+      export interface Static {
+        new (arg0: object_t, arg1: object_t): com.tinkerpop.blueprints.Parameter;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Predicate extends Java.java.lang.Object {
+      // public abstract boolean com.tinkerpop.blueprints.Predicate.evaluate(java.lang.Object,java.lang.Object)
+      evaluate(arg0: object_t, arg1: object_t): boolean;
+      evaluateP(arg0: object_t, arg1: object_t): Promise<boolean>;
+    }
+    export module Predicate {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Query extends Java.java.lang.Object {
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Query.edges()
+      edges(): Iterable;
+      edgesP(): Promise<Iterable>;
+      // public abstract <T> com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,T,com.tinkerpop.blueprints.Query$Compare)
+      has(arg0: string_t, arg1: object_t, arg2: Query$Compare): Query;
+      hasP(arg0: string_t, arg1: object_t, arg2: Query$Compare): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,com.tinkerpop.blueprints.Predicate,java.lang.Object)
+      has(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Query;
+      hasP(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,java.lang.Object)
+      has(arg0: string_t, arg1: object_t): Query;
+      hasP(arg0: string_t, arg1: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String)
+      has(arg0: string_t): Query;
+      hasP(arg0: string_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.hasNot(java.lang.String,java.lang.Object)
+      hasNot(arg0: string_t, arg1: object_t): Query;
+      hasNotP(arg0: string_t, arg1: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.hasNot(java.lang.String)
+      hasNot(arg0: string_t): Query;
+      hasNotP(arg0: string_t): Promise<Query>;
+      // public abstract <T> com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.interval(java.lang.String,T,T)
+      interval(arg0: string_t, arg1: object_t, arg2: object_t): Query;
+      intervalP(arg0: string_t, arg1: object_t, arg2: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.limit(int)
+      limit(arg0: integer_t): Query;
+      limitP(arg0: integer_t): Promise<Query>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Query.vertices()
+      vertices(): Iterable;
+      verticesP(): Promise<Iterable>;
+    }
+    export module Query {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Query$Compare extends Java.java.lang.Enum,Java.com.tinkerpop.blueprints.Predicate {
+      // public int java.lang.Enum.compareTo(java.lang.Object)
+      compareTo(arg0: object_t): number;
+      compareToP(arg0: object_t): Promise<number>;
+      // public final int java.lang.Enum.compareTo(E)
+      compareTo(arg0: Enum): number;
+      compareToP(arg0: Enum): Promise<number>;
+      // public final boolean java.lang.Enum.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public boolean com.tinkerpop.blueprints.Query$Compare.evaluate(java.lang.Object,java.lang.Object)
+      evaluate(arg0: object_t, arg1: object_t): boolean;
+      evaluateP(arg0: object_t, arg1: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public final java.lang.Class<E> java.lang.Enum.getDeclaringClass()
+      getDeclaringClass(): Class;
+      getDeclaringClassP(): Promise<Class>;
+      // public final int java.lang.Enum.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final java.lang.String java.lang.Enum.name()
+      name(): string;
+      nameP(): Promise<string>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public com.tinkerpop.blueprints.Query$Compare com.tinkerpop.blueprints.Query$Compare.opposite()
+      opposite(): Query$Compare;
+      oppositeP(): Promise<Query$Compare>;
+      // public final int java.lang.Enum.ordinal()
+      ordinal(): number;
+      ordinalP(): Promise<number>;
+      // public java.lang.String java.lang.Enum.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module Query$Compare {
+      export interface Static {
+        // public static <T> T java.lang.Enum.valueOf(java.lang.Class<T>,java.lang.String)
+        valueOf(arg0: Class, arg1: string_t): Enum;
+        valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
+        // public static com.tinkerpop.blueprints.Query$Compare com.tinkerpop.blueprints.Query$Compare.valueOf(java.lang.String)
+        valueOf(arg0: string_t): Query$Compare;
+        valueOfP(arg0: string_t): Promise<Query$Compare>;
+        // public static com.tinkerpop.blueprints.Query$Compare[] com.tinkerpop.blueprints.Query$Compare.values()
+        values(): Query$Compare[];
+        valuesP(): Promise<Query$Compare[]>;
+        EQUAL: Query$Compare;
+        NOT_EQUAL: Query$Compare;
+        GREATER_THAN: Query$Compare;
+        GREATER_THAN_EQUAL: Query$Compare;
+        LESS_THAN: Query$Compare;
+        LESS_THAN_EQUAL: Query$Compare;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface ThreadedTransactionalGraph extends Java.com.tinkerpop.blueprints.TransactionalGraph {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract void com.tinkerpop.blueprints.TransactionalGraph.commit()
+      commit(): void;
+      commitP(): Promise<void>;
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Graph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.TransactionalGraph com.tinkerpop.blueprints.ThreadedTransactionalGraph.newTransaction()
+      newTransaction(): TransactionalGraph;
+      newTransactionP(): Promise<TransactionalGraph>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.Graph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.TransactionalGraph.rollback()
+      rollback(): void;
+      rollbackP(): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.TransactionalGraph.stopTransaction(com.tinkerpop.blueprints.TransactionalGraph$Conclusion)
+      stopTransaction(arg0: TransactionalGraph$Conclusion): void;
+      stopTransactionP(arg0: TransactionalGraph$Conclusion): Promise<void>;
+    }
+    export module ThreadedTransactionalGraph {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface TransactionalGraph extends Java.com.tinkerpop.blueprints.Graph {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.addEdge(java.lang.Object,com.tinkerpop.blueprints.Vertex,com.tinkerpop.blueprints.Vertex,java.lang.String)
+      addEdge(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: object_t, arg1: com.tinkerpop.blueprints.Vertex, arg2: com.tinkerpop.blueprints.Vertex, arg3: string_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.addVertex(java.lang.Object)
+      addVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      addVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract void com.tinkerpop.blueprints.TransactionalGraph.commit()
+      commit(): void;
+      commitP(): Promise<void>;
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Graph.getEdge(java.lang.Object)
+      getEdge(arg0: object_t): com.tinkerpop.blueprints.Edge;
+      getEdgeP(arg0: object_t): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges(java.lang.String,java.lang.Object)
+      getEdges(arg0: string_t, arg1: object_t): Iterable;
+      getEdgesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Graph.getEdges()
+      getEdges(): Iterable;
+      getEdgesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.Features com.tinkerpop.blueprints.Graph.getFeatures()
+      getFeatures(): Features;
+      getFeaturesP(): Promise<Features>;
+      // public abstract com.tinkerpop.blueprints.Vertex com.tinkerpop.blueprints.Graph.getVertex(java.lang.Object)
+      getVertex(arg0: object_t): com.tinkerpop.blueprints.Vertex;
+      getVertexP(arg0: object_t): Promise<com.tinkerpop.blueprints.Vertex>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices(java.lang.String,java.lang.Object)
+      getVertices(arg0: string_t, arg1: object_t): Iterable;
+      getVerticesP(arg0: string_t, arg1: object_t): Promise<Iterable>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Graph.getVertices()
+      getVertices(): Iterable;
+      getVerticesP(): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.GraphQuery com.tinkerpop.blueprints.Graph.query()
+      query(): GraphQuery;
+      queryP(): Promise<GraphQuery>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeEdge(com.tinkerpop.blueprints.Edge)
+      removeEdge(arg0: com.tinkerpop.blueprints.Edge): void;
+      removeEdgeP(arg0: com.tinkerpop.blueprints.Edge): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.removeVertex(com.tinkerpop.blueprints.Vertex)
+      removeVertex(arg0: com.tinkerpop.blueprints.Vertex): void;
+      removeVertexP(arg0: com.tinkerpop.blueprints.Vertex): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.TransactionalGraph.rollback()
+      rollback(): void;
+      rollbackP(): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.Graph.shutdown()
+      shutdown(): void;
+      shutdownP(): Promise<void>;
+      // public abstract void com.tinkerpop.blueprints.TransactionalGraph.stopTransaction(com.tinkerpop.blueprints.TransactionalGraph$Conclusion)
+      stopTransaction(arg0: TransactionalGraph$Conclusion): void;
+      stopTransactionP(arg0: TransactionalGraph$Conclusion): Promise<void>;
+    }
+    export module TransactionalGraph {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface TransactionalGraph$Conclusion extends Java.java.lang.Enum {
+      // public int java.lang.Enum.compareTo(java.lang.Object)
+      compareTo(arg0: object_t): number;
+      compareToP(arg0: object_t): Promise<number>;
+      // public final int java.lang.Enum.compareTo(E)
+      compareTo(arg0: Enum): number;
+      compareToP(arg0: Enum): Promise<number>;
+      // public final boolean java.lang.Enum.equals(java.lang.Object)
+      equals(arg0: object_t): boolean;
+      equalsP(arg0: object_t): Promise<boolean>;
+      // public final native java.lang.Class<?> java.lang.Object.getClass()
+      getClass(): Class;
+      getClassP(): Promise<Class>;
+      // public final java.lang.Class<E> java.lang.Enum.getDeclaringClass()
+      getDeclaringClass(): Class;
+      getDeclaringClassP(): Promise<Class>;
+      // public final int java.lang.Enum.hashCode()
+      hashCode(): number;
+      hashCodeP(): Promise<number>;
+      // public final java.lang.String java.lang.Enum.name()
+      name(): string;
+      nameP(): Promise<string>;
+      // public final native void java.lang.Object.notify()
+      notify(): void;
+      notifyP(): Promise<void>;
+      // public final native void java.lang.Object.notifyAll()
+      notifyAll(): void;
+      notifyAllP(): Promise<void>;
+      // public final int java.lang.Enum.ordinal()
+      ordinal(): number;
+      ordinalP(): Promise<number>;
+      // public java.lang.String java.lang.Enum.toString()
+      toString(): string;
+      toStringP(): Promise<string>;
+      // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+      wait(arg0: long_t, arg1: integer_t): void;
+      waitP(arg0: long_t, arg1: integer_t): Promise<void>;
+      // public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+      wait(arg0: long_t): void;
+      waitP(arg0: long_t): Promise<void>;
+      // public final void java.lang.Object.wait() throws java.lang.InterruptedException
+      wait(): void;
+      waitP(): Promise<void>;
+    }
+    export module TransactionalGraph$Conclusion {
+      export interface Static {
+        // public static <T> T java.lang.Enum.valueOf(java.lang.Class<T>,java.lang.String)
+        valueOf(arg0: Class, arg1: string_t): Enum;
+        valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
+        // public static com.tinkerpop.blueprints.TransactionalGraph$Conclusion com.tinkerpop.blueprints.TransactionalGraph$Conclusion.valueOf(java.lang.String)
+        valueOf(arg0: string_t): TransactionalGraph$Conclusion;
+        valueOfP(arg0: string_t): Promise<TransactionalGraph$Conclusion>;
+        // public static com.tinkerpop.blueprints.TransactionalGraph$Conclusion[] com.tinkerpop.blueprints.TransactionalGraph$Conclusion.values()
+        values(): TransactionalGraph$Conclusion[];
+        valuesP(): Promise<TransactionalGraph$Conclusion[]>;
+        SUCCESS: TransactionalGraph$Conclusion;
+        FAILURE: TransactionalGraph$Conclusion;
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface Vertex extends Java.com.tinkerpop.blueprints.Element {
+      // public abstract com.tinkerpop.blueprints.Edge com.tinkerpop.blueprints.Vertex.addEdge(java.lang.String,com.tinkerpop.blueprints.Vertex)
+      addEdge(arg0: string_t, arg1: com.tinkerpop.blueprints.Vertex): com.tinkerpop.blueprints.Edge;
+      addEdgeP(arg0: string_t, arg1: com.tinkerpop.blueprints.Vertex): Promise<com.tinkerpop.blueprints.Edge>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Vertex.getEdges(com.tinkerpop.blueprints.Direction,java.lang.String...)
+      getEdges(arg0: com.tinkerpop.blueprints.Direction, ...arg1: string_t[]): Iterable;
+      getEdges(arg0: com.tinkerpop.blueprints.Direction, arg1: array_t<string_t>): Iterable;
+      getEdgesP(arg0: com.tinkerpop.blueprints.Direction, ...arg1: string_t[]): Promise<Iterable>;
+      getEdgesP(arg0: com.tinkerpop.blueprints.Direction, arg1: array_t<string_t>): Promise<Iterable>;
+      // public abstract java.lang.Object com.tinkerpop.blueprints.Element.getId()
+      getId(): object_t;
+      getIdP(): Promise<object_t>;
+      // public abstract <T> T com.tinkerpop.blueprints.Element.getProperty(java.lang.String)
+      getProperty(arg0: string_t): object_t;
+      getPropertyP(arg0: string_t): Promise<object_t>;
+      // public abstract java.util.Set<java.lang.String> com.tinkerpop.blueprints.Element.getPropertyKeys()
+      getPropertyKeys(): Set;
+      getPropertyKeysP(): Promise<Set>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Vertex.getVertices(com.tinkerpop.blueprints.Direction,java.lang.String...)
+      getVertices(arg0: com.tinkerpop.blueprints.Direction, ...arg1: string_t[]): Iterable;
+      getVertices(arg0: com.tinkerpop.blueprints.Direction, arg1: array_t<string_t>): Iterable;
+      getVerticesP(arg0: com.tinkerpop.blueprints.Direction, ...arg1: string_t[]): Promise<Iterable>;
+      getVerticesP(arg0: com.tinkerpop.blueprints.Direction, arg1: array_t<string_t>): Promise<Iterable>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.Vertex.query()
+      query(): VertexQuery;
+      queryP(): Promise<VertexQuery>;
+      // public abstract void com.tinkerpop.blueprints.Element.remove()
+      remove(): void;
+      removeP(): Promise<void>;
+      // public abstract <T> T com.tinkerpop.blueprints.Element.removeProperty(java.lang.String)
+      removeProperty(arg0: string_t): object_t;
+      removePropertyP(arg0: string_t): Promise<object_t>;
+      // public abstract void com.tinkerpop.blueprints.Element.setProperty(java.lang.String,java.lang.Object)
+      setProperty(arg0: string_t, arg1: object_t): void;
+      setPropertyP(arg0: string_t, arg1: object_t): Promise<void>;
+    }
+    export module Vertex {
+      export interface Static {
+      }
+    }
+  }
+
+  export module com.tinkerpop.blueprints {
+    export interface VertexQuery extends Java.com.tinkerpop.blueprints.Query {
+      // public abstract long com.tinkerpop.blueprints.VertexQuery.count()
+      count(): longValue_t;
+      countP(): Promise<longValue_t>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.direction(com.tinkerpop.blueprints.Direction)
+      direction(arg0: com.tinkerpop.blueprints.Direction): VertexQuery;
+      directionP(arg0: com.tinkerpop.blueprints.Direction): Promise<VertexQuery>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Edge> com.tinkerpop.blueprints.Query.edges()
+      edges(): Iterable;
+      edgesP(): Promise<Iterable>;
+      // public abstract <T> com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.has(java.lang.String,T,com.tinkerpop.blueprints.Query$Compare)
+      has(arg0: string_t, arg1: object_t, arg2: Query$Compare): VertexQuery;
+      hasP(arg0: string_t, arg1: object_t, arg2: Query$Compare): Promise<VertexQuery>;
+      // public abstract <T> com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,T,com.tinkerpop.blueprints.Query$Compare)
+      has(arg0: string_t, arg1: object_t, arg2: Query$Compare): Query;
+      hasP(arg0: string_t, arg1: object_t, arg2: Query$Compare): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.has(java.lang.String,com.tinkerpop.blueprints.Predicate,java.lang.Object)
+      has(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): VertexQuery;
+      hasP(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,com.tinkerpop.blueprints.Predicate,java.lang.Object)
+      has(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Query;
+      hasP(arg0: string_t, arg1: com.tinkerpop.blueprints.Predicate, arg2: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.has(java.lang.String,java.lang.Object)
+      has(arg0: string_t, arg1: object_t): VertexQuery;
+      hasP(arg0: string_t, arg1: object_t): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String,java.lang.Object)
+      has(arg0: string_t, arg1: object_t): Query;
+      hasP(arg0: string_t, arg1: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.has(java.lang.String)
+      has(arg0: string_t): VertexQuery;
+      hasP(arg0: string_t): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.has(java.lang.String)
+      has(arg0: string_t): Query;
+      hasP(arg0: string_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.hasNot(java.lang.String,java.lang.Object)
+      hasNot(arg0: string_t, arg1: object_t): VertexQuery;
+      hasNotP(arg0: string_t, arg1: object_t): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.hasNot(java.lang.String,java.lang.Object)
+      hasNot(arg0: string_t, arg1: object_t): Query;
+      hasNotP(arg0: string_t, arg1: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.hasNot(java.lang.String)
+      hasNot(arg0: string_t): VertexQuery;
+      hasNotP(arg0: string_t): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.hasNot(java.lang.String)
+      hasNot(arg0: string_t): Query;
+      hasNotP(arg0: string_t): Promise<Query>;
+      // public abstract <T> com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.interval(java.lang.String,T,T)
+      interval(arg0: string_t, arg1: object_t, arg2: object_t): VertexQuery;
+      intervalP(arg0: string_t, arg1: object_t, arg2: object_t): Promise<VertexQuery>;
+      // public abstract <T> com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.interval(java.lang.String,T,T)
+      interval(arg0: string_t, arg1: object_t, arg2: object_t): Query;
+      intervalP(arg0: string_t, arg1: object_t, arg2: object_t): Promise<Query>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.labels(java.lang.String...)
+      labels(...arg0: string_t[]): VertexQuery;
+      labels(arg0: array_t<string_t>): VertexQuery;
+      labelsP(...arg0: string_t[]): Promise<VertexQuery>;
+      labelsP(arg0: array_t<string_t>): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.VertexQuery com.tinkerpop.blueprints.VertexQuery.limit(int)
+      limit(arg0: integer_t): VertexQuery;
+      limitP(arg0: integer_t): Promise<VertexQuery>;
+      // public abstract com.tinkerpop.blueprints.Query com.tinkerpop.blueprints.Query.limit(int)
+      limit(arg0: integer_t): Query;
+      limitP(arg0: integer_t): Promise<Query>;
+      // public abstract java.lang.Object com.tinkerpop.blueprints.VertexQuery.vertexIds()
+      vertexIds(): object_t;
+      vertexIdsP(): Promise<object_t>;
+      // public abstract java.lang.Iterable<com.tinkerpop.blueprints.Vertex> com.tinkerpop.blueprints.Query.vertices()
+      vertices(): Iterable;
+      verticesP(): Promise<Iterable>;
+    }
+    export module VertexQuery {
+      export interface Static {
       }
     }
   }
@@ -2899,8 +4599,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public default void java.util.List.replaceAll(java.util.function.UnaryOperator<E>)
       replaceAll(arg0: UnaryOperator): void;
       replaceAllP(arg0: UnaryOperator): Promise<void>;
@@ -3396,8 +5096,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public default void java.util.List.replaceAll(java.util.function.UnaryOperator<E>)
       replaceAll(arg0: UnaryOperator): void;
       replaceAllP(arg0: UnaryOperator): Promise<void>;
@@ -5511,8 +7211,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public boolean java.util.AbstractCollection.retainAll(java.util.Collection<?>)
       retainAll(arg0: Collection): boolean;
       retainAllP(arg0: Collection): Promise<boolean>;
@@ -5625,8 +7325,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public default void java.util.List.replaceAll(java.util.function.UnaryOperator<E>)
       replaceAll(arg0: UnaryOperator): void;
       replaceAllP(arg0: UnaryOperator): Promise<void>;
@@ -5838,8 +7538,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public boolean java.util.AbstractCollection.retainAll(java.util.Collection<?>)
       retainAll(arg0: Collection): boolean;
       retainAllP(arg0: Collection): Promise<boolean>;
@@ -5961,8 +7661,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public boolean java.util.ArrayList.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public void java.util.ArrayList.replaceAll(java.util.function.UnaryOperator<E>)
       replaceAll(arg0: UnaryOperator): void;
       replaceAllP(arg0: UnaryOperator): Promise<void>;
@@ -6060,8 +7760,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public abstract boolean java.util.Collection.retainAll(java.util.Collection<?>)
       retainAll(arg0: Collection): boolean;
       retainAllP(arg0: Collection): Promise<boolean>;
@@ -6261,14 +7961,14 @@ declare module Java {
   export module java.util.function_ {
     export interface Predicate extends Java.java.lang.Object {
       // public default java.util.function.Predicate<T> java.util.function.Predicate.and(java.util.function.Predicate<? super T>)
-      and(arg0: Predicate): Predicate;
-      andP(arg0: Predicate): Promise<Predicate>;
+      and(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      andP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.negate()
-      negate(): Predicate;
-      negateP(): Promise<Predicate>;
+      negate(): java.util.function.Predicate;
+      negateP(): Promise<java.util.function.Predicate>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.or(java.util.function.Predicate<? super T>)
-      or(arg0: Predicate): Predicate;
-      orP(arg0: Predicate): Promise<Predicate>;
+      or(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      orP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public abstract boolean java.util.function.Predicate.test(T)
       test(arg0: object_t): boolean;
       testP(arg0: object_t): Promise<boolean>;
@@ -6276,8 +7976,8 @@ declare module Java {
     export module Predicate {
       export interface Static {
         // public static <T> java.util.function.Predicate<T> java.util.function.Predicate.isEqual(java.lang.Object)
-        isEqual(arg0: object_t): Predicate;
-        isEqualP(arg0: object_t): Promise<Predicate>;
+        isEqual(arg0: object_t): java.util.function.Predicate;
+        isEqualP(arg0: object_t): Promise<java.util.function.Predicate>;
       }
     }
   }
@@ -6481,8 +8181,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public boolean java.util.AbstractCollection.retainAll(java.util.Collection<?>)
       retainAll(arg0: Collection): boolean;
       retainAllP(arg0: Collection): Promise<boolean>;
@@ -6724,8 +8424,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public default void java.util.List.replaceAll(java.util.function.UnaryOperator<E>)
       replaceAll(arg0: UnaryOperator): void;
       replaceAllP(arg0: UnaryOperator): Promise<void>;
@@ -7038,8 +8738,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public abstract boolean java.util.Set.retainAll(java.util.Collection<?>)
       retainAll(arg0: Collection): boolean;
       retainAllP(arg0: Collection): Promise<boolean>;
@@ -7852,8 +9552,8 @@ declare module Java {
       loadState(arg0: object_t): void;
       loadStateP(arg0: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.computer.clustering.peerpressure.ClusterCountMapReduce.map(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.MapReduce.org.apache.tinkerpop.gremlin.process.computer.MapReduce$MapEmitter<org.apache.tinkerpop.gremlin.process.computer.MapReduce$NullObject, java.io.Serializable>)
-      map(arg0: Vertex, arg1: MapReduce$MapEmitter): void;
-      mapP(arg0: Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
+      map(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): void;
+      mapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
       // public final native void java.lang.Object.notify()
       notify(): void;
       notifyP(): Promise<void>;
@@ -7990,8 +9690,8 @@ declare module Java {
       loadState(arg0: object_t): void;
       loadStateP(arg0: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.computer.clustering.peerpressure.ClusterPopulationMapReduce.map(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.MapReduce.org.apache.tinkerpop.gremlin.process.computer.MapReduce$MapEmitter<java.io.Serializable, java.lang.Long>)
-      map(arg0: Vertex, arg1: MapReduce$MapEmitter): void;
-      mapP(arg0: Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
+      map(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): void;
+      mapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
       // public final native void java.lang.Object.notify()
       notify(): void;
       notifyP(): Promise<void>;
@@ -8095,8 +9795,8 @@ declare module Java {
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
       // public void org.apache.tinkerpop.gremlin.process.computer.clustering.peerpressure.PeerPressureVertexProgram.execute(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.Messenger<org.javatuples.Pair<java.io.Serializable, java.lang.Double>>,org.apache.tinkerpop.gremlin.process.computer.Memory)
-      execute(arg0: Vertex, arg1: Messenger, arg2: Memory): void;
-      executeP(arg0: Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
+      execute(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): void;
+      executeP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
       // public final native java.lang.Class<?> java.lang.Object.getClass()
       getClass(): Class;
       getClassP(): Promise<Class>;
@@ -8245,8 +9945,8 @@ declare module Java {
       close(): void;
       closeP(): Promise<void>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.process.computer.ComputerResult.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public abstract org.apache.tinkerpop.gremlin.process.computer.Memory org.apache.tinkerpop.gremlin.process.computer.ComputerResult.memory()
       memory(): Memory;
       memoryP(): Promise<Memory>;
@@ -8662,8 +10362,8 @@ declare module Java {
       loadState(arg0: object_t): void;
       loadStateP(arg0: object_t): Promise<void>;
       // public default void org.apache.tinkerpop.gremlin.process.computer.MapReduce.map(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.MapReduce.org.apache.tinkerpop.gremlin.process.computer.MapReduce$MapEmitter<MK, MV>)
-      map(arg0: Vertex, arg1: MapReduce$MapEmitter): void;
-      mapP(arg0: Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
+      map(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): void;
+      mapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
       // public default void org.apache.tinkerpop.gremlin.process.computer.MapReduce.reduce(MK,java.util.Iterator<MV>,org.apache.tinkerpop.gremlin.process.computer.MapReduce.org.apache.tinkerpop.gremlin.process.computer.MapReduce$ReduceEmitter<RK, RV>)
       reduce(arg0: object_t, arg1: Iterator, arg2: MapReduce$ReduceEmitter): void;
       reduceP(arg0: object_t, arg1: Iterator, arg2: MapReduce$ReduceEmitter): Promise<void>;
@@ -9065,10 +10765,10 @@ declare module Java {
         instance(): MessageScope$Global;
         instanceP(): Promise<MessageScope$Global>;
         // public static org.apache.tinkerpop.gremlin.process.computer.MessageScope$Global org.apache.tinkerpop.gremlin.process.computer.MessageScope$Global.of(org.apache.tinkerpop.gremlin.structure.Vertex...)
-        of(...arg0: Vertex[]): MessageScope$Global;
-        of(arg0: array_t<Vertex>): MessageScope$Global;
-        ofP(...arg0: Vertex[]): Promise<MessageScope$Global>;
-        ofP(arg0: array_t<Vertex>): Promise<MessageScope$Global>;
+        of(...arg0: org.apache.tinkerpop.gremlin.structure.Vertex[]): MessageScope$Global;
+        of(arg0: array_t<org.apache.tinkerpop.gremlin.structure.Vertex>): MessageScope$Global;
+        ofP(...arg0: org.apache.tinkerpop.gremlin.structure.Vertex[]): Promise<MessageScope$Global>;
+        ofP(arg0: array_t<org.apache.tinkerpop.gremlin.structure.Vertex>): Promise<MessageScope$Global>;
         // public static org.apache.tinkerpop.gremlin.process.computer.MessageScope$Global org.apache.tinkerpop.gremlin.process.computer.MessageScope$Global.of(java.lang.Iterable<org.apache.tinkerpop.gremlin.structure.Vertex>)
         of(arg0: Iterable): MessageScope$Global;
         ofP(arg0: Iterable): Promise<MessageScope$Global>;
@@ -9229,8 +10929,8 @@ declare module Java {
       loadState(arg0: object_t): void;
       loadStateP(arg0: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.computer.ranking.pagerank.PageRankMapReduce.map(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.MapReduce.org.apache.tinkerpop.gremlin.process.computer.MapReduce$MapEmitter<java.lang.Object, java.lang.Double>)
-      map(arg0: Vertex, arg1: MapReduce$MapEmitter): void;
-      mapP(arg0: Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
+      map(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): void;
+      mapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
       // public final native void java.lang.Object.notify()
       notify(): void;
       notifyP(): Promise<void>;
@@ -9376,8 +11076,8 @@ declare module Java {
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
       // public void org.apache.tinkerpop.gremlin.process.computer.ranking.pagerank.PageRankVertexProgram.execute(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.Messenger<java.lang.Double>,org.apache.tinkerpop.gremlin.process.computer.Memory)
-      execute(arg0: Vertex, arg1: Messenger, arg2: Memory): void;
-      executeP(arg0: Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
+      execute(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): void;
+      executeP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
       // public final native java.lang.Class<?> java.lang.Object.getClass()
       getClass(): Class;
       getClassP(): Promise<Class>;
@@ -9713,8 +11413,8 @@ declare module Java {
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
       // public void org.apache.tinkerpop.gremlin.process.computer.traversal.TraversalVertexProgram.execute(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.Messenger<org.apache.tinkerpop.gremlin.process.traversal.traverser.util.TraverserSet<?>>,org.apache.tinkerpop.gremlin.process.computer.Memory)
-      execute(arg0: Vertex, arg1: Messenger, arg2: Memory): void;
-      executeP(arg0: Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
+      execute(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): void;
+      executeP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
       // public final native java.lang.Class<?> java.lang.Object.getClass()
       getClass(): Class;
       getClassP(): Promise<Class>;
@@ -9937,8 +11637,8 @@ declare module Java {
       export interface Static {
         new (): org.apache.tinkerpop.gremlin.process.computer.traversal.TraverserExecutor;
         // public static boolean org.apache.tinkerpop.gremlin.process.computer.traversal.TraverserExecutor.execute(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.Messenger<org.apache.tinkerpop.gremlin.process.traversal.traverser.util.TraverserSet<?>>,org.apache.tinkerpop.gremlin.process.traversal.util.TraversalMatrix<?, ?>)
-        execute(arg0: Vertex, arg1: Messenger, arg2: TraversalMatrix): boolean;
-        executeP(arg0: Vertex, arg1: Messenger, arg2: TraversalMatrix): Promise<boolean>;
+        execute(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: TraversalMatrix): boolean;
+        executeP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: TraversalMatrix): Promise<boolean>;
       }
     }
   }
@@ -10015,8 +11715,8 @@ declare module Java {
       set(arg0: string_t, arg1: object_t): void;
       setP(arg0: string_t, arg1: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.computer.traversal.VertexTraversalSideEffects.setLocalVertex(org.apache.tinkerpop.gremlin.structure.Vertex)
-      setLocalVertex(arg0: Vertex): void;
-      setLocalVertexP(arg0: Vertex): Promise<void>;
+      setLocalVertex(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      setLocalVertexP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public <S> void org.apache.tinkerpop.gremlin.process.computer.traversal.VertexTraversalSideEffects.setSack(java.util.function.Supplier<S>,java.util.Optional<java.util.function.UnaryOperator<S>>)
       setSack(arg0: Supplier, arg1: object_t): void;
       setSackP(arg0: Supplier, arg1: object_t): Promise<void>;
@@ -10036,8 +11736,8 @@ declare module Java {
     export module VertexTraversalSideEffects {
       export interface Static {
         // public static org.apache.tinkerpop.gremlin.process.traversal.TraversalSideEffects org.apache.tinkerpop.gremlin.process.computer.traversal.VertexTraversalSideEffects.of(org.apache.tinkerpop.gremlin.structure.Vertex)
-        of(arg0: Vertex): TraversalSideEffects;
-        ofP(arg0: Vertex): Promise<TraversalSideEffects>;
+        of(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): TraversalSideEffects;
+        ofP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<TraversalSideEffects>;
         SIDE_EFFECTS: string;
       }
     }
@@ -10055,8 +11755,8 @@ declare module Java {
       accept(arg0: object_t): void;
       acceptP(arg0: object_t): Promise<void>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.and(java.util.function.Predicate<? super T>)
-      and(arg0: Predicate): Predicate;
-      andP(arg0: Predicate): Promise<Predicate>;
+      and(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      andP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public default org.apache.tinkerpop.gremlin.util.function.TriConsumer<A, B, C> org.apache.tinkerpop.gremlin.util.function.TriConsumer.andThen(org.apache.tinkerpop.gremlin.util.function.TriConsumer<? super A, ? super B, ? super C>)
       andThen(arg0: TriConsumer): TriConsumer;
       andThenP(arg0: TriConsumer): Promise<TriConsumer>;
@@ -10088,8 +11788,8 @@ declare module Java {
       hashCode(): number;
       hashCodeP(): Promise<number>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.negate()
-      negate(): Predicate;
-      negateP(): Promise<Predicate>;
+      negate(): java.util.function.Predicate;
+      negateP(): Promise<java.util.function.Predicate>;
       // public final native void java.lang.Object.notify()
       notify(): void;
       notifyP(): Promise<void>;
@@ -10097,8 +11797,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public default java.util.function.Predicate<T> java.util.function.Predicate.or(java.util.function.Predicate<? super T>)
-      or(arg0: Predicate): Predicate;
-      orP(arg0: Predicate): Promise<Predicate>;
+      or(arg0: java.util.function.Predicate): java.util.function.Predicate;
+      orP(arg0: java.util.function.Predicate): Promise<java.util.function.Predicate>;
       // public boolean org.apache.tinkerpop.gremlin.process.computer.util.ScriptEngineLambda.test(java.lang.Object)
       test(arg0: object_t): boolean;
       testP(arg0: object_t): Promise<boolean>;
@@ -10128,8 +11828,8 @@ declare module Java {
       clone(): VertexProgram;
       cloneP(): Promise<VertexProgram>;
       // public abstract void org.apache.tinkerpop.gremlin.process.computer.VertexProgram.execute(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.Messenger<M>,org.apache.tinkerpop.gremlin.process.computer.Memory)
-      execute(arg0: Vertex, arg1: Messenger, arg2: Memory): void;
-      executeP(arg0: Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
+      execute(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): void;
+      executeP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: Messenger, arg2: Memory): Promise<void>;
       // public default java.util.Set<java.lang.String> org.apache.tinkerpop.gremlin.process.computer.VertexProgram.getElementComputeKeys()
       getElementComputeKeys(): Set;
       getElementComputeKeysP(): Promise<Set>;
@@ -10277,10 +11977,10 @@ declare module Java {
         __P(...arg0: object_t[]): Promise<GraphTraversal>;
         __P(arg0: object_array_t): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.lang.String,java.lang.Object...)
-        addE(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
-        addE(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
-        addEP(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
-        addEP(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
+        addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
+        addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
+        addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
+        addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.addInE(java.lang.String,java.lang.String,java.lang.Object...)
         addInE(arg0: string_t, arg1: string_t, ...arg2: object_t[]): GraphTraversal;
         addInE(arg0: string_t, arg1: string_t, arg2: object_array_t): GraphTraversal;
@@ -10341,8 +12041,8 @@ declare module Java {
         choose(arg0: Traversal, arg1: Traversal, arg2: Traversal): GraphTraversal;
         chooseP(arg0: Traversal, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
         // public static <A,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.choose(java.util.function.Predicate<A>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>)
-        choose(arg0: Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
-        chooseP(arg0: Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
+        choose(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
+        chooseP(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
         // public static <A,M,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.choose(org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, M>)
         choose(arg0: Traversal): GraphTraversal;
         chooseP(arg0: Traversal): Promise<GraphTraversal>;
@@ -10379,8 +12079,8 @@ declare module Java {
         emit(arg0: Traversal): GraphTraversal;
         emitP(arg0: Traversal): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.emit(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<A>>)
-        emit(arg0: Predicate): GraphTraversal;
-        emitP(arg0: Predicate): Promise<GraphTraversal>;
+        emit(arg0: java.util.function.Predicate): GraphTraversal;
+        emitP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.emit()
         emit(): GraphTraversal;
         emitP(): Promise<GraphTraversal>;
@@ -10394,8 +12094,8 @@ declare module Java {
         except(arg0: object_t): GraphTraversal;
         exceptP(arg0: object_t): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.filter(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<A>>)
-        filter(arg0: Predicate): GraphTraversal;
-        filterP(arg0: Predicate): Promise<GraphTraversal>;
+        filter(arg0: java.util.function.Predicate): GraphTraversal;
+        filterP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
         // public static <A,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.flatMap(java.util.function.Function<org.apache.tinkerpop.gremlin.process.traversal.Traverser<A>, java.util.Iterator<E2>>)
         flatMap(arg0: Function): GraphTraversal;
         flatMapP(arg0: Function): Promise<GraphTraversal>;
@@ -10663,18 +12363,18 @@ declare module Java {
         times(arg0: integer_t): GraphTraversal;
         timesP(arg0: integer_t): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.to(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-        to(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-        to(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-        toP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-        toP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+        to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+        to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+        toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+        toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.toE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-        toE(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-        toE(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-        toEP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-        toEP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+        toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+        toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+        toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+        toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.toV(org.apache.tinkerpop.gremlin.structure.Direction)
-        toV(arg0: Direction): GraphTraversal;
-        toVP(arg0: Direction): Promise<GraphTraversal>;
+        toV(arg0: org.apache.tinkerpop.gremlin.structure.Direction): GraphTraversal;
+        toVP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.tree(java.lang.String)
         tree(arg0: string_t): GraphTraversal;
         treeP(arg0: string_t): Promise<GraphTraversal>;
@@ -10693,8 +12393,8 @@ declare module Java {
         until(arg0: Traversal): GraphTraversal;
         untilP(arg0: Traversal): Promise<GraphTraversal>;
         // public static <A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, A> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.until(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<A>>)
-        until(arg0: Predicate): GraphTraversal;
-        untilP(arg0: Predicate): Promise<GraphTraversal>;
+        until(arg0: java.util.function.Predicate): GraphTraversal;
+        untilP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
         // public static <A,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<A, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__.value()
         value(): GraphTraversal;
         valueP(): Promise<GraphTraversal>;
@@ -10747,25 +12447,25 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.dsl.graph {
     export interface DefaultGraphTraversal extends Java.org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal,Java.org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal$Admin {
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.lang.String,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addInE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addInE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addInEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addInEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addInE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addInE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -10777,10 +12477,10 @@ declare module Java {
       addInEP(arg0: string_t, arg1: string_t, ...arg2: object_t[]): Promise<GraphTraversal>;
       addInEP(arg0: string_t, arg1: string_t, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addOutE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addOutE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addOutEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addOutEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addOutE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addOutE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -10895,8 +12595,8 @@ declare module Java {
       choose(arg0: Traversal, arg1: Traversal, arg2: Traversal): GraphTraversal;
       chooseP(arg0: Traversal, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(java.util.function.Predicate<E>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>)
-      choose(arg0: Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
-      chooseP(arg0: Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
+      choose(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
+      chooseP(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <M,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, M>)
       choose(arg0: Traversal): GraphTraversal;
       chooseP(arg0: Traversal): Promise<GraphTraversal>;
@@ -10948,8 +12648,8 @@ declare module Java {
       emit(arg0: Traversal): GraphTraversal;
       emitP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      emit(arg0: Predicate): GraphTraversal;
-      emitP(arg0: Predicate): Promise<GraphTraversal>;
+      emit(arg0: java.util.function.Predicate): GraphTraversal;
+      emitP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit()
       emit(): GraphTraversal;
       emitP(): Promise<GraphTraversal>;
@@ -10969,8 +12669,8 @@ declare module Java {
       fill(arg0: Collection): Collection;
       fillP(arg0: Collection): Promise<Collection>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.filter(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      filter(arg0: Predicate): GraphTraversal;
-      filterP(arg0: Predicate): Promise<GraphTraversal>;
+      filter(arg0: java.util.function.Predicate): GraphTraversal;
+      filterP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.flatMap(java.util.function.Function<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>, java.util.Iterator<E2>>)
       flatMap(arg0: Function): GraphTraversal;
       flatMapP(arg0: Function): Promise<GraphTraversal>;
@@ -11328,18 +13028,18 @@ declare module Java {
       times(arg0: integer_t): GraphTraversal;
       timesP(arg0: integer_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.to(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      to(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      to(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.step.util.BulkSet<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toBulkSet()
       toBulkSet(): BulkSet;
       toBulkSetP(): Promise<BulkSet>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      toE(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      toE(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toEP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toEP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default java.util.List<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toList()
       toList(): List;
       toListP(): Promise<List>;
@@ -11350,8 +13050,8 @@ declare module Java {
       toString(): string;
       toStringP(): Promise<string>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toV(org.apache.tinkerpop.gremlin.structure.Direction)
-      toV(arg0: Direction): GraphTraversal;
-      toVP(arg0: Direction): Promise<GraphTraversal>;
+      toV(arg0: org.apache.tinkerpop.gremlin.structure.Direction): GraphTraversal;
+      toVP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.tree(java.lang.String)
       tree(arg0: string_t): GraphTraversal;
       treeP(arg0: string_t): Promise<GraphTraversal>;
@@ -11373,8 +13073,8 @@ declare module Java {
       until(arg0: Traversal): GraphTraversal;
       untilP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.until(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      until(arg0: Predicate): GraphTraversal;
-      untilP(arg0: Predicate): Promise<GraphTraversal>;
+      until(arg0: java.util.function.Predicate): GraphTraversal;
+      untilP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.value()
       value(): GraphTraversal;
       valueP(): Promise<GraphTraversal>;
@@ -11432,7 +13132,7 @@ declare module Java {
     }
     export module DefaultGraphTraversal {
       export interface Static {
-        new (arg0: Graph): org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.DefaultGraphTraversal;
         OF: string;
       }
     }
@@ -11441,25 +13141,25 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.dsl.graph {
     export interface EmptyGraphTraversal extends Java.org.apache.tinkerpop.gremlin.process.traversal.util.EmptyTraversal,Java.org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal$Admin,Java.org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal {
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.lang.String,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addInE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addInE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addInEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addInEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addInE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addInE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -11471,10 +13171,10 @@ declare module Java {
       addInEP(arg0: string_t, arg1: string_t, ...arg2: object_t[]): Promise<GraphTraversal>;
       addInEP(arg0: string_t, arg1: string_t, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addOutE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addOutE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addOutEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addOutEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addOutE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addOutE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -11589,8 +13289,8 @@ declare module Java {
       choose(arg0: Traversal, arg1: Traversal, arg2: Traversal): GraphTraversal;
       chooseP(arg0: Traversal, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(java.util.function.Predicate<E>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>)
-      choose(arg0: Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
-      chooseP(arg0: Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
+      choose(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
+      chooseP(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <M,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, M>)
       choose(arg0: Traversal): GraphTraversal;
       chooseP(arg0: Traversal): Promise<GraphTraversal>;
@@ -11642,8 +13342,8 @@ declare module Java {
       emit(arg0: Traversal): GraphTraversal;
       emitP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      emit(arg0: Predicate): GraphTraversal;
-      emitP(arg0: Predicate): Promise<GraphTraversal>;
+      emit(arg0: java.util.function.Predicate): GraphTraversal;
+      emitP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit()
       emit(): GraphTraversal;
       emitP(): Promise<GraphTraversal>;
@@ -11663,8 +13363,8 @@ declare module Java {
       fill(arg0: Collection): Collection;
       fillP(arg0: Collection): Promise<Collection>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.filter(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      filter(arg0: Predicate): GraphTraversal;
-      filterP(arg0: Predicate): Promise<GraphTraversal>;
+      filter(arg0: java.util.function.Predicate): GraphTraversal;
+      filterP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.flatMap(java.util.function.Function<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>, java.util.Iterator<E2>>)
       flatMap(arg0: Function): GraphTraversal;
       flatMapP(arg0: Function): Promise<GraphTraversal>;
@@ -12022,18 +13722,18 @@ declare module Java {
       times(arg0: integer_t): GraphTraversal;
       timesP(arg0: integer_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.to(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      to(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      to(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.step.util.BulkSet<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toBulkSet()
       toBulkSet(): BulkSet;
       toBulkSetP(): Promise<BulkSet>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      toE(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      toE(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toEP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toEP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default java.util.List<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toList()
       toList(): List;
       toListP(): Promise<List>;
@@ -12044,8 +13744,8 @@ declare module Java {
       toString(): string;
       toStringP(): Promise<string>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toV(org.apache.tinkerpop.gremlin.structure.Direction)
-      toV(arg0: Direction): GraphTraversal;
-      toVP(arg0: Direction): Promise<GraphTraversal>;
+      toV(arg0: org.apache.tinkerpop.gremlin.structure.Direction): GraphTraversal;
+      toVP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.tree(java.lang.String)
       tree(arg0: string_t): GraphTraversal;
       treeP(arg0: string_t): Promise<GraphTraversal>;
@@ -12067,8 +13767,8 @@ declare module Java {
       until(arg0: Traversal): GraphTraversal;
       untilP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.until(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      until(arg0: Predicate): GraphTraversal;
-      untilP(arg0: Predicate): Promise<GraphTraversal>;
+      until(arg0: java.util.function.Predicate): GraphTraversal;
+      untilP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.value()
       value(): GraphTraversal;
       valueP(): Promise<GraphTraversal>;
@@ -12140,25 +13840,25 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.dsl.graph {
     export interface GraphTraversal extends Java.org.apache.tinkerpop.gremlin.process.traversal.Traversal {
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.lang.String,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addInE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addInE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addInEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addInEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addInE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addInE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -12170,10 +13870,10 @@ declare module Java {
       addInEP(arg0: string_t, arg1: string_t, ...arg2: object_t[]): Promise<GraphTraversal>;
       addInEP(arg0: string_t, arg1: string_t, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addOutE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addOutE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addOutEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addOutEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addOutE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addOutE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -12270,8 +13970,8 @@ declare module Java {
       choose(arg0: Traversal, arg1: Traversal, arg2: Traversal): GraphTraversal;
       chooseP(arg0: Traversal, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(java.util.function.Predicate<E>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>)
-      choose(arg0: Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
-      chooseP(arg0: Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
+      choose(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
+      chooseP(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <M,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, M>)
       choose(arg0: Traversal): GraphTraversal;
       chooseP(arg0: Traversal): Promise<GraphTraversal>;
@@ -12308,8 +14008,8 @@ declare module Java {
       emit(arg0: Traversal): GraphTraversal;
       emitP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      emit(arg0: Predicate): GraphTraversal;
-      emitP(arg0: Predicate): Promise<GraphTraversal>;
+      emit(arg0: java.util.function.Predicate): GraphTraversal;
+      emitP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit()
       emit(): GraphTraversal;
       emitP(): Promise<GraphTraversal>;
@@ -12326,8 +14026,8 @@ declare module Java {
       fill(arg0: Collection): Collection;
       fillP(arg0: Collection): Promise<Collection>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.filter(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      filter(arg0: Predicate): GraphTraversal;
-      filterP(arg0: Predicate): Promise<GraphTraversal>;
+      filter(arg0: java.util.function.Predicate): GraphTraversal;
+      filterP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.flatMap(java.util.function.Function<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>, java.util.Iterator<E2>>)
       flatMap(arg0: Function): GraphTraversal;
       flatMapP(arg0: Function): Promise<GraphTraversal>;
@@ -12619,18 +14319,18 @@ declare module Java {
       times(arg0: integer_t): GraphTraversal;
       timesP(arg0: integer_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.to(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      to(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      to(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.step.util.BulkSet<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toBulkSet()
       toBulkSet(): BulkSet;
       toBulkSetP(): Promise<BulkSet>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      toE(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      toE(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toEP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toEP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default java.util.List<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toList()
       toList(): List;
       toListP(): Promise<List>;
@@ -12638,8 +14338,8 @@ declare module Java {
       toSet(): Set;
       toSetP(): Promise<Set>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toV(org.apache.tinkerpop.gremlin.structure.Direction)
-      toV(arg0: Direction): GraphTraversal;
-      toVP(arg0: Direction): Promise<GraphTraversal>;
+      toV(arg0: org.apache.tinkerpop.gremlin.structure.Direction): GraphTraversal;
+      toVP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.tree(java.lang.String)
       tree(arg0: string_t): GraphTraversal;
       treeP(arg0: string_t): Promise<GraphTraversal>;
@@ -12661,8 +14361,8 @@ declare module Java {
       until(arg0: Traversal): GraphTraversal;
       untilP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.until(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      until(arg0: Predicate): GraphTraversal;
-      untilP(arg0: Predicate): Promise<GraphTraversal>;
+      until(arg0: java.util.function.Predicate): GraphTraversal;
+      untilP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.value()
       value(): GraphTraversal;
       valueP(): Promise<GraphTraversal>;
@@ -12719,25 +14419,25 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.dsl.graph {
     export interface GraphTraversal$Admin extends Java.org.apache.tinkerpop.gremlin.process.traversal.Traversal$Admin,Java.org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal {
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Vertex, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: org.apache.tinkerpop.gremlin.structure.Vertex, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: Iterator, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String,java.lang.String,java.lang.Object...)
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
-      addE(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
-      addEP(arg0: Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): GraphTraversal;
+      addE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): GraphTraversal;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, ...arg3: object_t[]): Promise<GraphTraversal>;
+      addEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: string_t, arg2: string_t, arg3: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addInE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addInE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addInEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addInEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addInE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addInEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addInE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addInE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addInE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -12749,10 +14449,10 @@ declare module Java {
       addInEP(arg0: string_t, arg1: string_t, ...arg2: object_t[]): Promise<GraphTraversal>;
       addInEP(arg0: string_t, arg1: string_t, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addOutE(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): GraphTraversal;
-      addOutE(arg0: string_t, arg1: Vertex, arg2: object_array_t): GraphTraversal;
-      addOutEP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
-      addOutEP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<GraphTraversal>;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): GraphTraversal;
+      addOutE(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): GraphTraversal;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<GraphTraversal>;
+      addOutEP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.addOutE(java.lang.String,java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex>,java.lang.Object...)
       addOutE(arg0: string_t, arg1: Iterator, ...arg2: object_t[]): GraphTraversal;
       addOutE(arg0: string_t, arg1: Iterator, arg2: object_array_t): GraphTraversal;
@@ -12867,8 +14567,8 @@ declare module Java {
       choose(arg0: Traversal, arg1: Traversal, arg2: Traversal): GraphTraversal;
       chooseP(arg0: Traversal, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(java.util.function.Predicate<E>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, E2>)
-      choose(arg0: Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
-      chooseP(arg0: Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
+      choose(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): GraphTraversal;
+      chooseP(arg0: java.util.function.Predicate, arg1: Traversal, arg2: Traversal): Promise<GraphTraversal>;
       // public default <M,E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.choose(org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, M>)
       choose(arg0: Traversal): GraphTraversal;
       chooseP(arg0: Traversal): Promise<GraphTraversal>;
@@ -12911,8 +14611,8 @@ declare module Java {
       emit(arg0: Traversal): GraphTraversal;
       emitP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      emit(arg0: Predicate): GraphTraversal;
-      emitP(arg0: Predicate): Promise<GraphTraversal>;
+      emit(arg0: java.util.function.Predicate): GraphTraversal;
+      emitP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.emit()
       emit(): GraphTraversal;
       emitP(): Promise<GraphTraversal>;
@@ -12929,8 +14629,8 @@ declare module Java {
       fill(arg0: Collection): Collection;
       fillP(arg0: Collection): Promise<Collection>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.filter(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      filter(arg0: Predicate): GraphTraversal;
-      filterP(arg0: Predicate): Promise<GraphTraversal>;
+      filter(arg0: java.util.function.Predicate): GraphTraversal;
+      filterP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.flatMap(java.util.function.Function<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>, java.util.Iterator<E2>>)
       flatMap(arg0: Function): GraphTraversal;
       flatMapP(arg0: Function): Promise<GraphTraversal>;
@@ -13276,18 +14976,18 @@ declare module Java {
       times(arg0: integer_t): GraphTraversal;
       timesP(arg0: integer_t): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.to(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      to(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      to(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      to(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.step.util.BulkSet<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toBulkSet()
       toBulkSet(): BulkSet;
       toBulkSetP(): Promise<BulkSet>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toE(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      toE(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      toE(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      toEP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      toEP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      toE(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      toEP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public default java.util.List<E> org.apache.tinkerpop.gremlin.process.traversal.Traversal.toList()
       toList(): List;
       toListP(): Promise<List>;
@@ -13295,8 +14995,8 @@ declare module Java {
       toSet(): Set;
       toSetP(): Promise<Set>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.toV(org.apache.tinkerpop.gremlin.structure.Direction)
-      toV(arg0: Direction): GraphTraversal;
-      toVP(arg0: Direction): Promise<GraphTraversal>;
+      toV(arg0: org.apache.tinkerpop.gremlin.structure.Direction): GraphTraversal;
+      toVP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.tree(java.lang.String)
       tree(arg0: string_t): GraphTraversal;
       treeP(arg0: string_t): Promise<GraphTraversal>;
@@ -13318,8 +15018,8 @@ declare module Java {
       until(arg0: Traversal): GraphTraversal;
       untilP(arg0: Traversal): Promise<GraphTraversal>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.until(java.util.function.Predicate<org.apache.tinkerpop.gremlin.process.traversal.Traverser<E>>)
-      until(arg0: Predicate): GraphTraversal;
-      untilP(arg0: Predicate): Promise<GraphTraversal>;
+      until(arg0: java.util.function.Predicate): GraphTraversal;
+      untilP(arg0: java.util.function.Predicate): Promise<GraphTraversal>;
       // public default <E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<S, E2> org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal.value()
       value(): GraphTraversal;
       valueP(): Promise<GraphTraversal>;
@@ -13454,11 +15154,11 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.dsl.graph {
     export interface GraphTraversalSource$Builder extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.process.traversal.TraversalSource$Builder {
       // public org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): GraphTraversalSource;
-      createP(arg0: Graph): Promise<GraphTraversalSource>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): GraphTraversalSource;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<GraphTraversalSource>;
       // public org.apache.tinkerpop.gremlin.process.traversal.TraversalSource org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): TraversalSource;
-      createP(arg0: Graph): Promise<TraversalSource>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): TraversalSource;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TraversalSource>;
       // public org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource$Builder org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource$Builder.engine(org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine$Builder)
       engine(arg0: TraversalEngine$Builder): GraphTraversalSource$Builder;
       engineP(arg0: TraversalEngine$Builder): Promise<GraphTraversalSource$Builder>;
@@ -13568,11 +15268,11 @@ declare module Java {
       computer(arg0: Class): ComputerTraversalEngine$Builder;
       computerP(arg0: Class): Promise<ComputerTraversalEngine$Builder>;
       // public org.apache.tinkerpop.gremlin.process.traversal.engine.ComputerTraversalEngine org.apache.tinkerpop.gremlin.process.traversal.engine.ComputerTraversalEngine$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): ComputerTraversalEngine;
-      createP(arg0: Graph): Promise<ComputerTraversalEngine>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): ComputerTraversalEngine;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<ComputerTraversalEngine>;
       // public org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine org.apache.tinkerpop.gremlin.process.traversal.engine.ComputerTraversalEngine$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): TraversalEngine;
-      createP(arg0: Graph): Promise<TraversalEngine>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): TraversalEngine;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TraversalEngine>;
       // public boolean java.lang.Object.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -13671,8 +15371,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.engine {
     export interface StandardTraversalEngine$Builder extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine$Builder {
       // public org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine org.apache.tinkerpop.gremlin.process.traversal.engine.StandardTraversalEngine$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): TraversalEngine;
-      createP(arg0: Graph): Promise<TraversalEngine>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): TraversalEngine;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TraversalEngine>;
       // public boolean java.lang.Object.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -14167,8 +15867,8 @@ declare module Java {
       removeAll(arg0: Collection): boolean;
       removeAllP(arg0: Collection): Promise<boolean>;
       // public default boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)
-      removeIf(arg0: Predicate): boolean;
-      removeIfP(arg0: Predicate): Promise<boolean>;
+      removeIf(arg0: java.util.function.Predicate): boolean;
+      removeIfP(arg0: java.util.function.Predicate): Promise<boolean>;
       // public boolean java.util.AbstractCollection.retainAll(java.util.Collection<?>)
       retainAll(arg0: Collection): boolean;
       retainAllP(arg0: Collection): Promise<boolean>;
@@ -14540,8 +16240,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.step.util {
     export interface ElementFunctionComparator extends Java.java.lang.Object,Java.java.util.Comparator {
       // public int org.apache.tinkerpop.gremlin.process.traversal.step.util.ElementFunctionComparator.compare(org.apache.tinkerpop.gremlin.structure.Element,org.apache.tinkerpop.gremlin.structure.Element)
-      compare(arg0: Element, arg1: Element): number;
-      compareP(arg0: Element, arg1: Element): Promise<number>;
+      compare(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: org.apache.tinkerpop.gremlin.structure.Element): number;
+      compareP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: org.apache.tinkerpop.gremlin.structure.Element): Promise<number>;
       // public int org.apache.tinkerpop.gremlin.process.traversal.step.util.ElementFunctionComparator.compare(java.lang.Object,java.lang.Object)
       compare(arg0: object_t, arg1: object_t): number;
       compareP(arg0: object_t, arg1: object_t): Promise<number>;
@@ -14610,8 +16310,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal.step.util {
     export interface ElementValueComparator extends Java.java.lang.Object,Java.java.util.Comparator {
       // public int org.apache.tinkerpop.gremlin.process.traversal.step.util.ElementValueComparator.compare(org.apache.tinkerpop.gremlin.structure.Element,org.apache.tinkerpop.gremlin.structure.Element)
-      compare(arg0: Element, arg1: Element): number;
-      compareP(arg0: Element, arg1: Element): Promise<number>;
+      compare(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: org.apache.tinkerpop.gremlin.structure.Element): number;
+      compareP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: org.apache.tinkerpop.gremlin.structure.Element): Promise<number>;
       // public int org.apache.tinkerpop.gremlin.process.traversal.step.util.ElementValueComparator.compare(java.lang.Object,java.lang.Object)
       compare(arg0: object_t, arg1: object_t): number;
       compareP(arg0: object_t, arg1: object_t): Promise<number>;
@@ -14970,8 +16670,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public boolean org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer.test(org.apache.tinkerpop.gremlin.structure.Element)
-      test(arg0: Element): boolean;
-      testP(arg0: Element): Promise<boolean>;
+      test(arg0: org.apache.tinkerpop.gremlin.structure.Element): boolean;
+      testP(arg0: org.apache.tinkerpop.gremlin.structure.Element): Promise<boolean>;
       // public java.lang.String org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer.toString()
       toString(): string;
       toStringP(): Promise<string>;
@@ -14992,11 +16692,11 @@ declare module Java {
       export interface Static {
         new (arg0: T, arg1: BiPredicate, arg2: object_t): org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer;
         new (arg0: string_t, arg1: BiPredicate, arg2: object_t): org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer;
-        new (arg0: T, arg1: Contains): org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer;
-        new (arg0: string_t, arg1: Contains): org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer;
+        new (arg0: T, arg1: org.apache.tinkerpop.gremlin.structure.Contains): org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer;
+        new (arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Contains): org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer;
         // public static boolean org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer.testAll(org.apache.tinkerpop.gremlin.structure.Element,java.util.List<org.apache.tinkerpop.gremlin.process.traversal.step.util.HasContainer>)
-        testAll(arg0: Element, arg1: List): boolean;
-        testAllP(arg0: Element, arg1: List): Promise<boolean>;
+        testAll(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: List): boolean;
+        testAllP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: List): Promise<boolean>;
       }
     }
   }
@@ -15700,8 +17400,8 @@ declare module Java {
       loadState(arg0: object_t): void;
       loadStateP(arg0: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.traversal.step.util.ReducingBarrierStep$DefaultMapReduce.map(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.process.computer.MapReduce.org.apache.tinkerpop.gremlin.process.computer.MapReduce$MapEmitter<org.apache.tinkerpop.gremlin.process.computer.MapReduce$NullObject, java.lang.Object>)
-      map(arg0: Vertex, arg1: MapReduce$MapEmitter): void;
-      mapP(arg0: Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
+      map(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): void;
+      mapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: MapReduce$MapEmitter): Promise<void>;
       // public final native void java.lang.Object.notify()
       notify(): void;
       notifyP(): Promise<void>;
@@ -16547,8 +18247,8 @@ declare module Java {
       create(): SubgraphStrategy;
       createP(): Promise<SubgraphStrategy>;
       // public org.apache.tinkerpop.gremlin.process.traversal.strategy.decoration.SubgraphStrategy$Builder org.apache.tinkerpop.gremlin.process.traversal.strategy.decoration.SubgraphStrategy$Builder.edgePredicate(java.util.function.Predicate<org.apache.tinkerpop.gremlin.structure.Edge>)
-      edgePredicate(arg0: Predicate): SubgraphStrategy$Builder;
-      edgePredicateP(arg0: Predicate): Promise<SubgraphStrategy$Builder>;
+      edgePredicate(arg0: java.util.function.Predicate): SubgraphStrategy$Builder;
+      edgePredicateP(arg0: java.util.function.Predicate): Promise<SubgraphStrategy$Builder>;
       // public boolean java.lang.Object.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -16568,8 +18268,8 @@ declare module Java {
       toString(): string;
       toStringP(): Promise<string>;
       // public org.apache.tinkerpop.gremlin.process.traversal.strategy.decoration.SubgraphStrategy$Builder org.apache.tinkerpop.gremlin.process.traversal.strategy.decoration.SubgraphStrategy$Builder.vertexPredicate(java.util.function.Predicate<org.apache.tinkerpop.gremlin.structure.Vertex>)
-      vertexPredicate(arg0: Predicate): SubgraphStrategy$Builder;
-      vertexPredicateP(arg0: Predicate): Promise<SubgraphStrategy$Builder>;
+      vertexPredicate(arg0: java.util.function.Predicate): SubgraphStrategy$Builder;
+      vertexPredicateP(arg0: java.util.function.Predicate): Promise<SubgraphStrategy$Builder>;
       // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
       wait(arg0: long_t, arg1: integer_t): void;
       waitP(arg0: long_t, arg1: integer_t): Promise<void>;
@@ -16880,8 +18580,8 @@ declare module Java {
       andThen(arg0: Function): Function;
       andThenP(arg0: Function): Promise<Function>;
       // public abstract java.lang.Object org.apache.tinkerpop.gremlin.process.traversal.T.apply(org.apache.tinkerpop.gremlin.structure.Element)
-      apply(arg0: Element): object_t;
-      applyP(arg0: Element): Promise<object_t>;
+      apply(arg0: org.apache.tinkerpop.gremlin.structure.Element): object_t;
+      applyP(arg0: org.apache.tinkerpop.gremlin.structure.Element): Promise<object_t>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.process.traversal.T.apply(java.lang.Object)
       apply(arg0: object_t): object_t;
       applyP(arg0: object_t): Promise<object_t>;
@@ -17196,8 +18896,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal {
     export interface TraversalEngine$Builder extends Java.java.lang.Object {
       // public abstract org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): TraversalEngine;
-      createP(arg0: Graph): Promise<TraversalEngine>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): TraversalEngine;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TraversalEngine>;
     }
     export module TraversalEngine$Builder {
       export interface Static {
@@ -17318,8 +19018,8 @@ declare module Java {
       set(arg0: string_t, arg1: object_t): void;
       setP(arg0: string_t, arg1: object_t): Promise<void>;
       // public abstract void org.apache.tinkerpop.gremlin.process.traversal.TraversalSideEffects.setLocalVertex(org.apache.tinkerpop.gremlin.structure.Vertex)
-      setLocalVertex(arg0: Vertex): void;
-      setLocalVertexP(arg0: Vertex): Promise<void>;
+      setLocalVertex(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      setLocalVertexP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public abstract <S> void org.apache.tinkerpop.gremlin.process.traversal.TraversalSideEffects.setSack(java.util.function.Supplier<S>,java.util.Optional<java.util.function.UnaryOperator<S>>)
       setSack(arg0: Supplier, arg1: object_t): void;
       setSackP(arg0: Supplier, arg1: object_t): Promise<void>;
@@ -17404,8 +19104,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.process.traversal {
     export interface TraversalSource$Builder extends Java.java.lang.Object {
       // public abstract C org.apache.tinkerpop.gremlin.process.traversal.TraversalSource$Builder.create(org.apache.tinkerpop.gremlin.structure.Graph)
-      create(arg0: Graph): TraversalSource;
-      createP(arg0: Graph): Promise<TraversalSource>;
+      create(arg0: org.apache.tinkerpop.gremlin.structure.Graph): TraversalSource;
+      createP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TraversalSource>;
       // public abstract org.apache.tinkerpop.gremlin.process.traversal.TraversalSource$Builder org.apache.tinkerpop.gremlin.process.traversal.TraversalSource$Builder.engine(org.apache.tinkerpop.gremlin.process.traversal.TraversalEngine$Builder)
       engine(arg0: TraversalEngine$Builder): TraversalSource$Builder;
       engineP(arg0: TraversalEngine$Builder): Promise<TraversalSource$Builder>;
@@ -17574,17 +19274,17 @@ declare module Java {
       asAdmin(): Traverser$Admin;
       asAdminP(): Promise<Traverser$Admin>;
       // public abstract org.apache.tinkerpop.gremlin.process.traversal.Traverser.org.apache.tinkerpop.gremlin.process.traversal.Traverser$Admin<T> org.apache.tinkerpop.gremlin.process.traversal.Traverser$Admin.attach(org.apache.tinkerpop.gremlin.structure.Vertex)
-      attach(arg0: Vertex): Traverser$Admin;
-      attachP(arg0: Vertex): Promise<Traverser$Admin>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Traverser$Admin;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<Traverser$Admin>;
       // public default org.apache.tinkerpop.gremlin.process.traversal.Traverser.org.apache.tinkerpop.gremlin.process.traversal.Traverser$Admin<T> org.apache.tinkerpop.gremlin.process.traversal.Traverser$Admin.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.UnsupportedOperationException
-      attach(arg0: Graph): Traverser$Admin;
-      attachP(arg0: Graph): Promise<Traverser$Admin>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Traverser$Admin;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<Traverser$Admin>;
       // public default java.lang.Object org.apache.tinkerpop.gremlin.process.traversal.Traverser$Admin.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public default java.lang.Object org.apache.tinkerpop.gremlin.process.traversal.Traverser$Admin.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public abstract long org.apache.tinkerpop.gremlin.process.traversal.Traverser.bulk()
       bulk(): longValue_t;
       bulkP(): Promise<longValue_t>;
@@ -17835,7 +19535,7 @@ declare module Java {
     }
     export module DefaultTraversal {
       export interface Static {
-        new (arg0: Graph): org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversal;
       }
     }
   }
@@ -17912,8 +19612,8 @@ declare module Java {
       set(arg0: string_t, arg1: object_t): void;
       setP(arg0: string_t, arg1: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalSideEffects.setLocalVertex(org.apache.tinkerpop.gremlin.structure.Vertex)
-      setLocalVertex(arg0: Vertex): void;
-      setLocalVertexP(arg0: Vertex): Promise<void>;
+      setLocalVertex(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      setLocalVertexP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public <S> void org.apache.tinkerpop.gremlin.process.traversal.util.DefaultTraversalSideEffects.setSack(java.util.function.Supplier<S>,java.util.Optional<java.util.function.UnaryOperator<S>>)
       setSack(arg0: Supplier, arg1: object_t): void;
       setSackP(arg0: Supplier, arg1: object_t): Promise<void>;
@@ -18332,8 +20032,8 @@ declare module Java {
       set(arg0: string_t, arg1: object_t): void;
       setP(arg0: string_t, arg1: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.process.traversal.util.EmptyTraversalSideEffects.setLocalVertex(org.apache.tinkerpop.gremlin.structure.Vertex)
-      setLocalVertex(arg0: Vertex): void;
-      setLocalVertexP(arg0: Vertex): Promise<void>;
+      setLocalVertex(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      setLocalVertexP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public <S> void org.apache.tinkerpop.gremlin.process.traversal.util.EmptyTraversalSideEffects.setSack(java.util.function.Supplier<S>,java.util.Optional<java.util.function.UnaryOperator<S>>)
       setSack(arg0: Supplier, arg1: object_t): void;
       setSackP(arg0: Supplier, arg1: object_t): Promise<void>;
@@ -19100,8 +20800,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Compare org.apache.tinkerpop.gremlin.structure.Compare.opposite()
-      opposite(): Compare;
-      oppositeP(): Promise<Compare>;
+      opposite(): org.apache.tinkerpop.gremlin.structure.Compare;
+      oppositeP(): Promise<org.apache.tinkerpop.gremlin.structure.Compare>;
       // public default java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.or(java.util.function.BiPredicate<? super T, ? super U>)
       or(arg0: BiPredicate): BiPredicate;
       orP(arg0: BiPredicate): Promise<BiPredicate>;
@@ -19133,19 +20833,19 @@ declare module Java {
         valueOf(arg0: Class, arg1: string_t): Enum;
         valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
         // public static org.apache.tinkerpop.gremlin.structure.Compare org.apache.tinkerpop.gremlin.structure.Compare.valueOf(java.lang.String)
-        valueOf(arg0: string_t): Compare;
-        valueOfP(arg0: string_t): Promise<Compare>;
+        valueOf(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Compare;
+        valueOfP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Compare>;
         // public static org.apache.tinkerpop.gremlin.structure.Compare[] org.apache.tinkerpop.gremlin.structure.Compare.values()
-        values(): Compare[];
-        valuesP(): Promise<Compare[]>;
-        eq: Compare;
-        neq: Compare;
-        gt: Compare;
-        gte: Compare;
-        lt: Compare;
-        lte: Compare;
-        inside: Compare;
-        outside: Compare;
+        values(): org.apache.tinkerpop.gremlin.structure.Compare[];
+        valuesP(): Promise<org.apache.tinkerpop.gremlin.structure.Compare[]>;
+        eq: org.apache.tinkerpop.gremlin.structure.Compare;
+        neq: org.apache.tinkerpop.gremlin.structure.Compare;
+        gt: org.apache.tinkerpop.gremlin.structure.Compare;
+        gte: org.apache.tinkerpop.gremlin.structure.Compare;
+        lt: org.apache.tinkerpop.gremlin.structure.Compare;
+        lte: org.apache.tinkerpop.gremlin.structure.Compare;
+        inside: org.apache.tinkerpop.gremlin.structure.Compare;
+        outside: org.apache.tinkerpop.gremlin.structure.Compare;
       }
     }
   }
@@ -19186,8 +20886,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Contains org.apache.tinkerpop.gremlin.structure.Contains.opposite()
-      opposite(): Contains;
-      oppositeP(): Promise<Contains>;
+      opposite(): org.apache.tinkerpop.gremlin.structure.Contains;
+      oppositeP(): Promise<org.apache.tinkerpop.gremlin.structure.Contains>;
       // public default java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.or(java.util.function.BiPredicate<? super T, ? super U>)
       or(arg0: BiPredicate): BiPredicate;
       orP(arg0: BiPredicate): Promise<BiPredicate>;
@@ -19219,13 +20919,13 @@ declare module Java {
         valueOf(arg0: Class, arg1: string_t): Enum;
         valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
         // public static org.apache.tinkerpop.gremlin.structure.Contains org.apache.tinkerpop.gremlin.structure.Contains.valueOf(java.lang.String)
-        valueOf(arg0: string_t): Contains;
-        valueOfP(arg0: string_t): Promise<Contains>;
+        valueOf(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Contains;
+        valueOfP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Contains>;
         // public static org.apache.tinkerpop.gremlin.structure.Contains[] org.apache.tinkerpop.gremlin.structure.Contains.values()
-        values(): Contains[];
-        valuesP(): Promise<Contains[]>;
-        within: Contains;
-        without: Contains;
+        values(): org.apache.tinkerpop.gremlin.structure.Contains[];
+        valuesP(): Promise<org.apache.tinkerpop.gremlin.structure.Contains[]>;
+        within: org.apache.tinkerpop.gremlin.structure.Contains;
+        without: org.apache.tinkerpop.gremlin.structure.Contains;
       }
     }
   }
@@ -19260,8 +20960,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Direction org.apache.tinkerpop.gremlin.structure.Direction.opposite()
-      opposite(): Direction;
-      oppositeP(): Promise<Direction>;
+      opposite(): org.apache.tinkerpop.gremlin.structure.Direction;
+      oppositeP(): Promise<org.apache.tinkerpop.gremlin.structure.Direction>;
       // public final int java.lang.Enum.ordinal()
       ordinal(): number;
       ordinalP(): Promise<number>;
@@ -19284,15 +20984,15 @@ declare module Java {
         valueOf(arg0: Class, arg1: string_t): Enum;
         valueOfP(arg0: Class, arg1: string_t): Promise<Enum>;
         // public static org.apache.tinkerpop.gremlin.structure.Direction org.apache.tinkerpop.gremlin.structure.Direction.valueOf(java.lang.String)
-        valueOf(arg0: string_t): Direction;
-        valueOfP(arg0: string_t): Promise<Direction>;
+        valueOf(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Direction;
+        valueOfP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Direction>;
         // public static org.apache.tinkerpop.gremlin.structure.Direction[] org.apache.tinkerpop.gremlin.structure.Direction.values()
-        values(): Direction[];
-        valuesP(): Promise<Direction[]>;
-        OUT: Direction;
-        IN: Direction;
-        BOTH: Direction;
-        proper: Direction[];
+        values(): org.apache.tinkerpop.gremlin.structure.Direction[];
+        valuesP(): Promise<org.apache.tinkerpop.gremlin.structure.Direction[]>;
+        OUT: org.apache.tinkerpop.gremlin.structure.Direction;
+        IN: org.apache.tinkerpop.gremlin.structure.Direction;
+        BOTH: org.apache.tinkerpop.gremlin.structure.Direction;
+        proper: org.apache.tinkerpop.gremlin.structure.Direction[];
       }
     }
   }
@@ -19303,14 +21003,14 @@ declare module Java {
       bothVertices(): Iterator;
       bothVerticesP(): Promise<Iterator>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.Element.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public abstract java.lang.Object org.apache.tinkerpop.gremlin.structure.Element.id()
       id(): object_t;
       idP(): Promise<object_t>;
       // public default org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.Edge.inVertex()
-      inVertex(): Vertex;
-      inVertexP(): Promise<Vertex>;
+      inVertex(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      inVertexP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public default java.util.Set<java.lang.String> org.apache.tinkerpop.gremlin.structure.Element.keys()
       keys(): Set;
       keysP(): Promise<Set>;
@@ -19318,8 +21018,8 @@ declare module Java {
       label(): string;
       labelP(): Promise<string>;
       // public default org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.Edge.outVertex()
-      outVertex(): Vertex;
-      outVertexP(): Promise<Vertex>;
+      outVertex(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      outVertexP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public abstract <V> java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Property<V>> org.apache.tinkerpop.gremlin.structure.Edge.properties(java.lang.String...)
       properties(...arg0: string_t[]): Iterator;
       properties(arg0: array_t<string_t>): Iterator;
@@ -19343,8 +21043,8 @@ declare module Java {
       valuesP(...arg0: string_t[]): Promise<Iterator>;
       valuesP(arg0: array_t<string_t>): Promise<Iterator>;
       // public abstract java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.Edge.vertices(org.apache.tinkerpop.gremlin.structure.Direction)
-      vertices(arg0: Direction): Iterator;
-      verticesP(arg0: Direction): Promise<Iterator>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Iterator;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<Iterator>;
     }
     export module Edge {
       export interface Static {
@@ -19426,8 +21126,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure {
     export interface Element extends Java.java.lang.Object {
       // public abstract org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.Element.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public abstract java.lang.Object org.apache.tinkerpop.gremlin.structure.Element.id()
       id(): object_t;
       idP(): Promise<object_t>;
@@ -19530,13 +21230,13 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure {
     export interface Graph extends Java.java.lang.Object {
       // public abstract org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.Graph.addVertex(java.lang.Object...)
-      addVertex(...arg0: object_t[]): Vertex;
-      addVertex(arg0: object_array_t): Vertex;
-      addVertexP(...arg0: object_t[]): Promise<Vertex>;
-      addVertexP(arg0: object_array_t): Promise<Vertex>;
+      addVertex(...arg0: object_t[]): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertex(arg0: object_array_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertexP(...arg0: object_t[]): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
+      addVertexP(arg0: object_array_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public default org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.Graph.addVertex(java.lang.String)
-      addVertex(arg0: string_t): Vertex;
-      addVertexP(arg0: string_t): Promise<Vertex>;
+      addVertex(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertexP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public abstract void java.lang.AutoCloseable.close() throws java.lang.Exception
       close(): void;
       closeP(): Promise<void>;
@@ -19581,8 +21281,8 @@ declare module Java {
     export module Graph {
       export interface Static {
         // public static <G> G org.apache.tinkerpop.gremlin.structure.Graph.empty(java.lang.Class<G>)
-        empty(arg0: Class): Graph;
-        emptyP(arg0: Class): Promise<Graph>;
+        empty(arg0: Class): org.apache.tinkerpop.gremlin.structure.Graph;
+        emptyP(arg0: Class): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
         GRAPH: string;
       }
     }
@@ -20705,7 +22405,7 @@ declare module Java {
     }
     export module DefaultIo {
       export interface Static {
-        new (arg0: Graph): org.apache.tinkerpop.gremlin.structure.io.DefaultIo;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.structure.io.DefaultIo;
       }
     }
   }
@@ -20744,11 +22444,11 @@ declare module Java {
       export interface Static {
         new (): org.apache.tinkerpop.gremlin.structure.io.GraphMigrator;
         // public static void org.apache.tinkerpop.gremlin.structure.io.GraphMigrator.migrateGraph(org.apache.tinkerpop.gremlin.structure.Graph,org.apache.tinkerpop.gremlin.structure.Graph,org.apache.tinkerpop.gremlin.structure.io.GraphReader,org.apache.tinkerpop.gremlin.structure.io.GraphWriter) throws java.io.IOException
-        migrateGraph(arg0: Graph, arg1: Graph, arg2: GraphReader, arg3: GraphWriter): void;
-        migrateGraphP(arg0: Graph, arg1: Graph, arg2: GraphReader, arg3: GraphWriter): Promise<void>;
+        migrateGraph(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: org.apache.tinkerpop.gremlin.structure.Graph, arg2: GraphReader, arg3: GraphWriter): void;
+        migrateGraphP(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: org.apache.tinkerpop.gremlin.structure.Graph, arg2: GraphReader, arg3: GraphWriter): Promise<void>;
         // public static void org.apache.tinkerpop.gremlin.structure.io.GraphMigrator.migrateGraph(org.apache.tinkerpop.gremlin.structure.Graph,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-        migrateGraph(arg0: Graph, arg1: Graph): void;
-        migrateGraphP(arg0: Graph, arg1: Graph): Promise<void>;
+        migrateGraph(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+        migrateGraphP(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       }
     }
   }
@@ -20771,20 +22471,20 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLReader.readEdge(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readEdge(arg0: object_t, arg1: Function): Edge;
-      readEdgeP(arg0: object_t, arg1: Function): Promise<Edge>;
+      readEdge(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Edge;
+      readEdgeP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLReader.readGraph(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      readGraph(arg0: object_t, arg1: Graph): void;
-      readGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      readGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      readGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLReader.readVertex(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLReader.readVertex(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLReader.readVertices(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertices(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Iterator;
-      readVerticesP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Iterator>;
+      readVertices(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Iterator;
+      readVerticesP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<Iterator>;
       // public java.lang.String java.lang.Object.toString()
       toString(): string;
       toStringP(): Promise<string>;
@@ -20891,20 +22591,20 @@ declare module Java {
       wait(): void;
       waitP(): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter.writeEdge(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Edge) throws java.io.IOException
-      writeEdge(arg0: object_t, arg1: Edge): void;
-      writeEdgeP(arg0: object_t, arg1: Edge): Promise<void>;
+      writeEdge(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): void;
+      writeEdgeP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter.writeGraph(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      writeGraph(arg0: object_t, arg1: Graph): void;
-      writeGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      writeGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      writeGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex, arg2: Direction): void;
-      writeVertexP(arg0: object_t, arg1: Vertex, arg2: Direction): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex): void;
-      writeVertexP(arg0: object_t, arg1: Vertex): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertices(arg0: object_t, arg1: Traversal, arg2: Direction): void;
-      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: Direction): Promise<void>;
+      writeVertices(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
       writeVertices(arg0: object_t, arg1: Traversal): void;
       writeVerticesP(arg0: object_t, arg1: Traversal): Promise<void>;
@@ -21120,20 +22820,20 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.io {
     export interface GraphReader extends Java.java.lang.Object {
       // public abstract org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.io.GraphReader.readEdge(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readEdge(arg0: object_t, arg1: Function): Edge;
-      readEdgeP(arg0: object_t, arg1: Function): Promise<Edge>;
+      readEdge(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Edge;
+      readEdgeP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public abstract void org.apache.tinkerpop.gremlin.structure.io.GraphReader.readGraph(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      readGraph(arg0: object_t, arg1: Graph): void;
-      readGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      readGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      readGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.GraphReader.readVertex(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.GraphReader.readVertex(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public abstract java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.io.GraphReader.readVertices(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertices(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Iterator;
-      readVerticesP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Iterator>;
+      readVertices(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Iterator;
+      readVerticesP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<Iterator>;
     }
     export module GraphReader {
       export interface Static {
@@ -21359,20 +23059,20 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONReader.readEdge(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readEdge(arg0: object_t, arg1: Function): Edge;
-      readEdgeP(arg0: object_t, arg1: Function): Promise<Edge>;
+      readEdge(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Edge;
+      readEdgeP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONReader.readGraph(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      readGraph(arg0: object_t, arg1: Graph): void;
-      readGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      readGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      readGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONReader.readVertex(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONReader.readVertex(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONReader.readVertices(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertices(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Iterator;
-      readVerticesP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Iterator>;
+      readVertices(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Iterator;
+      readVerticesP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<Iterator>;
       // public java.lang.String java.lang.Object.toString()
       toString(): string;
       toStringP(): Promise<string>;
@@ -21579,20 +23279,20 @@ declare module Java {
       wait(): void;
       waitP(): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONWriter.writeEdge(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Edge) throws java.io.IOException
-      writeEdge(arg0: object_t, arg1: Edge): void;
-      writeEdgeP(arg0: object_t, arg1: Edge): Promise<void>;
+      writeEdge(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): void;
+      writeEdgeP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONWriter.writeGraph(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      writeGraph(arg0: object_t, arg1: Graph): void;
-      writeGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      writeGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      writeGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex, arg2: Direction): void;
-      writeVertexP(arg0: object_t, arg1: Vertex, arg2: Direction): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex): void;
-      writeVertexP(arg0: object_t, arg1: Vertex): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertices(arg0: object_t, arg1: Traversal, arg2: Direction): void;
-      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: Direction): Promise<void>;
+      writeVertices(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.GraphSONWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
       writeVertices(arg0: object_t, arg1: Traversal): void;
       writeVerticesP(arg0: object_t, arg1: Traversal): Promise<void>;
@@ -21666,20 +23366,20 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader.readEdge(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readEdge(arg0: object_t, arg1: Function): Edge;
-      readEdgeP(arg0: object_t, arg1: Function): Promise<Edge>;
+      readEdge(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Edge;
+      readEdgeP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public void org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader.readGraph(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      readGraph(arg0: object_t, arg1: Graph): void;
-      readGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      readGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      readGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader.readVertex(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader.readVertex(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader.readVertices(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertices(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Iterator;
-      readVerticesP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Iterator>;
+      readVertices(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Iterator;
+      readVerticesP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<Iterator>;
       // public java.lang.String java.lang.Object.toString()
       toString(): string;
       toStringP(): Promise<string>;
@@ -21830,8 +23530,8 @@ declare module Java {
       toString(): string;
       toStringP(): Promise<string>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility.vertexFromJson(com.fasterxml.jackson.databind.JsonNode) throws java.io.IOException
-      vertexFromJson(arg0: object_t): Vertex;
-      vertexFromJsonP(arg0: object_t): Promise<Vertex>;
+      vertexFromJson(arg0: object_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      vertexFromJsonP(arg0: object_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
       wait(arg0: long_t, arg1: integer_t): void;
       waitP(arg0: long_t, arg1: integer_t): Promise<void>;
@@ -21844,10 +23544,10 @@ declare module Java {
     }
     export module LegacyGraphSONReader$GraphSONUtility {
       export interface Static {
-        new (arg0: Graph): org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility;
         // public static org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.io.graphson.LegacyGraphSONReader$GraphSONUtility.edgeFromJson(com.fasterxml.jackson.databind.JsonNode,org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.Vertex) throws java.io.IOException
-        edgeFromJson(arg0: object_t, arg1: Vertex, arg2: Vertex): Edge;
-        edgeFromJsonP(arg0: object_t, arg1: Vertex, arg2: Vertex): Promise<Edge>;
+        edgeFromJson(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Vertex): org.apache.tinkerpop.gremlin.structure.Edge;
+        edgeFromJsonP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       }
     }
   }
@@ -21855,20 +23555,20 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.io {
     export interface GraphWriter extends Java.java.lang.Object {
       // public abstract void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeEdge(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Edge) throws java.io.IOException
-      writeEdge(arg0: object_t, arg1: Edge): void;
-      writeEdgeP(arg0: object_t, arg1: Edge): Promise<void>;
+      writeEdge(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): void;
+      writeEdgeP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): Promise<void>;
       // public abstract void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeGraph(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      writeGraph(arg0: object_t, arg1: Graph): void;
-      writeGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      writeGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      writeGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public abstract void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex, arg2: Direction): void;
-      writeVertexP(arg0: object_t, arg1: Vertex, arg2: Direction): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public abstract void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex): void;
-      writeVertexP(arg0: object_t, arg1: Vertex): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public default void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertices(arg0: object_t, arg1: Traversal, arg2: Direction): void;
-      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: Direction): Promise<void>;
+      writeVertices(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public default void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
       writeVertices(arg0: object_t, arg1: Traversal): void;
       writeVerticesP(arg0: object_t, arg1: Traversal): Promise<void>;
@@ -22245,23 +23945,23 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.io.gryo.GryoReader.readEdge(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readEdge(arg0: object_t, arg1: Function): Edge;
-      readEdgeP(arg0: object_t, arg1: Function): Promise<Edge>;
+      readEdge(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Edge;
+      readEdgeP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public void org.apache.tinkerpop.gremlin.structure.io.gryo.GryoReader.readGraph(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      readGraph(arg0: object_t, arg1: Graph): void;
-      readGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      readGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      readGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public <T> T org.apache.tinkerpop.gremlin.structure.io.gryo.GryoReader.readObject(java.io.InputStream)
       readObject(arg0: object_t): object_t;
       readObjectP(arg0: object_t): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.gryo.GryoReader.readVertex(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.io.gryo.GryoReader.readVertex(java.io.InputStream,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
-      readVertex(arg0: object_t, arg1: Function): Vertex;
-      readVertexP(arg0: object_t, arg1: Function): Promise<Vertex>;
+      readVertex(arg0: object_t, arg1: Function): org.apache.tinkerpop.gremlin.structure.Vertex;
+      readVertexP(arg0: object_t, arg1: Function): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.io.gryo.GryoReader.readVertices(java.io.InputStream,org.apache.tinkerpop.gremlin.structure.Direction,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex, org.apache.tinkerpop.gremlin.structure.Vertex>,java.util.function.Function<org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge, org.apache.tinkerpop.gremlin.structure.Edge>) throws java.io.IOException
-      readVertices(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Iterator;
-      readVerticesP(arg0: object_t, arg1: Direction, arg2: Function, arg3: Function): Promise<Iterator>;
+      readVertices(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Iterator;
+      readVerticesP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: Function, arg3: Function): Promise<Iterator>;
       // public java.lang.String java.lang.Object.toString()
       toString(): string;
       toStringP(): Promise<string>;
@@ -22368,23 +24068,23 @@ declare module Java {
       wait(): void;
       waitP(): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.gryo.GryoWriter.writeEdge(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Edge) throws java.io.IOException
-      writeEdge(arg0: object_t, arg1: Edge): void;
-      writeEdgeP(arg0: object_t, arg1: Edge): Promise<void>;
+      writeEdge(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): void;
+      writeEdgeP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Edge): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.gryo.GryoWriter.writeGraph(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Graph) throws java.io.IOException
-      writeGraph(arg0: object_t, arg1: Graph): void;
-      writeGraphP(arg0: object_t, arg1: Graph): Promise<void>;
+      writeGraph(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): void;
+      writeGraphP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Graph): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.gryo.GryoWriter.writeObject(java.io.OutputStream,java.lang.Object)
       writeObject(arg0: object_t, arg1: object_t): void;
       writeObjectP(arg0: object_t, arg1: object_t): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.gryo.GryoWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex, arg2: Direction): void;
-      writeVertexP(arg0: object_t, arg1: Vertex, arg2: Direction): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public void org.apache.tinkerpop.gremlin.structure.io.gryo.GryoWriter.writeVertex(java.io.OutputStream,org.apache.tinkerpop.gremlin.structure.Vertex) throws java.io.IOException
-      writeVertex(arg0: object_t, arg1: Vertex): void;
-      writeVertexP(arg0: object_t, arg1: Vertex): Promise<void>;
+      writeVertex(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): void;
+      writeVertexP(arg0: object_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<void>;
       // public default void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>,org.apache.tinkerpop.gremlin.structure.Direction) throws java.io.IOException
-      writeVertices(arg0: object_t, arg1: Traversal, arg2: Direction): void;
-      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: Direction): Promise<void>;
+      writeVertices(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): void;
+      writeVerticesP(arg0: object_t, arg1: Traversal, arg2: org.apache.tinkerpop.gremlin.structure.Direction): Promise<void>;
       // public default void org.apache.tinkerpop.gremlin.structure.io.GraphWriter.writeVertices(java.io.OutputStream,org.apache.tinkerpop.gremlin.process.traversal.Traversal<?, org.apache.tinkerpop.gremlin.structure.Vertex>) throws java.io.IOException
       writeVertices(arg0: object_t, arg1: Traversal): void;
       writeVerticesP(arg0: object_t, arg1: Traversal): Promise<void>;
@@ -22689,8 +24389,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure {
     export interface Property extends Java.java.lang.Object {
       // public abstract org.apache.tinkerpop.gremlin.structure.Element org.apache.tinkerpop.gremlin.structure.Property.element()
-      element(): Element;
-      elementP(): Promise<Element>;
+      element(): org.apache.tinkerpop.gremlin.structure.Element;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Element>;
       // public default void org.apache.tinkerpop.gremlin.structure.Property.ifPresent(java.util.function.Consumer<? super V>)
       ifPresent(arg0: Consumer): void;
       ifPresentP(arg0: Consumer): Promise<void>;
@@ -22866,8 +24566,8 @@ declare module Java {
       commit(): void;
       commitP(): Promise<void>;
       // public abstract <G> G org.apache.tinkerpop.gremlin.structure.Transaction.create()
-      create(): Graph;
-      createP(): Promise<Graph>;
+      create(): org.apache.tinkerpop.gremlin.structure.Graph;
+      createP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public abstract boolean org.apache.tinkerpop.gremlin.structure.Transaction.isOpen()
       isOpen(): boolean;
       isOpenP(): Promise<boolean>;
@@ -23218,7 +24918,7 @@ declare module Java {
     }
     export module Transaction$Workload {
       export interface Static {
-        new (arg0: Graph, arg1: Function): org.apache.tinkerpop.gremlin.structure.Transaction$Workload;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Function): org.apache.tinkerpop.gremlin.structure.Transaction$Workload;
         DEFAULT_DELAY_MS: longValue_t;
         DEFAULT_TRIES: number;
       }
@@ -23240,8 +24940,8 @@ declare module Java {
       commit(): void;
       commitP(): Promise<void>;
       // public <G> G org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction.create()
-      create(): Graph;
-      createP(): Promise<Graph>;
+      create(): org.apache.tinkerpop.gremlin.structure.Graph;
+      createP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public boolean java.lang.Object.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -23296,7 +24996,7 @@ declare module Java {
     }
     export module AbstractTransaction {
       export interface Static {
-        new (arg0: Graph): org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.structure.util.AbstractTransaction;
       }
     }
   }
@@ -23379,13 +25079,13 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.batch {
     export interface BatchGraph extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.structure.Graph {
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.batch.BatchGraph.addVertex(java.lang.Object...)
-      addVertex(...arg0: object_t[]): Vertex;
-      addVertex(arg0: object_array_t): Vertex;
-      addVertexP(...arg0: object_t[]): Promise<Vertex>;
-      addVertexP(arg0: object_array_t): Promise<Vertex>;
+      addVertex(...arg0: object_t[]): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertex(arg0: object_array_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertexP(...arg0: object_t[]): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
+      addVertexP(arg0: object_array_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public default org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.Graph.addVertex(java.lang.String)
-      addVertex(arg0: string_t): Vertex;
-      addVertexP(arg0: string_t): Promise<Vertex>;
+      addVertex(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertexP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public void org.apache.tinkerpop.gremlin.structure.util.batch.BatchGraph.close() throws java.lang.Exception
       close(): void;
       closeP(): Promise<void>;
@@ -23457,8 +25157,8 @@ declare module Java {
     export module BatchGraph {
       export interface Static {
         // public static <T> org.apache.tinkerpop.gremlin.structure.util.batch.BatchGraph$Builder org.apache.tinkerpop.gremlin.structure.util.batch.BatchGraph.build(T)
-        build(arg0: Graph): BatchGraph$Builder;
-        buildP(arg0: Graph): Promise<BatchGraph$Builder>;
+        build(arg0: org.apache.tinkerpop.gremlin.structure.Graph): BatchGraph$Builder;
+        buildP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<BatchGraph$Builder>;
         DEFAULT_BUFFER_SIZE: longValue_t;
         GRAPH: string;
       }
@@ -23705,11 +25405,11 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.detached {
     export interface Attachable extends Java.java.lang.Object {
       // public abstract T org.apache.tinkerpop.gremlin.structure.util.detached.Attachable.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public abstract T org.apache.tinkerpop.gremlin.structure.util.detached.Attachable.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
     }
     export module Attachable {
       export interface Static {
@@ -23720,17 +25420,17 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.detached {
     export interface DetachedEdge extends Java.org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement,Java.org.apache.tinkerpop.gremlin.structure.Edge {
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.attach(org.apache.tinkerpop.gremlin.structure.Vertex)
-      attach(arg0: Vertex): Edge;
-      attachP(arg0: Vertex): Promise<Edge>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): org.apache.tinkerpop.gremlin.structure.Edge;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.attach(org.apache.tinkerpop.gremlin.structure.Graph)
-      attach(arg0: Graph): Edge;
-      attachP(arg0: Graph): Promise<Edge>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.structure.Edge;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public default java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.Edge.bothVertices()
       bothVertices(): Iterator;
       bothVerticesP(): Promise<Iterator>;
@@ -23741,8 +25441,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -23750,8 +25450,8 @@ declare module Java {
       id(): object_t;
       idP(): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.inVertex()
-      inVertex(): Vertex;
-      inVertexP(): Promise<Vertex>;
+      inVertex(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      inVertexP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public default java.util.Set<java.lang.String> org.apache.tinkerpop.gremlin.structure.Element.keys()
       keys(): Set;
       keysP(): Promise<Set>;
@@ -23765,8 +25465,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.outVertex()
-      outVertex(): Vertex;
-      outVertexP(): Promise<Vertex>;
+      outVertex(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      outVertexP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public <V> java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Property<V>> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.properties(java.lang.String...)
       properties(...arg0: string_t[]): Iterator;
       properties(arg0: array_t<string_t>): Iterator;
@@ -23793,8 +25493,8 @@ declare module Java {
       valuesP(...arg0: string_t[]): Promise<Iterator>;
       valuesP(arg0: array_t<string_t>): Promise<Iterator>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.vertices(org.apache.tinkerpop.gremlin.structure.Direction)
-      vertices(arg0: Direction): Iterator;
-      verticesP(arg0: Direction): Promise<Iterator>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Iterator;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<Iterator>;
       // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
       wait(arg0: long_t, arg1: integer_t): void;
       waitP(arg0: long_t, arg1: integer_t): Promise<void>;
@@ -23809,8 +25509,8 @@ declare module Java {
       export interface Static {
         new (arg0: object_t, arg1: string_t, arg2: Map, arg3: object_t, arg4: object_t): org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge;
         // public static org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge.addTo(org.apache.tinkerpop.gremlin.structure.Graph,org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge)
-        addTo(arg0: Graph, arg1: DetachedEdge): Edge;
-        addToP(arg0: Graph, arg1: DetachedEdge): Promise<Edge>;
+        addTo(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: DetachedEdge): org.apache.tinkerpop.gremlin.structure.Edge;
+        addToP(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: DetachedEdge): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
         DEFAULT_LABEL: string;
       }
     }
@@ -23819,11 +25519,11 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.detached {
     export interface DetachedElement extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.structure.Element,Java.org.apache.tinkerpop.gremlin.structure.util.detached.Attachable {
       // public abstract T org.apache.tinkerpop.gremlin.structure.util.detached.Attachable.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public abstract T org.apache.tinkerpop.gremlin.structure.util.detached.Attachable.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public boolean org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -23831,8 +25531,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -23932,14 +25632,14 @@ declare module Java {
         detach(arg0: Path, arg1: boolean_t): DetachedPath;
         detachP(arg0: Path, arg1: boolean_t): Promise<DetachedPath>;
         // public static org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory.detach(org.apache.tinkerpop.gremlin.structure.Element,boolean)
-        detach(arg0: Element, arg1: boolean_t): DetachedElement;
-        detachP(arg0: Element, arg1: boolean_t): Promise<DetachedElement>;
+        detach(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: boolean_t): DetachedElement;
+        detachP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: boolean_t): Promise<DetachedElement>;
         // public static org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory.detach(org.apache.tinkerpop.gremlin.structure.Vertex,boolean)
-        detach(arg0: Vertex, arg1: boolean_t): DetachedVertex;
-        detachP(arg0: Vertex, arg1: boolean_t): Promise<DetachedVertex>;
+        detach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: boolean_t): DetachedVertex;
+        detachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: boolean_t): Promise<DetachedVertex>;
         // public static org.apache.tinkerpop.gremlin.structure.util.detached.DetachedEdge org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory.detach(org.apache.tinkerpop.gremlin.structure.Edge,boolean)
-        detach(arg0: Edge, arg1: boolean_t): DetachedEdge;
-        detachP(arg0: Edge, arg1: boolean_t): Promise<DetachedEdge>;
+        detach(arg0: org.apache.tinkerpop.gremlin.structure.Edge, arg1: boolean_t): DetachedEdge;
+        detachP(arg0: org.apache.tinkerpop.gremlin.structure.Edge, arg1: boolean_t): Promise<DetachedEdge>;
         // public static <D> D org.apache.tinkerpop.gremlin.structure.util.detached.DetachedFactory.detach(java.lang.Object,boolean)
         detach(arg0: object_t, arg1: boolean_t): object_t;
         detachP(arg0: object_t, arg1: boolean_t): Promise<object_t>;
@@ -23956,17 +25656,17 @@ declare module Java {
       addLabel(arg0: string_t): void;
       addLabelP(arg0: string_t): Promise<void>;
       // public org.apache.tinkerpop.gremlin.process.traversal.Path org.apache.tinkerpop.gremlin.structure.util.detached.DetachedPath.attach(org.apache.tinkerpop.gremlin.structure.Vertex)
-      attach(arg0: Vertex): Path;
-      attachP(arg0: Vertex): Promise<Path>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Path;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<Path>;
       // public org.apache.tinkerpop.gremlin.process.traversal.Path org.apache.tinkerpop.gremlin.structure.util.detached.DetachedPath.attach(org.apache.tinkerpop.gremlin.structure.Graph)
-      attach(arg0: Graph): Path;
-      attachP(arg0: Graph): Promise<Path>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Path;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<Path>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedPath.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedPath.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.process.traversal.step.util.MutablePath org.apache.tinkerpop.gremlin.process.traversal.step.util.MutablePath.clone()
       clone(): MutablePath;
       cloneP(): Promise<MutablePath>;
@@ -24051,20 +25751,20 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.detached {
     export interface DetachedProperty extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.structure.Property,Java.org.apache.tinkerpop.gremlin.structure.util.detached.Attachable {
       // public org.apache.tinkerpop.gremlin.structure.Property<V> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty.attach(org.apache.tinkerpop.gremlin.structure.Vertex)
-      attach(arg0: Vertex): Property;
-      attachP(arg0: Vertex): Promise<Property>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Property;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<Property>;
       // public org.apache.tinkerpop.gremlin.structure.Property<V> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty.attach(org.apache.tinkerpop.gremlin.structure.Graph)
-      attach(arg0: Graph): Property;
-      attachP(arg0: Graph): Promise<Property>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Property;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<Property>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.structure.Element org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty.element()
-      element(): Element;
-      elementP(): Promise<Element>;
+      element(): org.apache.tinkerpop.gremlin.structure.Element;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Element>;
       // public boolean org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -24119,7 +25819,7 @@ declare module Java {
     }
     export module DetachedProperty {
       export interface Static {
-        new (arg0: string_t, arg1: object_t, arg2: Element): org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty;
+        new (arg0: string_t, arg1: object_t, arg2: org.apache.tinkerpop.gremlin.structure.Element): org.apache.tinkerpop.gremlin.structure.util.detached.DetachedProperty;
       }
     }
   }
@@ -24127,30 +25827,30 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.detached {
     export interface DetachedVertex extends Java.org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement,Java.org.apache.tinkerpop.gremlin.structure.Vertex {
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.addEdge(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addEdge(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Edge;
-      addEdge(arg0: string_t, arg1: Vertex, arg2: object_array_t): Edge;
-      addEdgeP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<Edge>;
-      addEdgeP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<Edge>;
+      addEdge(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): org.apache.tinkerpop.gremlin.structure.Edge;
+      addEdge(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): org.apache.tinkerpop.gremlin.structure.Edge;
+      addEdgeP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
+      addEdgeP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.attach(org.apache.tinkerpop.gremlin.structure.Vertex)
-      attach(arg0: Vertex): Vertex;
-      attachP(arg0: Vertex): Promise<Vertex>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): org.apache.tinkerpop.gremlin.structure.Vertex;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.attach(org.apache.tinkerpop.gremlin.structure.Graph)
-      attach(arg0: Graph): Vertex;
-      attachP(arg0: Graph): Promise<Vertex>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.structure.Vertex;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<org.apache.tinkerpop.gremlin.structure.Vertex, org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.edges(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      edges(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      edges(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      edgesP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      edgesP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public java.util.Iterator org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.edges(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String[])
-      edges(arg0: Direction, arg1: array_t<string_t>): Iterator;
-      edgesP(arg0: Direction, arg1: array_t<string_t>): Promise<Iterator>;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Iterator;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<Iterator>;
       // public boolean org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -24158,8 +25858,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -24220,13 +25920,13 @@ declare module Java {
       valuesP(...arg0: string_t[]): Promise<Iterator>;
       valuesP(arg0: array_t<string_t>): Promise<Iterator>;
       // public org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal<org.apache.tinkerpop.gremlin.structure.Vertex, org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.vertices(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      vertices(arg0: Direction, ...arg1: string_t[]): GraphTraversal;
-      vertices(arg0: Direction, arg1: array_t<string_t>): GraphTraversal;
-      verticesP(arg0: Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
-      verticesP(arg0: Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): GraphTraversal;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): GraphTraversal;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<GraphTraversal>;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<GraphTraversal>;
       // public java.util.Iterator org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.vertices(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String[])
-      vertices(arg0: Direction, arg1: array_t<string_t>): Iterator;
-      verticesP(arg0: Direction, arg1: array_t<string_t>): Promise<Iterator>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Iterator;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<Iterator>;
       // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
       wait(arg0: long_t, arg1: integer_t): void;
       waitP(arg0: long_t, arg1: integer_t): Promise<void>;
@@ -24241,8 +25941,8 @@ declare module Java {
       export interface Static {
         new (arg0: object_t, arg1: string_t, arg2: Map): org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex;
         // public static org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex.addTo(org.apache.tinkerpop.gremlin.structure.Graph,org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertex)
-        addTo(arg0: Graph, arg1: DetachedVertex): Vertex;
-        addToP(arg0: Graph, arg1: DetachedVertex): Promise<Vertex>;
+        addTo(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: DetachedVertex): org.apache.tinkerpop.gremlin.structure.Vertex;
+        addToP(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: DetachedVertex): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
         DEFAULT_LABEL: string;
       }
     }
@@ -24251,23 +25951,23 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure.util.detached {
     export interface DetachedVertexProperty extends Java.org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement,Java.org.apache.tinkerpop.gremlin.structure.VertexProperty {
       // public org.apache.tinkerpop.gremlin.structure.VertexProperty<V> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.attach(org.apache.tinkerpop.gremlin.structure.Vertex)
-      attach(arg0: Vertex): VertexProperty;
-      attachP(arg0: Vertex): Promise<VertexProperty>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): VertexProperty;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<VertexProperty>;
       // public org.apache.tinkerpop.gremlin.structure.VertexProperty<V> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.attach(org.apache.tinkerpop.gremlin.structure.Graph)
-      attach(arg0: Graph): VertexProperty;
-      attachP(arg0: Graph): Promise<VertexProperty>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): VertexProperty;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<VertexProperty>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.attach(org.apache.tinkerpop.gremlin.structure.Vertex) throws java.lang.IllegalStateException
-      attach(arg0: Vertex): object_t;
-      attachP(arg0: Vertex): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<object_t>;
       // public java.lang.Object org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.attach(org.apache.tinkerpop.gremlin.structure.Graph) throws java.lang.IllegalStateException
-      attach(arg0: Graph): object_t;
-      attachP(arg0: Graph): Promise<object_t>;
+      attach(arg0: org.apache.tinkerpop.gremlin.structure.Graph): object_t;
+      attachP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.structure.Element org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.element()
-      element(): Element;
-      elementP(): Promise<Element>;
+      element(): org.apache.tinkerpop.gremlin.structure.Element;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Element>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.element()
-      element(): Vertex;
-      elementP(): Promise<Vertex>;
+      element(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public boolean org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -24275,8 +25975,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.structure.util.detached.DetachedElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -24353,10 +26053,10 @@ declare module Java {
     }
     export module DetachedVertexProperty {
       export interface Static {
-        new (arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: Vertex): org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty;
+        new (arg0: object_t, arg1: string_t, arg2: object_t, arg3: Map, arg4: org.apache.tinkerpop.gremlin.structure.Vertex): org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty;
         // public static <V> org.apache.tinkerpop.gremlin.structure.VertexProperty<V> org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty.addTo(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.util.detached.DetachedVertexProperty<V>)
-        addTo(arg0: Vertex, arg1: DetachedVertexProperty): VertexProperty;
-        addToP(arg0: Vertex, arg1: DetachedVertexProperty): Promise<VertexProperty>;
+        addTo(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: DetachedVertexProperty): VertexProperty;
+        addToP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: DetachedVertexProperty): Promise<VertexProperty>;
         DEFAULT_LABEL: string;
       }
     }
@@ -24398,11 +26098,11 @@ declare module Java {
         areEqual(arg0: VertexProperty, arg1: VertexProperty): boolean;
         areEqualP(arg0: VertexProperty, arg1: VertexProperty): Promise<boolean>;
         // public static boolean org.apache.tinkerpop.gremlin.structure.util.ElementHelper.areEqual(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.Vertex)
-        areEqual(arg0: Vertex, arg1: Vertex): boolean;
-        areEqualP(arg0: Vertex, arg1: Vertex): Promise<boolean>;
+        areEqual(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): boolean;
+        areEqualP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<boolean>;
         // public static boolean org.apache.tinkerpop.gremlin.structure.util.ElementHelper.areEqual(org.apache.tinkerpop.gremlin.structure.Edge,org.apache.tinkerpop.gremlin.structure.Edge)
-        areEqual(arg0: Edge, arg1: Edge): boolean;
-        areEqualP(arg0: Edge, arg1: Edge): Promise<boolean>;
+        areEqual(arg0: org.apache.tinkerpop.gremlin.structure.Edge, arg1: org.apache.tinkerpop.gremlin.structure.Edge): boolean;
+        areEqualP(arg0: org.apache.tinkerpop.gremlin.structure.Edge, arg1: org.apache.tinkerpop.gremlin.structure.Edge): Promise<boolean>;
         // public static boolean org.apache.tinkerpop.gremlin.structure.util.ElementHelper.areEqual(org.apache.tinkerpop.gremlin.structure.VertexProperty,java.lang.Object)
         areEqual(arg0: VertexProperty, arg1: object_t): boolean;
         areEqualP(arg0: VertexProperty, arg1: object_t): Promise<boolean>;
@@ -24410,8 +26110,8 @@ declare module Java {
         areEqual(arg0: Property, arg1: object_t): boolean;
         areEqualP(arg0: Property, arg1: object_t): Promise<boolean>;
         // public static boolean org.apache.tinkerpop.gremlin.structure.util.ElementHelper.areEqual(org.apache.tinkerpop.gremlin.structure.Element,java.lang.Object)
-        areEqual(arg0: Element, arg1: object_t): boolean;
-        areEqualP(arg0: Element, arg1: object_t): Promise<boolean>;
+        areEqual(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: object_t): boolean;
+        areEqualP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: object_t): Promise<boolean>;
         // public static java.util.Map<java.lang.String, java.lang.Object> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.asMap(java.lang.Object...)
         asMap(...arg0: object_t[]): Map;
         asMap(arg0: object_array_t): Map;
@@ -24423,15 +26123,15 @@ declare module Java {
         asPairsP(...arg0: object_t[]): Promise<List>;
         asPairsP(arg0: object_array_t): Promise<List>;
         // public static void org.apache.tinkerpop.gremlin.structure.util.ElementHelper.attachProperties(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality,java.lang.Object...)
-        attachProperties(arg0: Vertex, arg1: VertexProperty$Cardinality, ...arg2: object_t[]): void;
-        attachProperties(arg0: Vertex, arg1: VertexProperty$Cardinality, arg2: object_array_t): void;
-        attachPropertiesP(arg0: Vertex, arg1: VertexProperty$Cardinality, ...arg2: object_t[]): Promise<void>;
-        attachPropertiesP(arg0: Vertex, arg1: VertexProperty$Cardinality, arg2: object_array_t): Promise<void>;
+        attachProperties(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, ...arg2: object_t[]): void;
+        attachProperties(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, arg2: object_array_t): void;
+        attachPropertiesP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, ...arg2: object_t[]): Promise<void>;
+        attachPropertiesP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, arg2: object_array_t): Promise<void>;
         // public static void org.apache.tinkerpop.gremlin.structure.util.ElementHelper.attachProperties(org.apache.tinkerpop.gremlin.structure.Element,java.lang.Object...)
-        attachProperties(arg0: Element, ...arg1: object_t[]): void;
-        attachProperties(arg0: Element, arg1: object_array_t): void;
-        attachPropertiesP(arg0: Element, ...arg1: object_t[]): Promise<void>;
-        attachPropertiesP(arg0: Element, arg1: object_array_t): Promise<void>;
+        attachProperties(arg0: org.apache.tinkerpop.gremlin.structure.Element, ...arg1: object_t[]): void;
+        attachProperties(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: object_array_t): void;
+        attachPropertiesP(arg0: org.apache.tinkerpop.gremlin.structure.Element, ...arg1: object_t[]): Promise<void>;
+        attachPropertiesP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: object_array_t): Promise<void>;
         // public static java.util.Optional<java.lang.Object> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.getIdValue(java.lang.Object...)
         getIdValue(...arg0: object_t[]): object_t;
         getIdValue(arg0: object_array_t): object_t;
@@ -24448,20 +26148,20 @@ declare module Java {
         getLabelValueP(...arg0: object_t[]): Promise<object_t>;
         getLabelValueP(arg0: object_array_t): Promise<object_t>;
         // public static org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.util.ElementHelper.getOrAddVertex(org.apache.tinkerpop.gremlin.structure.Graph,java.lang.Object,java.lang.String)
-        getOrAddVertex(arg0: Graph, arg1: object_t, arg2: string_t): Vertex;
-        getOrAddVertexP(arg0: Graph, arg1: object_t, arg2: string_t): Promise<Vertex>;
+        getOrAddVertex(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: object_t, arg2: string_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+        getOrAddVertexP(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: object_t, arg2: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
         // public static java.lang.Object[] org.apache.tinkerpop.gremlin.structure.util.ElementHelper.getProperties(org.apache.tinkerpop.gremlin.structure.Element,boolean,boolean,java.util.Set<java.lang.String>)
-        getProperties(arg0: Element, arg1: boolean_t, arg2: boolean_t, arg3: Set): object_t[];
-        getPropertiesP(arg0: Element, arg1: boolean_t, arg2: boolean_t, arg3: Set): Promise<object_t[]>;
+        getProperties(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: boolean_t, arg2: boolean_t, arg3: Set): object_t[];
+        getPropertiesP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: boolean_t, arg2: boolean_t, arg3: Set): Promise<object_t[]>;
         // public static int org.apache.tinkerpop.gremlin.structure.util.ElementHelper.hashCode(org.apache.tinkerpop.gremlin.structure.Property)
         hashCode(arg0: Property): number;
         hashCodeP(arg0: Property): Promise<number>;
         // public static int org.apache.tinkerpop.gremlin.structure.util.ElementHelper.hashCode(org.apache.tinkerpop.gremlin.structure.Element)
-        hashCode(arg0: Element): number;
-        hashCodeP(arg0: Element): Promise<number>;
+        hashCode(arg0: org.apache.tinkerpop.gremlin.structure.Element): number;
+        hashCodeP(arg0: org.apache.tinkerpop.gremlin.structure.Element): Promise<number>;
         // public static boolean org.apache.tinkerpop.gremlin.structure.util.ElementHelper.haveEqualIds(org.apache.tinkerpop.gremlin.structure.Element,org.apache.tinkerpop.gremlin.structure.Element)
-        haveEqualIds(arg0: Element, arg1: Element): boolean;
-        haveEqualIdsP(arg0: Element, arg1: Element): Promise<boolean>;
+        haveEqualIds(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: org.apache.tinkerpop.gremlin.structure.Element): boolean;
+        haveEqualIdsP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: org.apache.tinkerpop.gremlin.structure.Element): Promise<boolean>;
         // public static boolean org.apache.tinkerpop.gremlin.structure.util.ElementHelper.idExists(java.lang.Object,java.lang.Object...)
         idExists(arg0: object_t, ...arg1: object_t[]): boolean;
         idExists(arg0: object_t, arg1: object_array_t): boolean;
@@ -24478,15 +26178,15 @@ declare module Java {
         legalPropertyKeyValueArrayP(...arg0: object_t[]): Promise<void>;
         legalPropertyKeyValueArrayP(arg0: object_array_t): Promise<void>;
         // public static java.util.Map<java.lang.String, org.apache.tinkerpop.gremlin.structure.Property> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.propertyMap(org.apache.tinkerpop.gremlin.structure.Element,java.lang.String...)
-        propertyMap(arg0: Element, ...arg1: string_t[]): Map;
-        propertyMap(arg0: Element, arg1: array_t<string_t>): Map;
-        propertyMapP(arg0: Element, ...arg1: string_t[]): Promise<Map>;
-        propertyMapP(arg0: Element, arg1: array_t<string_t>): Promise<Map>;
+        propertyMap(arg0: org.apache.tinkerpop.gremlin.structure.Element, ...arg1: string_t[]): Map;
+        propertyMap(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: array_t<string_t>): Map;
+        propertyMapP(arg0: org.apache.tinkerpop.gremlin.structure.Element, ...arg1: string_t[]): Promise<Map>;
+        propertyMapP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: array_t<string_t>): Promise<Map>;
         // public static java.util.Map<java.lang.String, java.lang.Object> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.propertyValueMap(org.apache.tinkerpop.gremlin.structure.Element,java.lang.String...)
-        propertyValueMap(arg0: Element, ...arg1: string_t[]): Map;
-        propertyValueMap(arg0: Element, arg1: array_t<string_t>): Map;
-        propertyValueMapP(arg0: Element, ...arg1: string_t[]): Promise<Map>;
-        propertyValueMapP(arg0: Element, arg1: array_t<string_t>): Promise<Map>;
+        propertyValueMap(arg0: org.apache.tinkerpop.gremlin.structure.Element, ...arg1: string_t[]): Map;
+        propertyValueMap(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: array_t<string_t>): Map;
+        propertyValueMapP(arg0: org.apache.tinkerpop.gremlin.structure.Element, ...arg1: string_t[]): Promise<Map>;
+        propertyValueMapP(arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: array_t<string_t>): Promise<Map>;
         // public static java.util.Optional<java.lang.Object[]> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.remove(org.apache.tinkerpop.gremlin.process.traversal.T,java.lang.Object...)
         remove(arg0: T, ...arg1: object_t[]): object_t;
         remove(arg0: T, arg1: object_array_t): object_t;
@@ -24501,10 +26201,10 @@ declare module Java {
         replaceKey(arg0: object_array_t, arg1: object_t, arg2: object_t): object_t[];
         replaceKeyP(arg0: object_array_t, arg1: object_t, arg2: object_t): Promise<object_t[]>;
         // public static <V> java.util.Optional<org.apache.tinkerpop.gremlin.structure.VertexProperty<V>> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.stageVertexProperty(org.apache.tinkerpop.gremlin.structure.Vertex,org.apache.tinkerpop.gremlin.structure.VertexProperty$Cardinality,java.lang.String,V,java.lang.Object...)
-        stageVertexProperty(arg0: Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, ...arg4: object_t[]): object_t;
-        stageVertexProperty(arg0: Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, arg4: object_array_t): object_t;
-        stageVertexPropertyP(arg0: Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, ...arg4: object_t[]): Promise<object_t>;
-        stageVertexPropertyP(arg0: Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, arg4: object_array_t): Promise<object_t>;
+        stageVertexProperty(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, ...arg4: object_t[]): object_t;
+        stageVertexProperty(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, arg4: object_array_t): object_t;
+        stageVertexPropertyP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, ...arg4: object_t[]): Promise<object_t>;
+        stageVertexPropertyP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: VertexProperty$Cardinality, arg2: string_t, arg3: object_t, arg4: object_array_t): Promise<object_t>;
         // public static java.lang.Object[] org.apache.tinkerpop.gremlin.structure.util.ElementHelper.upsert(java.lang.Object[],java.lang.String,java.lang.Object)
         upsert(arg0: object_array_t, arg1: string_t, arg2: object_t): object_t[];
         upsertP(arg0: object_array_t, arg1: string_t, arg2: object_t): Promise<object_t[]>;
@@ -24515,15 +26215,15 @@ declare module Java {
         validateProperty(arg0: string_t, arg1: object_t): void;
         validatePropertyP(arg0: string_t, arg1: object_t): Promise<void>;
         // public static java.util.Map<java.lang.String, java.util.List<org.apache.tinkerpop.gremlin.structure.VertexProperty>> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.vertexPropertyMap(org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.String...)
-        vertexPropertyMap(arg0: Vertex, ...arg1: string_t[]): Map;
-        vertexPropertyMap(arg0: Vertex, arg1: array_t<string_t>): Map;
-        vertexPropertyMapP(arg0: Vertex, ...arg1: string_t[]): Promise<Map>;
-        vertexPropertyMapP(arg0: Vertex, arg1: array_t<string_t>): Promise<Map>;
+        vertexPropertyMap(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg1: string_t[]): Map;
+        vertexPropertyMap(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: array_t<string_t>): Map;
+        vertexPropertyMapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg1: string_t[]): Promise<Map>;
+        vertexPropertyMapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: array_t<string_t>): Promise<Map>;
         // public static java.util.Map<java.lang.String, java.util.List> org.apache.tinkerpop.gremlin.structure.util.ElementHelper.vertexPropertyValueMap(org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.String...)
-        vertexPropertyValueMap(arg0: Vertex, ...arg1: string_t[]): Map;
-        vertexPropertyValueMap(arg0: Vertex, arg1: array_t<string_t>): Map;
-        vertexPropertyValueMapP(arg0: Vertex, ...arg1: string_t[]): Promise<Map>;
-        vertexPropertyValueMapP(arg0: Vertex, arg1: array_t<string_t>): Promise<Map>;
+        vertexPropertyValueMap(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg1: string_t[]): Map;
+        vertexPropertyValueMap(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: array_t<string_t>): Map;
+        vertexPropertyValueMapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg1: string_t[]): Promise<Map>;
+        vertexPropertyValueMapP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: array_t<string_t>): Promise<Map>;
       }
     }
   }
@@ -24589,14 +26289,14 @@ declare module Java {
       export interface Static {
         new (): org.apache.tinkerpop.gremlin.structure.util.GraphFactory;
         // public static org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.GraphFactory.open(org.apache.commons.configuration.Configuration)
-        open(arg0: object_t): Graph;
-        openP(arg0: object_t): Promise<Graph>;
+        open(arg0: object_t): org.apache.tinkerpop.gremlin.structure.Graph;
+        openP(arg0: object_t): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
         // public static org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.GraphFactory.open(java.lang.String)
-        open(arg0: string_t): Graph;
-        openP(arg0: string_t): Promise<Graph>;
+        open(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Graph;
+        openP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
         // public static org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.util.GraphFactory.open(java.util.Map)
-        open(arg0: Map): Graph;
-        openP(arg0: Map): Promise<Graph>;
+        open(arg0: Map): org.apache.tinkerpop.gremlin.structure.Graph;
+        openP(arg0: Map): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       }
     }
   }
@@ -24677,8 +26377,8 @@ declare module Java {
         computeResultString(arg0: ComputerResult): string;
         computeResultStringP(arg0: ComputerResult): Promise<string>;
         // public static java.lang.String org.apache.tinkerpop.gremlin.structure.util.StringFactory.edgeString(org.apache.tinkerpop.gremlin.structure.Edge)
-        edgeString(arg0: Edge): string;
-        edgeStringP(arg0: Edge): Promise<string>;
+        edgeString(arg0: org.apache.tinkerpop.gremlin.structure.Edge): string;
+        edgeStringP(arg0: org.apache.tinkerpop.gremlin.structure.Edge): Promise<string>;
         // public static java.lang.String org.apache.tinkerpop.gremlin.structure.util.StringFactory.featureString(org.apache.tinkerpop.gremlin.structure.Graph$Features)
         featureString(arg0: Graph$Features): string;
         featureStringP(arg0: Graph$Features): Promise<string>;
@@ -24686,8 +26386,8 @@ declare module Java {
         graphComputerString(arg0: GraphComputer): string;
         graphComputerStringP(arg0: GraphComputer): Promise<string>;
         // public static java.lang.String org.apache.tinkerpop.gremlin.structure.util.StringFactory.graphString(org.apache.tinkerpop.gremlin.structure.Graph,java.lang.String)
-        graphString(arg0: Graph, arg1: string_t): string;
-        graphStringP(arg0: Graph, arg1: string_t): Promise<string>;
+        graphString(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: string_t): string;
+        graphStringP(arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: string_t): Promise<string>;
         // public static java.lang.String org.apache.tinkerpop.gremlin.structure.util.StringFactory.graphVariablesString(org.apache.tinkerpop.gremlin.structure.Graph$Variables)
         graphVariablesString(arg0: Graph$Variables): string;
         graphVariablesStringP(arg0: Graph$Variables): Promise<string>;
@@ -24725,8 +26425,8 @@ declare module Java {
         vertexProgramString(arg0: VertexProgram): string;
         vertexProgramStringP(arg0: VertexProgram): Promise<string>;
         // public static java.lang.String org.apache.tinkerpop.gremlin.structure.util.StringFactory.vertexString(org.apache.tinkerpop.gremlin.structure.Vertex)
-        vertexString(arg0: Vertex): string;
-        vertexStringP(arg0: Vertex): Promise<string>;
+        vertexString(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): string;
+        vertexStringP(arg0: org.apache.tinkerpop.gremlin.structure.Vertex): Promise<string>;
       }
     }
   }
@@ -24734,18 +26434,18 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure {
     export interface Vertex extends Java.org.apache.tinkerpop.gremlin.structure.Element {
       // public abstract org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.structure.Vertex.addEdge(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addEdge(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Edge;
-      addEdge(arg0: string_t, arg1: Vertex, arg2: object_array_t): Edge;
-      addEdgeP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<Edge>;
-      addEdgeP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<Edge>;
+      addEdge(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): org.apache.tinkerpop.gremlin.structure.Edge;
+      addEdge(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): org.apache.tinkerpop.gremlin.structure.Edge;
+      addEdgeP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
+      addEdgeP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public abstract java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.structure.Vertex.edges(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      edges(arg0: Direction, ...arg1: string_t[]): Iterator;
-      edges(arg0: Direction, arg1: array_t<string_t>): Iterator;
-      edgesP(arg0: Direction, ...arg1: string_t[]): Promise<Iterator>;
-      edgesP(arg0: Direction, arg1: array_t<string_t>): Promise<Iterator>;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Iterator;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Iterator;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<Iterator>;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<Iterator>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.Element.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public abstract java.lang.Object org.apache.tinkerpop.gremlin.structure.Element.id()
       id(): object_t;
       idP(): Promise<object_t>;
@@ -24794,10 +26494,10 @@ declare module Java {
       valuesP(...arg0: string_t[]): Promise<Iterator>;
       valuesP(arg0: array_t<string_t>): Promise<Iterator>;
       // public abstract java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.structure.Vertex.vertices(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      vertices(arg0: Direction, ...arg1: string_t[]): Iterator;
-      vertices(arg0: Direction, arg1: array_t<string_t>): Iterator;
-      verticesP(arg0: Direction, ...arg1: string_t[]): Promise<Iterator>;
-      verticesP(arg0: Direction, arg1: array_t<string_t>): Promise<Iterator>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Iterator;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Iterator;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<Iterator>;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<Iterator>;
     }
     export module Vertex {
       export interface Static {
@@ -24861,14 +26561,14 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.structure {
     export interface VertexProperty extends Java.org.apache.tinkerpop.gremlin.structure.Property,Java.org.apache.tinkerpop.gremlin.structure.Element {
       // public default org.apache.tinkerpop.gremlin.structure.Element org.apache.tinkerpop.gremlin.structure.VertexProperty.element()
-      element(): Element;
-      elementP(): Promise<Element>;
+      element(): org.apache.tinkerpop.gremlin.structure.Element;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Element>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.VertexProperty.element()
-      element(): Vertex;
-      elementP(): Promise<Vertex>;
+      element(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public default org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.VertexProperty.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public abstract java.lang.Object org.apache.tinkerpop.gremlin.structure.Element.id()
       id(): object_t;
       idP(): Promise<object_t>;
@@ -25059,8 +26759,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.process.computer.util.DefaultComputerResult.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public native int java.lang.Object.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -25088,7 +26788,7 @@ declare module Java {
     }
     export module TinkerComputerResult {
       export interface Static {
-        new (arg0: Graph, arg1: Memory): org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph, arg1: Memory): org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerComputerResult;
       }
     }
   }
@@ -25374,7 +27074,7 @@ declare module Java {
     }
     export module TinkerMessenger {
       export interface Static {
-        new (arg0: Vertex, arg1: object_t, arg2: object_t): org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Vertex, arg1: object_t, arg2: object_t): org.apache.tinkerpop.gremlin.tinkergraph.process.computer.TinkerMessenger;
       }
     }
   }
@@ -25498,8 +27198,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -25507,8 +27207,8 @@ declare module Java {
       id(): object_t;
       idP(): Promise<object_t>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge.inVertex()
-      inVertex(): Vertex;
-      inVertexP(): Promise<Vertex>;
+      inVertex(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      inVertexP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public java.util.Set<java.lang.String> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge.keys()
       keys(): Set;
       keysP(): Promise<Set>;
@@ -25522,8 +27222,8 @@ declare module Java {
       notifyAll(): void;
       notifyAllP(): Promise<void>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge.outVertex()
-      outVertex(): Vertex;
-      outVertexP(): Promise<Vertex>;
+      outVertex(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      outVertexP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public <V> java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Property<V>> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge.properties(java.lang.String...)
       properties(...arg0: string_t[]): Iterator;
       properties(arg0: array_t<string_t>): Iterator;
@@ -25550,8 +27250,8 @@ declare module Java {
       valuesP(...arg0: string_t[]): Promise<Iterator>;
       valuesP(arg0: array_t<string_t>): Promise<Iterator>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge.vertices(org.apache.tinkerpop.gremlin.structure.Direction)
-      vertices(arg0: Direction): Iterator;
-      verticesP(arg0: Direction): Promise<Iterator>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Iterator;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction): Promise<Iterator>;
       // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
       wait(arg0: long_t, arg1: integer_t): void;
       waitP(arg0: long_t, arg1: integer_t): Promise<void>;
@@ -25578,8 +27278,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public abstract org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.Element.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -25823,8 +27523,8 @@ declare module Java {
     export module TinkerFactory$SocialTraversal {
       export interface Static {
         // public static <S> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory.org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal<S, S> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal.of(org.apache.tinkerpop.gremlin.structure.Graph)
-        of(arg0: Graph): TinkerFactory$SocialTraversal;
-        ofP(arg0: Graph): Promise<TinkerFactory$SocialTraversal>;
+        of(arg0: org.apache.tinkerpop.gremlin.structure.Graph): TinkerFactory$SocialTraversal;
+        ofP(arg0: org.apache.tinkerpop.gremlin.structure.Graph): Promise<TinkerFactory$SocialTraversal>;
         OF: string;
       }
     }
@@ -25991,7 +27691,7 @@ declare module Java {
     }
     export module TinkerFactory$SocialTraversal$DefaultSocialTraversal {
       export interface Static {
-        new (arg0: Graph): org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Graph): org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory$SocialTraversal$DefaultSocialTraversal;
         OF: string;
       }
     }
@@ -26000,13 +27700,13 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.tinkergraph.structure {
     export interface TinkerGraph extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.structure.Graph {
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraph.addVertex(java.lang.Object...)
-      addVertex(...arg0: object_t[]): Vertex;
-      addVertex(arg0: object_array_t): Vertex;
-      addVertexP(...arg0: object_t[]): Promise<Vertex>;
-      addVertexP(arg0: object_array_t): Promise<Vertex>;
+      addVertex(...arg0: object_t[]): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertex(arg0: object_array_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertexP(...arg0: object_t[]): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
+      addVertexP(arg0: object_array_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public default org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.structure.Graph.addVertex(java.lang.String)
-      addVertex(arg0: string_t): Vertex;
-      addVertexP(arg0: string_t): Promise<Vertex>;
+      addVertex(arg0: string_t): org.apache.tinkerpop.gremlin.structure.Vertex;
+      addVertexP(arg0: string_t): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public void org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraph.clear()
       clear(): void;
       clearP(): Promise<void>;
@@ -26466,18 +28166,18 @@ declare module Java {
         createGraphView(arg0: TinkerGraph, arg1: GraphComputer$Isolation, arg2: Set): TinkerGraphView;
         createGraphViewP(arg0: TinkerGraph, arg1: GraphComputer$Isolation, arg2: Set): Promise<TinkerGraphView>;
         // public static java.util.Iterator<org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerEdge> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerHelper.getEdges(org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex,org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-        getEdges(arg0: TinkerVertex, arg1: Direction, ...arg2: string_t[]): Iterator;
-        getEdges(arg0: TinkerVertex, arg1: Direction, arg2: array_t<string_t>): Iterator;
-        getEdgesP(arg0: TinkerVertex, arg1: Direction, ...arg2: string_t[]): Promise<Iterator>;
-        getEdgesP(arg0: TinkerVertex, arg1: Direction, arg2: array_t<string_t>): Promise<Iterator>;
+        getEdges(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, ...arg2: string_t[]): Iterator;
+        getEdges(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: array_t<string_t>): Iterator;
+        getEdgesP(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, ...arg2: string_t[]): Promise<Iterator>;
+        getEdgesP(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: array_t<string_t>): Promise<Iterator>;
         // public static java.util.Map<java.lang.String, java.util.List<org.apache.tinkerpop.gremlin.structure.VertexProperty>> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerHelper.getProperties(org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex)
         getProperties(arg0: TinkerVertex): Map;
         getPropertiesP(arg0: TinkerVertex): Promise<Map>;
         // public static java.util.Iterator<org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerHelper.getVertices(org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex,org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-        getVertices(arg0: TinkerVertex, arg1: Direction, ...arg2: string_t[]): Iterator;
-        getVertices(arg0: TinkerVertex, arg1: Direction, arg2: array_t<string_t>): Iterator;
-        getVerticesP(arg0: TinkerVertex, arg1: Direction, ...arg2: string_t[]): Promise<Iterator>;
-        getVerticesP(arg0: TinkerVertex, arg1: Direction, arg2: array_t<string_t>): Promise<Iterator>;
+        getVertices(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, ...arg2: string_t[]): Iterator;
+        getVertices(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: array_t<string_t>): Iterator;
+        getVerticesP(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, ...arg2: string_t[]): Promise<Iterator>;
+        getVerticesP(arg0: TinkerVertex, arg1: org.apache.tinkerpop.gremlin.structure.Direction, arg2: array_t<string_t>): Promise<Iterator>;
         // public static boolean org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerHelper.inComputerMode(org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraph)
         inComputerMode(arg0: TinkerGraph): boolean;
         inComputerModeP(arg0: TinkerGraph): Promise<boolean>;
@@ -26506,8 +28206,8 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.tinkergraph.structure {
     export interface TinkerProperty extends Java.java.lang.Object,Java.org.apache.tinkerpop.gremlin.structure.Property {
       // public org.apache.tinkerpop.gremlin.structure.Element org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty.element()
-      element(): Element;
-      elementP(): Promise<Element>;
+      element(): org.apache.tinkerpop.gremlin.structure.Element;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Element>;
       // public boolean org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -26562,7 +28262,7 @@ declare module Java {
     }
     export module TinkerProperty {
       export interface Static {
-        new (arg0: Element, arg1: string_t, arg2: object_t): org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty;
+        new (arg0: org.apache.tinkerpop.gremlin.structure.Element, arg1: string_t, arg2: object_t): org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerProperty;
       }
     }
   }
@@ -26570,15 +28270,15 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.tinkergraph.structure {
     export interface TinkerVertex extends Java.org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement,Java.org.apache.tinkerpop.gremlin.structure.Vertex {
       // public org.apache.tinkerpop.gremlin.structure.Edge org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex.addEdge(java.lang.String,org.apache.tinkerpop.gremlin.structure.Vertex,java.lang.Object...)
-      addEdge(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Edge;
-      addEdge(arg0: string_t, arg1: Vertex, arg2: object_array_t): Edge;
-      addEdgeP(arg0: string_t, arg1: Vertex, ...arg2: object_t[]): Promise<Edge>;
-      addEdgeP(arg0: string_t, arg1: Vertex, arg2: object_array_t): Promise<Edge>;
+      addEdge(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): org.apache.tinkerpop.gremlin.structure.Edge;
+      addEdge(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): org.apache.tinkerpop.gremlin.structure.Edge;
+      addEdgeP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, ...arg2: object_t[]): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
+      addEdgeP(arg0: string_t, arg1: org.apache.tinkerpop.gremlin.structure.Vertex, arg2: object_array_t): Promise<org.apache.tinkerpop.gremlin.structure.Edge>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Edge> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex.edges(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      edges(arg0: Direction, ...arg1: string_t[]): Iterator;
-      edges(arg0: Direction, arg1: array_t<string_t>): Iterator;
-      edgesP(arg0: Direction, ...arg1: string_t[]): Promise<Iterator>;
-      edgesP(arg0: Direction, arg1: array_t<string_t>): Promise<Iterator>;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Iterator;
+      edges(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Iterator;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<Iterator>;
+      edgesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<Iterator>;
       // public boolean org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -26586,8 +28286,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
@@ -26648,10 +28348,10 @@ declare module Java {
       valuesP(...arg0: string_t[]): Promise<Iterator>;
       valuesP(arg0: array_t<string_t>): Promise<Iterator>;
       // public java.util.Iterator<org.apache.tinkerpop.gremlin.structure.Vertex> org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex.vertices(org.apache.tinkerpop.gremlin.structure.Direction,java.lang.String...)
-      vertices(arg0: Direction, ...arg1: string_t[]): Iterator;
-      vertices(arg0: Direction, arg1: array_t<string_t>): Iterator;
-      verticesP(arg0: Direction, ...arg1: string_t[]): Promise<Iterator>;
-      verticesP(arg0: Direction, arg1: array_t<string_t>): Promise<Iterator>;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Iterator;
+      vertices(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Iterator;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, ...arg1: string_t[]): Promise<Iterator>;
+      verticesP(arg0: org.apache.tinkerpop.gremlin.structure.Direction, arg1: array_t<string_t>): Promise<Iterator>;
       // public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
       wait(arg0: long_t, arg1: integer_t): void;
       waitP(arg0: long_t, arg1: integer_t): Promise<void>;
@@ -26672,11 +28372,11 @@ declare module Java {
   export module org.apache.tinkerpop.gremlin.tinkergraph.structure {
     export interface TinkerVertexProperty extends Java.org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement,Java.org.apache.tinkerpop.gremlin.structure.VertexProperty {
       // public org.apache.tinkerpop.gremlin.structure.Element org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty.element()
-      element(): Element;
-      elementP(): Promise<Element>;
+      element(): org.apache.tinkerpop.gremlin.structure.Element;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Element>;
       // public org.apache.tinkerpop.gremlin.structure.Vertex org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty.element()
-      element(): Vertex;
-      elementP(): Promise<Vertex>;
+      element(): org.apache.tinkerpop.gremlin.structure.Vertex;
+      elementP(): Promise<org.apache.tinkerpop.gremlin.structure.Vertex>;
       // public boolean org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertexProperty.equals(java.lang.Object)
       equals(arg0: object_t): boolean;
       equalsP(arg0: object_t): Promise<boolean>;
@@ -26684,8 +28384,8 @@ declare module Java {
       getClass(): Class;
       getClassP(): Promise<Class>;
       // public default org.apache.tinkerpop.gremlin.structure.Graph org.apache.tinkerpop.gremlin.structure.VertexProperty.graph()
-      graph(): Graph;
-      graphP(): Promise<Graph>;
+      graph(): org.apache.tinkerpop.gremlin.structure.Graph;
+      graphP(): Promise<org.apache.tinkerpop.gremlin.structure.Graph>;
       // public int org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement.hashCode()
       hashCode(): number;
       hashCodeP(): Promise<number>;
